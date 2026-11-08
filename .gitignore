@@ -1,0 +1,15 @@
+node_modules/
+src-tauri/target/
+src-tauri/gen/
+.env
+.env.*
+!.env.example
+*.log
+*.pdb
+.DS_Store
+Thumbs.db
+# Fichas preenchidas e outros arquivos gerados localmente
+sinan_*.pdf
+portable/*.pdf
+output/
+testes/

@@ -1,0 +1,937 @@
+{
+  "description": "Coordenadas em pontos PDF; origem no topo esquerdo; y indica linha de base; xs indicam centro das células.",
+  "fields": {
+    "numero_notificacao": {
+      "label": "Número da notificação",
+      "page": 0,
+      "kind": "text",
+      "x": 472,
+      "y": 51,
+      "width": 86
+    },
+    "data_notificacao": {
+      "label": "3. Data da notificação",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        454.2,
+        468.75,
+        483.3,
+        497.85,
+        512.4,
+        526.95,
+        541.5,
+        556.05
+      ],
+      "y": 218
+    },
+    "uf_notificacao": {
+      "label": "4. UF de notificação",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        60.5,
+        74.6
+      ],
+      "y": 247
+    },
+    "municipio_notificacao": {
+      "label": "5. Município de notificação",
+      "page": 0,
+      "kind": "text",
+      "x": 88,
+      "y": 246,
+      "width": 375
+    },
+    "codigo_ibge_notificacao": {
+      "label": "5. Código IBGE da notificação",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        484.0,
+        498.88,
+        513.76,
+        528.64,
+        543.52,
+        558.4
+      ],
+      "y": 247
+    },
+    "unidade_saude": {
+      "label": "6. Unidade de saúde notificadora",
+      "page": 0,
+      "kind": "text",
+      "x": 58,
+      "y": 275,
+      "width": 275
+    },
+    "codigo_unidade_saude": {
+      "label": "6. Código da unidade de saúde",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        344.0,
+        358.9,
+        373.8,
+        388.7,
+        403.6,
+        418.5,
+        433.4
+      ],
+      "y": 276
+    },
+    "data_acidente": {
+      "label": "7. Data do acidente",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        451.4,
+        465.85,
+        480.3,
+        494.75,
+        509.2,
+        523.65,
+        538.1,
+        552.55
+      ],
+      "y": 274
+    },
+    "nome_paciente": {
+      "label": "8. Nome do paciente",
+      "page": 0,
+      "kind": "text",
+      "x": 58,
+      "y": 304,
+      "width": 378
+    },
+    "data_nascimento": {
+      "label": "9. Data de nascimento",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        454.6,
+        469.03,
+        483.46,
+        497.89,
+        512.32,
+        526.75,
+        541.18,
+        555.61
+      ],
+      "y": 305
+    },
+    "idade_numero": {
+      "label": "10. Idade",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        70.5,
+        85.0
+      ],
+      "y": 335
+    },
+    "idade_unidade": {
+      "label": "10. Unidade da idade",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        116
+      ],
+      "y": 329
+    },
+    "sexo": {
+      "label": "11. Sexo",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        239
+      ],
+      "y": 320
+    },
+    "gestante": {
+      "label": "12. Gestante",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        433.3
+      ],
+      "y": 320
+    },
+    "raca_cor": {
+      "label": "13. Raça/cor",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        558
+      ],
+      "y": 320
+    },
+    "escolaridade": {
+      "label": "14. Escolaridade",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        558.5
+      ],
+      "y": 351,
+      "maxDigits": 2
+    },
+    "cartao_sus": {
+      "label": "15. Cartão SUS",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        59.6,
+        71.35,
+        83.1,
+        94.85,
+        106.6,
+        118.35,
+        130.1,
+        141.85,
+        153.6,
+        165.35,
+        177.1,
+        188.85,
+        200.6,
+        212.35,
+        224.1
+      ],
+      "y": 395
+    },
+    "nome_mae": {
+      "label": "16. Nome da mãe",
+      "page": 0,
+      "kind": "text",
+      "x": 237,
+      "y": 395,
+      "width": 326
+    },
+    "uf_residencia": {
+      "label": "17. UF de residência",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        61.5,
+        75.5
+      ],
+      "y": 425
+    },
+    "municipio_residencia": {
+      "label": "18. Município de residência",
+      "page": 0,
+      "kind": "text",
+      "x": 88,
+      "y": 424,
+      "width": 236
+    },
+    "codigo_ibge_residencia": {
+      "label": "18. Código IBGE de residência",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        333.0,
+        347.88,
+        362.76,
+        377.64,
+        392.52,
+        407.4
+      ],
+      "y": 424
+    },
+    "distrito_residencia": {
+      "label": "19. Distrito de residência",
+      "page": 0,
+      "kind": "text",
+      "x": 417,
+      "y": 424,
+      "width": 146
+    },
+    "bairro_residencia": {
+      "label": "20. Bairro de residência",
+      "page": 0,
+      "kind": "text",
+      "x": 58,
+      "y": 450,
+      "width": 133
+    },
+    "logradouro_residencia": {
+      "label": "21. Logradouro de residência",
+      "page": 0,
+      "kind": "text",
+      "x": 198,
+      "y": 450,
+      "width": 278
+    },
+    "codigo_logradouro": {
+      "label": "21. Código do logradouro",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        487.0,
+        501.88,
+        516.76,
+        531.64,
+        546.52,
+        561.4
+      ],
+      "y": 451
+    },
+    "numero_residencia": {
+      "label": "22. Número de residência",
+      "page": 0,
+      "kind": "text",
+      "x": 58,
+      "y": 472,
+      "width": 49
+    },
+    "complemento_residencia": {
+      "label": "23. Complemento da residência",
+      "page": 0,
+      "kind": "text",
+      "x": 115,
+      "y": 472,
+      "width": 290
+    },
+    "geo_campo_1": {
+      "label": "24. Geo campo 1",
+      "page": 0,
+      "kind": "text",
+      "x": 415,
+      "y": 472,
+      "width": 147
+    },
+    "geo_campo_2": {
+      "label": "25. Geo campo 2",
+      "page": 0,
+      "kind": "text",
+      "x": 58,
+      "y": 497,
+      "width": 150
+    },
+    "referencia_residencia": {
+      "label": "26. Ponto de referência",
+      "page": 0,
+      "kind": "text",
+      "x": 220,
+      "y": 497,
+      "width": 229
+    },
+    "cep_residencia": {
+      "label": "27. CEP",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        463.5,
+        478.4,
+        493.3,
+        508.2,
+        523.1,
+        538.5,
+        553.4,
+        564.6
+      ],
+      "y": 501
+    },
+    "telefone_residencia": {
+      "label": "28. Telefone",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        62.8,
+        77.68,
+        92.56,
+        107.44,
+        122.32,
+        137.2,
+        152.08,
+        166.96,
+        181.84,
+        196.72
+      ],
+      "y": 525,
+      "maxDigits": 11
+    },
+    "zona_residencia": {
+      "label": "29. Zona de residência",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        339.5
+      ],
+      "y": 513
+    },
+    "pais_residencia": {
+      "label": "30. País de residência",
+      "page": 0,
+      "kind": "text",
+      "x": 359,
+      "y": 524,
+      "width": 201
+    },
+    "ocupacao": {
+      "label": "31. Ocupação",
+      "page": 0,
+      "kind": "text",
+      "x": 58,
+      "y": 579,
+      "width": 505
+    },
+    "situacao_trabalho": {
+      "label": "32. Situação no mercado de trabalho",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        535.4,
+        548.4
+      ],
+      "y": 594
+    },
+    "tempo_trabalho": {
+      "label": "33. Tempo de trabalho na ocupação",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        70.5,
+        85.0
+      ],
+      "y": 675
+    },
+    "unidade_tempo_trabalho": {
+      "label": "33. Unidade do tempo de trabalho",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        108.7
+      ],
+      "y": 675
+    },
+    "local_acidente": {
+      "label": "34. Local onde ocorreu o acidente",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        554.5
+      ],
+      "y": 656
+    },
+    "registro_empresa": {
+      "label": "35. Registro / CNPJ ou CPF",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        85,
+        100,
+        115,
+        130,
+        145,
+        160,
+        175,
+        190,
+        208,
+        226
+      ],
+      "y": 717,
+      "maxDigits": 14
+    },
+    "nome_empresa": {
+      "label": "36. Nome da empresa ou empregador",
+      "page": 0,
+      "kind": "text",
+      "x": 251,
+      "y": 716,
+      "width": 310
+    },
+    "cnae_empresa": {
+      "label": "37. Atividade econômica (CNAE)",
+      "page": 0,
+      "kind": "text",
+      "x": 58,
+      "y": 745,
+      "width": 150
+    },
+    "uf_empresa": {
+      "label": "38. UF da empresa",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        220.3,
+        234.6
+      ],
+      "y": 748
+    },
+    "municipio_empresa": {
+      "label": "39. Município da empresa",
+      "page": 0,
+      "kind": "text",
+      "x": 251,
+      "y": 746,
+      "width": 223
+    },
+    "codigo_ibge_empresa": {
+      "label": "39. Código IBGE da empresa",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        485.0,
+        499.9,
+        514.8,
+        529.7,
+        544.6,
+        559.5
+      ],
+      "y": 748
+    },
+    "distrito_empresa": {
+      "label": "40. Distrito da empresa",
+      "page": 0,
+      "kind": "text",
+      "x": 58,
+      "y": 771,
+      "width": 151
+    },
+    "bairro_empresa": {
+      "label": "41. Bairro da empresa",
+      "page": 0,
+      "kind": "text",
+      "x": 220,
+      "y": 771,
+      "width": 155
+    },
+    "endereco_empresa": {
+      "label": "42. Endereço da empresa",
+      "page": 0,
+      "kind": "text",
+      "x": 383,
+      "y": 771,
+      "width": 179
+    },
+    "numero_empresa": {
+      "label": "43. Número do endereço da empresa",
+      "page": 0,
+      "kind": "text",
+      "x": 58,
+      "y": 795,
+      "width": 43
+    },
+    "referencia_empresa": {
+      "label": "44. Ponto de referência da empresa",
+      "page": 0,
+      "kind": "text",
+      "x": 112,
+      "y": 795,
+      "width": 304
+    },
+    "telefone_empresa": {
+      "label": "45. Telefone da empresa",
+      "page": 0,
+      "kind": "boxes",
+      "xs": [
+        429.5,
+        444.35,
+        459.2,
+        474.05,
+        488.9,
+        503.75,
+        518.6,
+        533.45,
+        548.3,
+        563.15
+      ],
+      "y": 797,
+      "maxDigits": 11
+    },
+    "terceirizada": {
+      "label": "46. Empregador é empresa terceirizada",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        480
+      ],
+      "y": 41
+    },
+    "cnae_empresa_principal": {
+      "label": "47. CNAE da empresa principal",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        195.0,
+        209.8,
+        224.6,
+        239.4,
+        254.2,
+        269.0,
+        283.8,
+        298.6
+      ],
+      "y": 82
+    },
+    "cnpj_empresa_principal": {
+      "label": "48. CNPJ da empresa principal",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        400,
+        415,
+        430,
+        445,
+        460,
+        475,
+        490,
+        505,
+        523,
+        541,
+        555.7
+      ],
+      "y": 82,
+      "maxDigits": 14
+    },
+    "razao_social_principal": {
+      "label": "49. Razão social da empresa principal",
+      "page": 1,
+      "kind": "text",
+      "x": 61,
+      "y": 109,
+      "width": 500
+    },
+    "hora_acidente": {
+      "label": "50. Hora do acidente: horas",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        100.0,
+        114.5
+      ],
+      "y": 146
+    },
+    "minuto_acidente": {
+      "label": "50. Hora do acidente: minutos",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        203.0,
+        217.3
+      ],
+      "y": 146
+    },
+    "horas_jornada": {
+      "label": "51. Horas após início da jornada: horas",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        412,
+        426
+      ],
+      "y": 146
+    },
+    "minutos_jornada": {
+      "label": "51. Horas após início da jornada: minutos",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        479,
+        493
+      ],
+      "y": 146
+    },
+    "uf_ocorrencia": {
+      "label": "52. UF da ocorrência",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        64,
+        78
+      ],
+      "y": 175
+    },
+    "municipio_ocorrencia": {
+      "label": "53. Município da ocorrência",
+      "page": 1,
+      "kind": "text",
+      "x": 93,
+      "y": 175,
+      "width": 137
+    },
+    "codigo_ibge_ocorrencia": {
+      "label": "53. Código IBGE da ocorrência",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        243.0,
+        257.88,
+        272.76,
+        287.64,
+        302.52,
+        317.4,
+        332.28
+      ],
+      "y": 176
+    },
+    "cid_causa": {
+      "label": "54. CID-10 causa do acidente",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        498.0,
+        512.9,
+        527.8,
+        542.7
+      ],
+      "y": 176
+    },
+    "tipo_acidente": {
+      "label": "55. Tipo de acidente",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        224.2
+      ],
+      "y": 190
+    },
+    "outros_trabalhadores": {
+      "label": "56. Outros trabalhadores atingidos",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        438
+      ],
+      "y": 189
+    },
+    "quantidade_trabalhadores": {
+      "label": "57. Quantos trabalhadores",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        497,
+        515,
+        533
+      ],
+      "y": 205
+    },
+    "atendimento_medico": {
+      "label": "58. Ocorreu atendimento médico",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        370.5
+      ],
+      "y": 226
+    },
+    "data_atendimento": {
+      "label": "59. Data do atendimento",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        417.5,
+        431.95,
+        446.4,
+        460.85,
+        475.3,
+        489.75,
+        504.2,
+        518.65
+      ],
+      "y": 235
+    },
+    "uf_atendimento": {
+      "label": "60. UF do atendimento",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        541,
+        555
+      ],
+      "y": 235
+    },
+    "municipio_atendimento": {
+      "label": "61. Município do atendimento",
+      "page": 1,
+      "kind": "text",
+      "x": 61,
+      "y": 264,
+      "width": 128
+    },
+    "codigo_ibge_atendimento": {
+      "label": "61. Código IBGE do atendimento",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        200.5,
+        215.38,
+        230.26,
+        245.14,
+        260.02,
+        274.9,
+        289.78
+      ],
+      "y": 265
+    },
+    "unidade_atendimento": {
+      "label": "62. Unidade de saúde do atendimento",
+      "page": 1,
+      "kind": "text",
+      "x": 304,
+      "y": 264,
+      "width": 151
+    },
+    "codigo_unidade_atendimento": {
+      "label": "62. Código da unidade de atendimento",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        469.7,
+        484.58,
+        499.46,
+        514.34,
+        529.22,
+        544.1,
+        558.98
+      ],
+      "y": 265
+    },
+    "parte_corpo_1": {
+      "label": "63. Parte do corpo atingida: 1ª",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        315.3,
+        326.3
+      ],
+      "y": 292
+    },
+    "parte_corpo_2": {
+      "label": "63. Parte do corpo atingida: 2ª",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        315.3,
+        326.3
+      ],
+      "y": 306
+    },
+    "parte_corpo_3": {
+      "label": "63. Parte do corpo atingida: 3ª",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        315.3,
+        326.3
+      ],
+      "y": 320
+    },
+    "cid_lesao": {
+      "label": "64. CID-10 diagnóstico da lesão",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        365.6,
+        380.5,
+        395.4,
+        410.3
+      ],
+      "y": 321
+    },
+    "regime_tratamento": {
+      "label": "65. Regime de tratamento",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        553.3
+      ],
+      "y": 296
+    },
+    "evolucao": {
+      "label": "66. Evolução do caso",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        548
+      ],
+      "y": 345
+    },
+    "data_obito": {
+      "label": "67. Data do óbito",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        69.5,
+        83.9,
+        98.3,
+        112.7,
+        127.1,
+        141.5,
+        155.9,
+        170.3
+      ],
+      "y": 410
+    },
+    "emitiu_cat": {
+      "label": "68. Foi emitida a CAT",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        549.8
+      ],
+      "y": 400
+    },
+    "descricao_acidente": {
+      "label": "Descrição sumária do acidente",
+      "page": 1,
+      "kind": "multiline",
+      "x": 38,
+      "y": 477,
+      "width": 518,
+      "lineHeight": 13.7,
+      "lines": 7
+    },
+    "outras_informacoes": {
+      "label": "Outras informações",
+      "page": 1,
+      "kind": "multiline",
+      "x": 40,
+      "y": 591,
+      "width": 516,
+      "lineHeight": 13.7,
+      "lines": 7
+    },
+    "municipio_unidade_investigador": {
+      "label": "Município/unidade de saúde do investigador",
+      "page": 1,
+      "kind": "text",
+      "x": 60,
+      "y": 706,
+      "width": 395
+    },
+    "codigo_unidade_investigador": {
+      "label": "Código da unidade de saúde do investigador",
+      "page": 1,
+      "kind": "boxes",
+      "xs": [
+        472.0,
+        486.9,
+        501.8,
+        516.7,
+        531.6,
+        546.5,
+        561.4
+      ],
+      "y": 710
+    },
+    "nome_investigador": {
+      "label": "Nome do investigador",
+      "page": 1,
+      "kind": "text",
+      "x": 60,
+      "y": 735,
+      "width": 190
+    },
+    "funcao_investigador": {
+      "label": "Função do investigador",
+      "page": 1,
+      "kind": "text",
+      "x": 263,
+      "y": 735,
+      "width": 194
+    }
+  }
+}

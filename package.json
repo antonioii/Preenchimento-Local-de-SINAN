@@ -1,0 +1,16 @@
+{
+  "name": "sinan-local-tauri",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Versao stand-alone Tauri do gerador local SINAN.",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "embed-assets": "node scripts/embed-assets.mjs",
+    "check:js": "node --check app/js/config.js && node --check app/js/embedded-assets.js && node --check app/js/validation.js && node --check app/js/mocks.js && node --check app/js/pdf-stamper.js && node --check app/js/app.js && node --check app/js/schemas/cat-schema.js"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0"
+  }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SINAN Local HTML</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <h1 id="form-title">Ficha SINAN</h1>
+        <div class="form-selector">
+          <label for="form-type">Tipo de ficha</label>
+          <select id="form-type">
+            <option value="intoxicacao">Intoxicacao</option>
+            <option value="violencia">Violencia</option>
+            <option value="cat">CAT</option>
+          </select>
+        </div>
+      </header>
+
+      <section class="toolbar">
+        <div class="actions">
+          <button id="generate-pdf" type="button" class="primary">Salvar PDF</button>
+          <button id="new-form" type="button">Novo SINAN</button>
+        </div>
+      </section>
+
+      <nav id="tabs" class="tabs" aria-label="Abas da ficha"></nav>
+      <section id="form-panels" class="panels"></section>
+      <p id="status" class="status" role="status"></p>
+    </main>
+
+    <script src="lib/pdf-lib.min.js"></script>
+    <script src="js/schemas/generated-schemas.js"></script>
+    <script src="js/schemas/cat-schema.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/embedded-assets.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/mocks.js"></script>
+    <script src="js/pdf-stamper.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

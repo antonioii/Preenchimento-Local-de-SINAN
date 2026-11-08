@@ -1,0 +1,2671 @@
+{
+  "project_name": "violencia_YX_aligned",
+  "pdf_path": "templates/violencia.pdf",
+  "created_at": "2026-06-03T11:19:06",
+  "updated_at": "2026-06-03T00:00:00",
+  "coordinate_system": "PyMuPDF PDF points",
+  "page_index_base": 0,
+  "points": {
+    "3data_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 446.0,
+      "y": 143.33
+    },
+    "3data_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 462.67,
+      "y": 143.33
+    },
+    "3data_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 476.67,
+      "y": 143.33
+    },
+    "3data_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 492.67,
+      "y": 143.33
+    },
+    "3data_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 506.67,
+      "y": 143.33
+    },
+    "3data_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 520.67,
+      "y": 143.33
+    },
+    "3data_digito7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 535.33,
+      "y": 143.33
+    },
+    "3data_digito8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 552.67,
+      "y": 143.33
+    },
+    "4UF_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 60.67,
+      "y": 165.0
+    },
+    "4UF_segunda_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 73.33,
+      "y": 165.0
+    },
+    "municipio_primeiraLETRA": {
+      "page": 0,
+      "page_label": 1,
+      "x": 106.0,
+      "y": 165.0
+    },
+    "municipio_segundaLETRA": {
+      "page": 0,
+      "page_label": 1,
+      "x": 396.67,
+      "y": 165.0
+    },
+    "IBGE-dig1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 482.0,
+      "y": 162.67
+    },
+    "IBGE-dig2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 497.33,
+      "y": 162.67
+    },
+    "IBGE-dig3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 510.67,
+      "y": 162.67
+    },
+    "IBGE-dig4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 527.33,
+      "y": 162.67
+    },
+    "IBGE-dig5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 540.0,
+      "y": 162.67
+    },
+    "IBGE-dig6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 554.67,
+      "y": 162.67
+    },
+    "6_checkbox_unidade": {
+      "page": 0,
+      "page_label": 1,
+      "x": 150.67,
+      "y": 176.67
+    },
+    "nome_da_unidade_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 79.33,
+      "y": 209.5
+    },
+    "nome_da_unidade_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 308.67,
+      "y": 209.5
+    },
+    "codigo_unidade_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 344.67,
+      "y": 204.67
+    },
+    "codigo_unidade_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 420.67,
+      "y": 204.67
+    },
+    "unidade_de_saude_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 138.67,
+      "y": 223.0
+    },
+    "unidade_de_saude_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 305.33,
+      "y": 223.0
+    },
+    "cnes_dig1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 340.0,
+      "y": 226.0
+    },
+    "cnes_dig2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 353.33,
+      "y": 226.0
+    },
+    "cnes_dig3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 368.67,
+      "y": 226.0
+    },
+    "cnes_dig4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 382.67,
+      "y": 226.0
+    },
+    "cnes_dig5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 398.67,
+      "y": 226.0
+    },
+    "cnes_dig6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 414.67,
+      "y": 226.0
+    },
+    "cnes_dig7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 427.33,
+      "y": 226.0
+    },
+    "dig1_data_violence": {
+      "page": 0,
+      "page_label": 1,
+      "x": 446.67,
+      "y": 215.67
+    },
+    "dig2_data_violence": {
+      "page": 0,
+      "page_label": 1,
+      "x": 463.33,
+      "y": 215.67
+    },
+    "dig3_data_violence": {
+      "page": 0,
+      "page_label": 1,
+      "x": 477.33,
+      "y": 215.67
+    },
+    "dig4_data_violence": {
+      "page": 0,
+      "page_label": 1,
+      "x": 491.33,
+      "y": 215.67
+    },
+    "dig5_data_violence": {
+      "page": 0,
+      "page_label": 1,
+      "x": 505.33,
+      "y": 215.67
+    },
+    "dig6_data_violence": {
+      "page": 0,
+      "page_label": 1,
+      "x": 518.67,
+      "y": 215.67
+    },
+    "dig7_data_violence": {
+      "page": 0,
+      "page_label": 1,
+      "x": 534.67,
+      "y": 215.67
+    },
+    "dig8_data_violence": {
+      "page": 0,
+      "page_label": 1,
+      "x": 548.67,
+      "y": 215.67
+    },
+    "nome_paciente_primeiraLETRA": {
+      "page": 0,
+      "page_label": 1,
+      "x": 136.67,
+      "y": 245.33
+    },
+    "nome_paciente_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 422.0,
+      "y": 245.33
+    },
+    "nascimento_dig1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 450.67,
+      "y": 248.67
+    },
+    "nascimento_dig2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 466.0,
+      "y": 248.67
+    },
+    "nascimento_dig3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 480.67,
+      "y": 248.67
+    },
+    "nascimento_dig4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 494.0,
+      "y": 248.67
+    },
+    "nascimento_dig5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 510.0,
+      "y": 248.67
+    },
+    "nascimento_dig6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 524.0,
+      "y": 248.67
+    },
+    "nascimento_dig7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 540.0,
+      "y": 248.67
+    },
+    "nascimento_dig8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 555.33,
+      "y": 248.67
+    },
+    "checkbox_sexo": {
+      "page": 0,
+      "page_label": 1,
+      "x": 236.67,
+      "y": 265.0
+    },
+    "checkbox_gestante": {
+      "page": 0,
+      "page_label": 1,
+      "x": 422.0,
+      "y": 265.0
+    },
+    "checkbox_racial": {
+      "page": 0,
+      "page_label": 1,
+      "x": 554.67,
+      "y": 265.0
+    },
+    "checkbox_escolaridade": {
+      "page": 0,
+      "page_label": 1,
+      "x": 556.0,
+      "y": 294.0
+    },
+    "cartaoSUS-dig1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 58.67,
+      "y": 338.67
+    },
+    "cartaoSUS-dig2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 68.67,
+      "y": 338.67
+    },
+    "cartaoSUS-dig3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 80.67,
+      "y": 338.67
+    },
+    "cartaoSUS-dig4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 92.67,
+      "y": 338.67
+    },
+    "cartaoSUS-dig5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 104.67,
+      "y": 338.67
+    },
+    "cartaoSUS-dig6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 114.67,
+      "y": 338.67
+    },
+    "cartaoSUS-dig7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 128.0,
+      "y": 338.67
+    },
+    "cartaoSUS-dig8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 139.33,
+      "y": 338.67
+    },
+    "cartaoSUS-dig9": {
+      "page": 0,
+      "page_label": 1,
+      "x": 152.0,
+      "y": 338.67
+    },
+    "cartaoSUS-dig10": {
+      "page": 0,
+      "page_label": 1,
+      "x": 162.67,
+      "y": 338.67
+    },
+    "cartaoSUS-dig11": {
+      "page": 0,
+      "page_label": 1,
+      "x": 174.0,
+      "y": 338.67
+    },
+    "cartaoSUS-dig12": {
+      "page": 0,
+      "page_label": 1,
+      "x": 187.33,
+      "y": 338.67
+    },
+    "cartaoSUS-dig13": {
+      "page": 0,
+      "page_label": 1,
+      "x": 198.0,
+      "y": 338.67
+    },
+    "cartaoSUS-dig14": {
+      "page": 0,
+      "page_label": 1,
+      "x": 210.0,
+      "y": 338.67
+    },
+    "cartaoSUS-dig15": {
+      "page": 0,
+      "page_label": 1,
+      "x": 222.67,
+      "y": 338.67
+    },
+    "nome_da_mae_letraINICIAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 320.0,
+      "y": 331.33
+    },
+    "nome_da_mae_letraFINAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 530.0,
+      "y": 331.33
+    },
+    "UF_res1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 59.33,
+      "y": 368.0
+    },
+    "UF_res2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 75.33,
+      "y": 368.0
+    },
+    "municipio_moradia_letraINI": {
+      "page": 0,
+      "page_label": 1,
+      "x": 138.0,
+      "y": 364.66
+    },
+    "municipio_moradial_letraFINAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 305.33,
+      "y": 364.66
+    },
+    "ibge_mor_dig1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 332.67,
+      "y": 369.0
+    },
+    "ibge_mor_dig2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 345.33,
+      "y": 369.0
+    },
+    "ibge_mor_dig3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 359.33,
+      "y": 369.0
+    },
+    "ibge_mor_dig4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 376.0,
+      "y": 369.0
+    },
+    "ibge_mor_dig5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 390.67,
+      "y": 369.0
+    },
+    "ibge_mor_dig6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 402.83,
+      "y": 369.0
+    },
+    "distrito_letraINI": {
+      "page": 0,
+      "page_label": 1,
+      "x": 482.67,
+      "y": 365.0
+    },
+    "distrito_letraFINAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 550.67,
+      "y": 365.0
+    },
+    "bairro_letraINI": {
+      "page": 0,
+      "page_label": 1,
+      "x": 76.67,
+      "y": 389.66
+    },
+    "bairro_letraFINAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 180.0,
+      "y": 389.66
+    },
+    "endereco-letraINI": {
+      "page": 0,
+      "page_label": 1,
+      "x": 224.67,
+      "y": 391.0
+    },
+    "endereco-letraFINAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 440.0,
+      "y": 391.0
+    },
+    "numero_casa": {
+      "page": 0,
+      "page_label": 1,
+      "x": 70.0,
+      "y": 415.33
+    },
+    "complemento_letraINI": {
+      "page": 0,
+      "page_label": 1,
+      "x": 154.67,
+      "y": 414.66
+    },
+    "complemento_letraFINAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 362.0,
+      "y": 414.66
+    },
+    "referencia_letraINI": {
+      "page": 0,
+      "page_label": 1,
+      "x": 248.0,
+      "y": 441.0
+    },
+    "referencia_letraFINAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 405.33,
+      "y": 441.0
+    },
+    "cep-dig1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 459.33,
+      "y": 446
+    },
+    "cep-dig2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 476.0,
+      "y": 446
+    },
+    "cep-dig3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 489.33,
+      "y": 446
+    },
+    "cep-dig4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 504.67,
+      "y": 446
+    },
+    "cep-dig5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 519.33,
+      "y": 446
+    },
+    "cep-dig6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 532.0,
+      "y": 446
+    },
+    "cep-dig7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 546.0,
+      "y": 446
+    },
+    "cep-dig8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 557.33,
+      "y": 446
+    },
+    "tel-dig1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 60.0,
+      "y": 468.0
+    },
+    "tel-dig2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 77.33,
+      "y": 468.0
+    },
+    "tel-dig3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 89.33,
+      "y": 468.0
+    },
+    "tel-dig4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 102.0,
+      "y": 468.0
+    },
+    "tel-dig5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 118.0,
+      "y": 468.0
+    },
+    "tel-dig6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 132.0,
+      "y": 468.0
+    },
+    "tel-dig7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 148.0,
+      "y": 468.0
+    },
+    "tel-dig8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 164.0,
+      "y": 468.0
+    },
+    "tel-dig9": {
+      "page": 0,
+      "page_label": 1,
+      "x": 179.33,
+      "y": 468.0
+    },
+    "tel-dig10": {
+      "page": 0,
+      "page_label": 1,
+      "x": 192.67,
+      "y": 468.0
+    },
+    "check_box_zona_moradia": {
+      "page": 0,
+      "page_label": 1,
+      "x": 338.67,
+      "y": 458.67
+    },
+    "nome_social_letraINI": {
+      "page": 0,
+      "page_label": 1,
+      "x": 99.33,
+      "y": 509.66
+    },
+    "nome_social_letraFINAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 309.33,
+      "y": 509.66
+    },
+    "profissao_letraINI": {
+      "page": 0,
+      "page_label": 1,
+      "x": 391.33,
+      "y": 510.0
+    },
+    "profissao_letraFINAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 530.67,
+      "y": 510.0
+    },
+    "estadocivil_checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 555.33,
+      "y": 532.67
+    },
+    "orientacaoSEX_checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 295.0,
+      "y": 560.33
+    },
+    "identidade_de_genero_checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 552.67,
+      "y": 563.33
+    },
+    "checkbox_deficienciaOUtranstorno": {
+      "page": 0,
+      "page_label": 1,
+      "x": 172.67,
+      "y": 595.0
+    },
+    "se_deficiente_fisico_checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 198.67,
+      "y": 602.0
+    },
+    "se-deficiente-intelectual_checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 199.33,
+      "y": 615.33
+    },
+    "se-deficiente-visual-checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 298.0,
+      "y": 602.67
+    },
+    "se-deficiente-auditivo-checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 296.0,
+      "y": 614.67
+    },
+    "se-transtorno-mental-checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 392.67,
+      "y": 604.0
+    },
+    "se-transtorno-comportamental-checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 392.67,
+      "y": 617.33
+    },
+    "se-outro-checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 478.0,
+      "y": 605.33
+    },
+    "se-outro-espaço escrita": {
+      "page": 0,
+      "page_label": 1,
+      "x": 514.0,
+      "y": 605.33
+    },
+    "uf-ocorrencia1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 60.0,
+      "y": 648.66
+    },
+    "uf-ocorrencia2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 77.33,
+      "y": 648.66
+    },
+    "letra-inicial-ocorrencia": {
+      "page": 0,
+      "page_label": 1,
+      "x": 166.67,
+      "y": 645.67
+    },
+    "letra-final-ocorrencia": {
+      "page": 0,
+      "page_label": 1,
+      "x": 290.67,
+      "y": 645.67
+    },
+    "ocorrencia-ibge-dig1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 331.33,
+      "y": 648.66
+    },
+    "ocorrencia-ibge-dig2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 346.67,
+      "y": 648.66
+    },
+    "ocorrencia-ibge-dig3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 361.33,
+      "y": 648.66
+    },
+    "ocorrencia-ibge-dig4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 376.0,
+      "y": 648.66
+    },
+    "ocorrencia-ibge-dig5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 392.67,
+      "y": 648.66
+    },
+    "ocorrencia-ibge-dig6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 404.0,
+      "y": 648.66
+    },
+    "bairro-ocorrencia-letraINI": {
+      "page": 0,
+      "page_label": 1,
+      "x": 70.0,
+      "y": 670.67
+    },
+    "bairro-ocorrencia-letraFINAL": {
+      "page": 0,
+      "page_label": 1,
+      "x": 174.0,
+      "y": 670.67
+    },
+    "enderec_ocorrencia-ini": {
+      "page": 0,
+      "page_label": 1,
+      "x": 218.0,
+      "y": 669.66
+    },
+    "endereco-ocorrenciaFIM": {
+      "page": 0,
+      "page_label": 1,
+      "x": 414.0,
+      "y": 669.66
+    },
+    "numero-ocorrencia": {
+      "page": 0,
+      "page_label": 1,
+      "x": 69.33,
+      "y": 698.0
+    },
+    "complemento-ocorrencia": {
+      "page": 0,
+      "page_label": 1,
+      "x": 144.0,
+      "y": 695.66
+    },
+    "complemento-ocorrencia-final": {
+      "page": 0,
+      "page_label": 1,
+      "x": 270.67,
+      "y": 695.66
+    },
+    "referencia-ocorrenciaINI": {
+      "page": 0,
+      "page_label": 1,
+      "x": 82.0,
+      "y": 721.66
+    },
+    "ocorrencia-referencia-FIM": {
+      "page": 0,
+      "page_label": 1,
+      "x": 200.67,
+      "y": 721.66
+    },
+    "zona-ocorrencia-checkbox": {
+      "page": 0,
+      "page_label": 1,
+      "x": 337.33,
+      "y": 710.0
+    },
+    "hora-ocorrencia-dig1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 494.67,
+      "y": 721.0
+    },
+    "hora-ocorrencia-dig2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 510.67,
+      "y": 721.0
+    },
+    "minuto-ocorrencia-dig1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 523.33,
+      "y": 721.0
+    },
+    "minuto-ocorrencia-dig2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 535.33,
+      "y": 721.0
+    },
+    "local-ocorrencia-checkbox1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 386.0,
+      "y": 735.67
+    },
+    "local-ocorrencia-checkbox2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 398.67,
+      "y": 735.67
+    },
+    "local-ocorrencia-se-outros": {
+      "page": 0,
+      "page_label": 1,
+      "x": 322.0,
+      "y": 756.34
+    },
+    "local-ocorrencia-se-outros-final": {
+      "page": 0,
+      "page_label": 1,
+      "x": 397.33,
+      "y": 756.34
+    },
+    "checkbox-vezes": {
+      "page": 0,
+      "page_label": 1,
+      "x": 555.33,
+      "y": 733.33
+    },
+    "checkbox-lesao-autoprovocada": {
+      "page": 0,
+      "page_label": 1,
+      "x": 556.67,
+      "y": 760.67
+    },
+    "motivo-ocorrencia-checkbox1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 549.33,
+      "y": 59.34
+    },
+    "motivo-ocorrencia-checkbox2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 557,
+      "y": 59.34
+    },
+    "check-box-tipo-de-viol-fisica": {
+      "page": 1,
+      "page_label": 2,
+      "x": 73.0,
+      "y": 90.0
+    },
+    "check-box-tipo-de-viol-psicologica": {
+      "page": 1,
+      "page_label": 2,
+      "x": 72.67,
+      "y": 103.33
+    },
+    "check-box-tipo-de-viol-tortura": {
+      "page": 1,
+      "page_label": 2,
+      "x": 72.0,
+      "y": 117.33
+    },
+    "check-box-tipo-de-viol-sex": {
+      "page": 1,
+      "page_label": 2,
+      "x": 73.33,
+      "y": 129.33
+    },
+    "check-box-tipo-de-viol-trafico-humano": {
+      "page": 1,
+      "page_label": 2,
+      "x": 157.67,
+      "y": 90.0
+    },
+    "check-box-tipo-de-viol-financeira": {
+      "page": 1,
+      "page_label": 2,
+      "x": 157.33,
+      "y": 104.0
+    },
+    "check-box-tipo-de-viol-negligencia": {
+      "page": 1,
+      "page_label": 2,
+      "x": 159.33,
+      "y": 118.67
+    },
+    "check-box-tipo-de-viol-trabalhoINFANTIL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 158.67,
+      "y": 128.67
+    },
+    "check-box-tipo-de-viol-intervencaoLEGAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 260.0,
+      "y": 102.67
+    },
+    "check-box-tipo-de-viol-outros": {
+      "page": 1,
+      "page_label": 2,
+      "x": 261.67,
+      "y": 118.0
+    },
+    "se-tipo-outros-letraINI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 273.33,
+      "y": 126.66
+    },
+    "se-tipo-outros-letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 331.33,
+      "y": 126.66
+    },
+    "checkbox_meio-agressao_corpo": {
+      "page": 1,
+      "page_label": 2,
+      "x": 350.67,
+      "y": 97.33
+    },
+    "checkbox_meio-agressao_enforcamento": {
+      "page": 1,
+      "page_label": 2,
+      "x": 350.67,
+      "y": 113.33
+    },
+    "checkbox_meio-agressao_objetoCONTUSO": {
+      "page": 1,
+      "page_label": 2,
+      "x": 351.33,
+      "y": 128.0
+    },
+    "checkbox_meio-agressao_obj_perfurante": {
+      "page": 1,
+      "page_label": 2,
+      "x": 426.67,
+      "y": 92.67
+    },
+    "checkbox_meio-agressao_quimico": {
+      "page": 1,
+      "page_label": 2,
+      "x": 426.67,
+      "y": 110.0
+    },
+    "checkbox_meio-agressao_envenenamento": {
+      "page": 1,
+      "page_label": 2,
+      "x": 428.0,
+      "y": 125.33
+    },
+    "checkbox_meio-agressao_armaDEfogo": {
+      "page": 1,
+      "page_label": 2,
+      "x": 499.33,
+      "y": 96.0
+    },
+    "checkbox_meio-agressao_ameaca": {
+      "page": 1,
+      "page_label": 2,
+      "x": 499.33,
+      "y": 108.0
+    },
+    "checkbox_meio-agressao_outro": {
+      "page": 1,
+      "page_label": 2,
+      "x": 502.0,
+      "y": 122.0
+    },
+    "se-outro_letraINI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 533.33,
+      "y": 121.0
+    },
+    "se-outro_letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 572.0,
+      "y": 121.0
+    },
+    "checkbox_sexual_assedio": {
+      "page": 1,
+      "page_label": 2,
+      "x": 71.33,
+      "y": 156.0
+    },
+    "checkbox_sexual_estupro": {
+      "page": 1,
+      "page_label": 2,
+      "x": 159.33,
+      "y": 156.0
+    },
+    "checkbox_sexual_infantil": {
+      "page": 1,
+      "page_label": 2,
+      "x": 234.67,
+      "y": 155.0
+    },
+    "checkbox_sexual_exploracao": {
+      "page": 1,
+      "page_label": 2,
+      "x": 342.67,
+      "y": 155.0
+    },
+    "checkbox_sexual_outros": {
+      "page": 1,
+      "page_label": 2,
+      "x": 443.33,
+      "y": 154.0
+    },
+    "seOUTROs_letraINI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 482.67,
+      "y": 154.67
+    },
+    "seOUTROs_letraFIM": {
+      "page": 1,
+      "page_label": 2,
+      "x": 558.0,
+      "y": 154.67
+    },
+    "se-sexual-procedimento-profilaxia-DST": {
+      "page": 1,
+      "page_label": 2,
+      "x": 73.67,
+      "y": 190.67
+    },
+    "se-sexual-procedimento-profilaxia-HIV": {
+      "page": 1,
+      "page_label": 2,
+      "x": 70.0,
+      "y": 202.67
+    },
+    "se-sexual-procedimento-profilaxia-HBV": {
+      "page": 1,
+      "page_label": 2,
+      "x": 160.0,
+      "y": 191.33
+    },
+    "se-sexual-procedimento-profilaxia-COLETASANG": {
+      "page": 1,
+      "page_label": 2,
+      "x": 158.0,
+      "y": 202.0
+    },
+    "se-sexual-procedimento-COLETASEMEN": {
+      "page": 1,
+      "page_label": 2,
+      "x": 270.67,
+      "y": 190.33
+    },
+    "se-sexual-procedimento-COLETAVAG": {
+      "page": 1,
+      "page_label": 2,
+      "x": 269.33,
+      "y": 203.33
+    },
+    "se-sexual-procedimento-profilaxia-CONTRACEPCAO": {
+      "page": 1,
+      "page_label": 2,
+      "x": 412.67,
+      "y": 190.67
+    },
+    "se-sexual-procedimento-ABORTO": {
+      "page": 1,
+      "page_label": 2,
+      "x": 411.33,
+      "y": 202.67
+    },
+    "check-box-numero-de-pessoas": {
+      "page": 1,
+      "page_label": 2,
+      "x": 98.0,
+      "y": 240.67
+    },
+    "check-box-vinculo-pai": {
+      "page": 1,
+      "page_label": 2,
+      "x": 122.0,
+      "y": 233.33
+    },
+    "check-box-vinculo-mae": {
+      "page": 1,
+      "page_label": 2,
+      "x": 122.67,
+      "y": 248.0
+    },
+    "check-box-vinculo-padrasto": {
+      "page": 1,
+      "page_label": 2,
+      "x": 121.33,
+      "y": 259.33
+    },
+    "check-box-vinculo-madrasta": {
+      "page": 1,
+      "page_label": 2,
+      "x": 122.67,
+      "y": 272.67
+    },
+    "check-box-vinculo-conjuge": {
+      "page": 1,
+      "page_label": 2,
+      "x": 120.0,
+      "y": 282.67
+    },
+    "check-box-vinculo-ex-conjuge": {
+      "page": 1,
+      "page_label": 2,
+      "x": 177.33,
+      "y": 233.33
+    },
+    "check-box-vinculo-namorado": {
+      "page": 1,
+      "page_label": 2,
+      "x": 177.33,
+      "y": 248.0
+    },
+    "check-box-vinculo-ex-namorado": {
+      "page": 1,
+      "page_label": 2,
+      "x": 176.0,
+      "y": 260.67
+    },
+    "check-box-vinculo-filho": {
+      "page": 1,
+      "page_label": 2,
+      "x": 175.33,
+      "y": 272.0
+    },
+    "check-box-vinculo-irmao": {
+      "page": 1,
+      "page_label": 2,
+      "x": 176.0,
+      "y": 284.67
+    },
+    "check-box-vinculo-desconhecidos": {
+      "page": 1,
+      "page_label": 2,
+      "x": 256.0,
+      "y": 248.67
+    },
+    "check-box-vinculo-cuidador": {
+      "page": 1,
+      "page_label": 2,
+      "x": 256.67,
+      "y": 262.0
+    },
+    "check-box-vinculo-patrao": {
+      "page": 1,
+      "page_label": 2,
+      "x": 256.0,
+      "y": 272.67
+    },
+    "check-box-vinculo-pessoa_comRELACAO_institucional": {
+      "page": 1,
+      "page_label": 2,
+      "x": 254.0,
+      "y": 284.0
+    },
+    "check-box-vinculo-agente-da-lei": {
+      "page": 1,
+      "page_label": 2,
+      "x": 343.33,
+      "y": 236.0
+    },
+    "check-box-vinculo-PROPRIO": {
+      "page": 1,
+      "page_label": 2,
+      "x": 342.0,
+      "y": 260.0
+    },
+    "check-box-vinculo-OUTROS": {
+      "page": 1,
+      "page_label": 2,
+      "x": 344.0,
+      "y": 272.0
+    },
+    "se-outros-letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 378.67,
+      "y": 270.66
+    },
+    "se_outros_letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 410.0,
+      "y": 270.66
+    },
+    "check-box-vinculo-amigosOUconhecidos": {
+      "page": 1,
+      "page_label": 2,
+      "x": 252.67,
+      "y": 233.33
+    },
+    "checkbox-autor-da-viol": {
+      "page": 1,
+      "page_label": 2,
+      "x": 486.0,
+      "y": 243.33
+    },
+    "checkbox-se-autor-usouALCOOL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 554.67,
+      "y": 241.33
+    },
+    "idade-do-autor-checkbox": {
+      "page": 1,
+      "page_label": 2,
+      "x": 236.67,
+      "y": 305.33
+    },
+    "checkbox-encaminhamento-rede-de-saude": {
+      "page": 1,
+      "page_label": 2,
+      "x": 56.0,
+      "y": 364.0
+    },
+    "checkbox-encaminhamento-rede-social": {
+      "page": 1,
+      "page_label": 2,
+      "x": 56.0,
+      "y": 379.0
+    },
+    "checkbox-encaminhamento-rede-educacao": {
+      "page": 1,
+      "page_label": 2,
+      "x": 56.0,
+      "y": 393.33
+    },
+    "checkbox-encaminhamento-rede-mulher": {
+      "page": 1,
+      "page_label": 2,
+      "x": 56.0,
+      "y": 407.33
+    },
+    "checkbox-encaminhamento-rede-tutelar": {
+      "page": 1,
+      "page_label": 2,
+      "x": 56.0,
+      "y": 422.67
+    },
+    "checkbox-encaminhamento-rede-do-idoso": {
+      "page": 1,
+      "page_label": 2,
+      "x": 290.0,
+      "y": 364.0
+    },
+    "checkbox-encaminhamento-delegaciaIDOSO": {
+      "page": 1,
+      "page_label": 2,
+      "x": 289.33,
+      "y": 379.0
+    },
+    "checkbox-encaminhamento-rede-de-direitoshumanos": {
+      "page": 1,
+      "page_label": 2,
+      "x": 290.67,
+      "y": 388.67
+    },
+    "checkbox-encaminhamento-MP": {
+      "page": 1,
+      "page_label": 2,
+      "x": 286.0,
+      "y": 404.67
+    },
+    "checkbox-encaminhamento-delegacia-infancia": {
+      "page": 1,
+      "page_label": 2,
+      "x": 286.0,
+      "y": 419.0
+    },
+    "checkbox-encaminhamento-delegacia-mulher": {
+      "page": 1,
+      "page_label": 2,
+      "x": 439.67,
+      "y": 362.0
+    },
+    "checkbox-encaminhamento-outras-delegacias": {
+      "page": 1,
+      "page_label": 2,
+      "x": 436.67,
+      "y": 378.0
+    },
+    "checkbox-encaminhamento-justiça-da-infancia": {
+      "page": 1,
+      "page_label": 2,
+      "x": 437.33,
+      "y": 387.67
+    },
+    "checkbox-encaminhamento-defensoria-publica": {
+      "page": 1,
+      "page_label": 2,
+      "x": 439.33,
+      "y": 408.0
+    },
+    "checkbox-viol-relacionadaAOtrabalho": {
+      "page": 1,
+      "page_label": 2,
+      "x": 170.0,
+      "y": 452.0
+    },
+    "se-violencia-do-trabalho-CAT-CHECKBOX": {
+      "page": 1,
+      "page_label": 2,
+      "x": 360.0,
+      "y": 450.67
+    },
+    "CID10-CAPXX-dig1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 510.67,
+      "y": 470.0
+    },
+    "CID10-CAPXX-dig2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 528.0,
+      "y": 470.0
+    },
+    "CID10-CAPXX-dig3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 541.33,
+      "y": 470.0
+    },
+    "CID10-CAPXX-dig4": {
+      "page": 1,
+      "page_label": 2,
+      "x": 553.33,
+      "y": 470.0
+    },
+    "data-encerramento-dig1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 59.33,
+      "y": 509.66
+    },
+    "data-encerramento-dig2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 74.67,
+      "y": 509.66
+    },
+    "data-encerramento-dig3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 87.33,
+      "y": 509.66
+    },
+    "data-encerramento-dig4": {
+      "page": 1,
+      "page_label": 2,
+      "x": 101.33,
+      "y": 509.66
+    },
+    "data-encerramento-dig5": {
+      "page": 1,
+      "page_label": 2,
+      "x": 114.67,
+      "y": 509.66
+    },
+    "data-encerramento-dig6": {
+      "page": 1,
+      "page_label": 2,
+      "x": 129.33,
+      "y": 509.66
+    },
+    "data-encerramento-dig7": {
+      "page": 1,
+      "page_label": 2,
+      "x": 144.67,
+      "y": 509.66
+    },
+    "data-encerramento-dig8": {
+      "page": 1,
+      "page_label": 2,
+      "x": 157,
+      "y": 509.66
+    },
+    "nome-acompanhante-letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 42.67,
+      "y": 555.33
+    },
+    "nome-do-acompanhante-letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 207.33,
+      "y": 555.33
+    },
+    "vinculo-acompanhante-letraINI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 252.67,
+      "y": 555.0
+    },
+    "vinculo-acompanhante-letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 394.0,
+      "y": 555.0
+    },
+    "tel-acomp-dig1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 424.67,
+      "y": 555.66
+    },
+    "tel-acomp-dig2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 440.0,
+      "y": 555.66
+    },
+    "tel-acomp-dig3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 453.33,
+      "y": 555.66
+    },
+    "tel-acomp-dig4": {
+      "page": 1,
+      "page_label": 2,
+      "x": 470.0,
+      "y": 555.66
+    },
+    "tel-acomp-dig5": {
+      "page": 1,
+      "page_label": 2,
+      "x": 484.67,
+      "y": 555.66
+    },
+    "tel-acomp-dig6": {
+      "page": 1,
+      "page_label": 2,
+      "x": 498.67,
+      "y": 555.66
+    },
+    "tel-acomp-dig7": {
+      "page": 1,
+      "page_label": 2,
+      "x": 514.0,
+      "y": 555.66
+    },
+    "tel-acomp-dig8": {
+      "page": 1,
+      "page_label": 2,
+      "x": 528.0,
+      "y": 555.66
+    },
+    "tel-acomp-dig9": {
+      "page": 1,
+      "page_label": 2,
+      "x": 543.33,
+      "y": 555.66
+    },
+    "tel-acomp-dig10": {
+      "page": 1,
+      "page_label": 2,
+      "x": 556.0,
+      "y": 555.66
+    },
+    "obs-linha1-letraINI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 66.0,
+      "y": 581.34
+    },
+    "obs-linha2-letraINI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 66.0,
+      "y": 592.66
+    },
+    "obs-linha3-letraINI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 66.0,
+      "y": 604.34
+    },
+    "obs-linha4-letraINI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 66.0,
+      "y": 616.0
+    },
+    "obs-linha5-letraINI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 66.0,
+      "y": 628.0
+    },
+    "obs-linha1-letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 524.67,
+      "y": 581.34
+    },
+    "obs-linha2-letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 524.67,
+      "y": 592.66
+    },
+    "obs-linha3-letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 524.67,
+      "y": 604.34
+    },
+    "obs-linha4-letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 524.67,
+      "y": 616.0
+    },
+    "obs-linha5-letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 524.67,
+      "y": 628.0
+    },
+    "MUNICIPIO-unidade-saude-notificadora-letraINI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 80.0,
+      "y": 699.0
+    },
+    "municipio-saude-unidade-notificadora-letraFIM": {
+      "page": 1,
+      "page_label": 2,
+      "x": 422.67,
+      "y": 699.0
+    },
+    "cnes-notif-dig1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 458.0,
+      "y": 700.67
+    },
+    "cnes-notif-dig2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 473.33,
+      "y": 700.67
+    },
+    "cnes-notif-dig3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 487.33,
+      "y": 700.67
+    },
+    "cnes-notif-dig4": {
+      "page": 1,
+      "page_label": 2,
+      "x": 502.0,
+      "y": 700.67
+    },
+    "cnes-notif-dig5": {
+      "page": 1,
+      "page_label": 2,
+      "x": 516.0,
+      "y": 700.67
+    },
+    "cnes-notif-dig6": {
+      "page": 1,
+      "page_label": 2,
+      "x": 529.33,
+      "y": 700.67
+    },
+    "cnes-notif-dig7": {
+      "page": 1,
+      "page_label": 2,
+      "x": 544.0,
+      "y": 700.67
+    },
+    "cnes-notif-dig8": {
+      "page": 1,
+      "page_label": 2,
+      "x": 559.33,
+      "y": 700.67
+    },
+    "nome-notificador-letra-INI": {
+      "page": 1,
+      "page_label": 2,
+      "x": 65.33,
+      "y": 728.66
+    },
+    "nome-notificador-letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 224.0,
+      "y": 728.66
+    },
+    "cargo-notificador-letra-inicial": {
+      "page": 1,
+      "page_label": 2,
+      "x": 272.0,
+      "y": 726.0
+    },
+    "cargo-notificador-letra-final": {
+      "page": 1,
+      "page_label": 2,
+      "x": 428.0,
+      "y": 726.0
+    }
+  },
+  "pdf_metadata": {
+    "page_count": 2,
+    "page_sizes": [
+      {
+        "page": 0,
+        "width": 595.0,
+        "height": 842.0
+      },
+      {
+        "page": 1,
+        "width": 595.0,
+        "height": 842.0
+      }
+    ]
+  },
+  "coordinate_adjustment": {
+    "y_alignment": "Pontos pertencentes ao mesmo input foram alinhados com o mesmo Y, usando a mediana dos Y originais do grupo.",
+    "x_alignment": "Campos multilineares de observacoes tiveram X inicial e X final alinhados entre as linhas; demais X foram preservados.",
+    "x_coordinates": "Preservadas, exceto campos multilineares explicitamente alinhados no eixo X.",
+    "source": "violence.json"
+  },
+  "x_alignment_groups": {
+    "observacoes_inicio_linhas": {
+      "points": [
+        "obs-linha1-letraINI",
+        "obs-linha2-letraINI",
+        "obs-linha3-letraINI",
+        "obs-linha4-letraINI",
+        "obs-linha5-letraINI"
+      ],
+      "original_x_values": {
+        "obs-linha1-letraINI": 66.67,
+        "obs-linha2-letraINI": 66.0,
+        "obs-linha3-letraINI": 66.0,
+        "obs-linha4-letraINI": 66.0,
+        "obs-linha5-letraINI": 66.67
+      },
+      "aligned_x": 66.0,
+      "rule": "Todas as linhas do campo Observações começam no mesmo X."
+    },
+    "observacoes_fim_linhas": {
+      "points": [
+        "obs-linha1-letraFINAL",
+        "obs-linha2-letraFINAL",
+        "obs-linha3-letraFINAL",
+        "obs-linha4-letraFINAL",
+        "obs-linha5-letraFINAL"
+      ],
+      "original_x_values": {
+        "obs-linha1-letraFINAL": 524.67,
+        "obs-linha2-letraFINAL": 524.0,
+        "obs-linha3-letraFINAL": 524.0,
+        "obs-linha4-letraFINAL": 524.67,
+        "obs-linha5-letraFINAL": 525.33
+      },
+      "aligned_x": 524.67,
+      "rule": "Todas as linhas do campo Observações terminam no mesmo X."
+    }
+  },
+  "field_groups": {
+    "group_001": {
+      "name": "data_notificacao",
+      "points": [
+        "3data_digito1",
+        "3data_digito2",
+        "3data_digito3",
+        "3data_digito4",
+        "3data_digito5",
+        "3data_digito6",
+        "3data_digito7",
+        "3data_digito8"
+      ],
+      "original_y_values": {
+        "3data_digito1": 142.67,
+        "3data_digito2": 143.33,
+        "3data_digito3": 143.33,
+        "3data_digito4": 143.33,
+        "3data_digito5": 144.67,
+        "3data_digito6": 143.33,
+        "3data_digito7": 142.67,
+        "3data_digito8": 143.33
+      },
+      "aligned_y": 143.33,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_002": {
+      "name": "uf_notificacao",
+      "points": [
+        "4UF_primeira_letra",
+        "4UF_segunda_letra"
+      ],
+      "original_y_values": {
+        "4UF_primeira_letra": 164.67,
+        "4UF_segunda_letra": 165.33
+      },
+      "aligned_y": 165.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_003": {
+      "name": "municipio_notificacao",
+      "points": [
+        "municipio_primeiraLETRA",
+        "municipio_segundaLETRA"
+      ],
+      "original_y_values": {
+        "municipio_primeiraLETRA": 166.67,
+        "municipio_segundaLETRA": 163.33
+      },
+      "aligned_y": 165.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_004": {
+      "name": "ibge_municipio_notificacao",
+      "points": [
+        "IBGE-dig1",
+        "IBGE-dig2",
+        "IBGE-dig3",
+        "IBGE-dig4",
+        "IBGE-dig5",
+        "IBGE-dig6"
+      ],
+      "original_y_values": {
+        "IBGE-dig1": 161.33,
+        "IBGE-dig2": 160.0,
+        "IBGE-dig3": 162.67,
+        "IBGE-dig4": 162.67,
+        "IBGE-dig5": 164.0,
+        "IBGE-dig6": 163.33
+      },
+      "aligned_y": 162.67,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_005": {
+      "name": "nome_unidade_notificadora",
+      "points": [
+        "nome_da_unidade_primeira_letra",
+        "nome_da_unidade_ultima_letra"
+      ],
+      "original_y_values": {
+        "nome_da_unidade_primeira_letra": 207.33,
+        "nome_da_unidade_ultima_letra": 206.67
+      },
+      "aligned_y": 209.5,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_006": {
+      "name": "codigo_unidade_notificadora",
+      "points": [
+        "codigo_unidade_primeira_letra",
+        "codigo_unidade_ultima_letra"
+      ],
+      "original_y_values": {
+        "codigo_unidade_primeira_letra": 204.67,
+        "codigo_unidade_ultima_letra": 204.67
+      },
+      "aligned_y": 204.67,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_007": {
+      "name": "unidade_de_saude",
+      "points": [
+        "unidade_de_saude_primeira_letra",
+        "unidade_de_saude_ultima_letra"
+      ],
+      "original_y_values": {
+        "unidade_de_saude_primeira_letra": 222.0,
+        "unidade_de_saude_ultima_letra": 224.0
+      },
+      "aligned_y": 223.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_008": {
+      "name": "cnes_unidade_saude",
+      "points": [
+        "cnes_dig1",
+        "cnes_dig2",
+        "cnes_dig3",
+        "cnes_dig4",
+        "cnes_dig5",
+        "cnes_dig6",
+        "cnes_dig7"
+      ],
+      "original_y_values": {
+        "cnes_dig1": 224.0,
+        "cnes_dig2": 224.0,
+        "cnes_dig3": 225.33,
+        "cnes_dig4": 226.0,
+        "cnes_dig5": 226.0,
+        "cnes_dig6": 226.67,
+        "cnes_dig7": 226.0
+      },
+      "aligned_y": 226.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_009": {
+      "name": "data_ocorrencia_violencia",
+      "points": [
+        "dig1_data_violence",
+        "dig2_data_violence",
+        "dig3_data_violence",
+        "dig4_data_violence",
+        "dig5_data_violence",
+        "dig6_data_violence",
+        "dig7_data_violence",
+        "dig8_data_violence"
+      ],
+      "original_y_values": {
+        "dig1_data_violence": 212.0,
+        "dig2_data_violence": 212.67,
+        "dig3_data_violence": 212.0,
+        "dig4_data_violence": 216.0,
+        "dig5_data_violence": 215.33,
+        "dig6_data_violence": 218.67,
+        "dig7_data_violence": 218.67,
+        "dig8_data_violence": 220.0
+      },
+      "aligned_y": 215.67,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_010": {
+      "name": "nome_paciente",
+      "points": [
+        "nome_paciente_primeiraLETRA",
+        "nome_paciente_ultima_letra"
+      ],
+      "original_y_values": {
+        "nome_paciente_primeiraLETRA": 247.33,
+        "nome_paciente_ultima_letra": 243.33
+      },
+      "aligned_y": 245.33,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_011": {
+      "name": "data_nascimento",
+      "points": [
+        "nascimento_dig1",
+        "nascimento_dig2",
+        "nascimento_dig3",
+        "nascimento_dig4",
+        "nascimento_dig5",
+        "nascimento_dig6",
+        "nascimento_dig7",
+        "nascimento_dig8"
+      ],
+      "original_y_values": {
+        "nascimento_dig1": 246.67,
+        "nascimento_dig2": 246.67,
+        "nascimento_dig3": 246.67,
+        "nascimento_dig4": 246.67,
+        "nascimento_dig5": 248.67,
+        "nascimento_dig6": 248.0,
+        "nascimento_dig7": 246.67,
+        "nascimento_dig8": 247.33
+      },
+      "aligned_y": 248.67,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_012": {
+      "name": "cartao_sus",
+      "points": [
+        "cartaoSUS-dig1",
+        "cartaoSUS-dig2",
+        "cartaoSUS-dig3",
+        "cartaoSUS-dig4",
+        "cartaoSUS-dig5",
+        "cartaoSUS-dig6",
+        "cartaoSUS-dig7",
+        "cartaoSUS-dig8",
+        "cartaoSUS-dig9",
+        "cartaoSUS-dig10",
+        "cartaoSUS-dig11",
+        "cartaoSUS-dig12",
+        "cartaoSUS-dig13",
+        "cartaoSUS-dig14",
+        "cartaoSUS-dig15"
+      ],
+      "original_y_values": {
+        "cartaoSUS-dig1": 336.0,
+        "cartaoSUS-dig2": 336.0,
+        "cartaoSUS-dig3": 336.67,
+        "cartaoSUS-dig4": 338.67,
+        "cartaoSUS-dig5": 338.67,
+        "cartaoSUS-dig6": 338.0,
+        "cartaoSUS-dig7": 338.67,
+        "cartaoSUS-dig8": 340.0,
+        "cartaoSUS-dig9": 340.0,
+        "cartaoSUS-dig10": 339.33,
+        "cartaoSUS-dig11": 339.33,
+        "cartaoSUS-dig12": 338.0,
+        "cartaoSUS-dig13": 340.0,
+        "cartaoSUS-dig14": 339.33,
+        "cartaoSUS-dig15": 340.0
+      },
+      "aligned_y": 338.67,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_013": {
+      "name": "nome_mae",
+      "points": [
+        "nome_da_mae_letraINICIAL",
+        "nome_da_mae_letraFINAL"
+      ],
+      "original_y_values": {
+        "nome_da_mae_letraINICIAL": 331.33,
+        "nome_da_mae_letraFINAL": 331.33
+      },
+      "aligned_y": 331.33,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_014": {
+      "name": "uf_residencia",
+      "points": [
+        "UF_res1",
+        "UF_res2"
+      ],
+      "original_y_values": {
+        "UF_res1": 367.33,
+        "UF_res2": 368.67
+      },
+      "aligned_y": 368.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_015": {
+      "name": "municipio_residencia",
+      "points": [
+        "municipio_moradia_letraINI",
+        "municipio_moradial_letraFINAL"
+      ],
+      "original_y_values": {
+        "municipio_moradia_letraINI": 365.33,
+        "municipio_moradial_letraFINAL": 364.0
+      },
+      "aligned_y": 364.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_016": {
+      "name": "ibge_residencia",
+      "points": [
+        "ibge_mor_dig1",
+        "ibge_mor_dig2",
+        "ibge_mor_dig3",
+        "ibge_mor_dig4",
+        "ibge_mor_dig5",
+        "ibge_mor_dig6"
+      ],
+      "original_y_values": {
+        "ibge_mor_dig1": 366.67,
+        "ibge_mor_dig2": 367.33,
+        "ibge_mor_dig3": 368.67,
+        "ibge_mor_dig4": 369.33,
+        "ibge_mor_dig5": 369.33,
+        "ibge_mor_dig6": 369.33
+      },
+      "aligned_y": 369.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_017": {
+      "name": "distrito_residencia",
+      "points": [
+        "distrito_letraINI",
+        "distrito_letraFINAL"
+      ],
+      "original_y_values": {
+        "distrito_letraINI": 362.67,
+        "distrito_letraFINAL": 367.33
+      },
+      "aligned_y": 365.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_018": {
+      "name": "bairro_residencia",
+      "points": [
+        "bairro_letraINI",
+        "bairro_letraFINAL"
+      ],
+      "original_y_values": {
+        "bairro_letraINI": 390.0,
+        "bairro_letraFINAL": 389.33
+      },
+      "aligned_y": 389.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_019": {
+      "name": "logradouro_residencia",
+      "points": [
+        "endereco-letraINI",
+        "endereco-letraFINAL"
+      ],
+      "original_y_values": {
+        "endereco-letraINI": 392.67,
+        "endereco-letraFINAL": 389.33
+      },
+      "aligned_y": 391.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_020": {
+      "name": "complemento_residencia",
+      "points": [
+        "complemento_letraINI",
+        "complemento_letraFINAL"
+      ],
+      "original_y_values": {
+        "complemento_letraINI": 415.33,
+        "complemento_letraFINAL": 414.0
+      },
+      "aligned_y": 414.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_021": {
+      "name": "referencia_residencia",
+      "points": [
+        "referencia_letraINI",
+        "referencia_letraFINAL"
+      ],
+      "original_y_values": {
+        "referencia_letraINI": 441.33,
+        "referencia_letraFINAL": 440.67
+      },
+      "aligned_y": 441.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_022": {
+      "name": "cep_residencia",
+      "points": [
+        "cep-dig1",
+        "cep-dig2",
+        "cep-dig3",
+        "cep-dig4",
+        "cep-dig5",
+        "cep-dig6",
+        "cep-dig7",
+        "cep-dig8"
+      ],
+      "original_y_values": {
+        "cep-dig1": 442.67,
+        "cep-dig2": 445.33,
+        "cep-dig3": 445.33,
+        "cep-dig4": 445.33,
+        "cep-dig5": 443.33,
+        "cep-dig6": 443.33,
+        "cep-dig7": 444.67,
+        "cep-dig8": 443.33
+      },
+      "aligned_y": 446,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_023": {
+      "name": "telefone_residencia",
+      "points": [
+        "tel-dig1",
+        "tel-dig2",
+        "tel-dig3",
+        "tel-dig4",
+        "tel-dig5",
+        "tel-dig6",
+        "tel-dig7",
+        "tel-dig8",
+        "tel-dig9",
+        "tel-dig10"
+      ],
+      "original_y_values": {
+        "tel-dig1": 466.67,
+        "tel-dig2": 466.67,
+        "tel-dig3": 466.67,
+        "tel-dig4": 468.0,
+        "tel-dig5": 468.0,
+        "tel-dig6": 471.33,
+        "tel-dig7": 469.33,
+        "tel-dig8": 469.33,
+        "tel-dig9": 469.33,
+        "tel-dig10": 468.0
+      },
+      "aligned_y": 468.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_024": {
+      "name": "nome_social",
+      "points": [
+        "nome_social_letraINI",
+        "nome_social_letraFINAL"
+      ],
+      "original_y_values": {
+        "nome_social_letraINI": 511.33,
+        "nome_social_letraFINAL": 508.0
+      },
+      "aligned_y": 509.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_025": {
+      "name": "ocupacao",
+      "points": [
+        "profissao_letraINI",
+        "profissao_letraFINAL"
+      ],
+      "original_y_values": {
+        "profissao_letraINI": 510.0,
+        "profissao_letraFINAL": 510.0
+      },
+      "aligned_y": 510.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_026": {
+      "name": "uf_ocorrencia",
+      "points": [
+        "uf-ocorrencia1",
+        "uf-ocorrencia2"
+      ],
+      "original_y_values": {
+        "uf-ocorrencia1": 648.0,
+        "uf-ocorrencia2": 649.33
+      },
+      "aligned_y": 648.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_027": {
+      "name": "municipio_ocorrencia",
+      "points": [
+        "letra-inicial-ocorrencia",
+        "letra-final-ocorrencia"
+      ],
+      "original_y_values": {
+        "letra-inicial-ocorrencia": 646.67,
+        "letra-final-ocorrencia": 644.67
+      },
+      "aligned_y": 645.67,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_028": {
+      "name": "ibge_ocorrencia",
+      "points": [
+        "ocorrencia-ibge-dig1",
+        "ocorrencia-ibge-dig2",
+        "ocorrencia-ibge-dig3",
+        "ocorrencia-ibge-dig4",
+        "ocorrencia-ibge-dig5",
+        "ocorrencia-ibge-dig6"
+      ],
+      "original_y_values": {
+        "ocorrencia-ibge-dig1": 646.67,
+        "ocorrencia-ibge-dig2": 646.0,
+        "ocorrencia-ibge-dig3": 648.0,
+        "ocorrencia-ibge-dig4": 649.33,
+        "ocorrencia-ibge-dig5": 650.0,
+        "ocorrencia-ibge-dig6": 649.33
+      },
+      "aligned_y": 648.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_029": {
+      "name": "bairro_ocorrencia",
+      "points": [
+        "bairro-ocorrencia-letraINI",
+        "bairro-ocorrencia-letraFINAL"
+      ],
+      "original_y_values": {
+        "bairro-ocorrencia-letraINI": 670.67,
+        "bairro-ocorrencia-letraFINAL": 670.67
+      },
+      "aligned_y": 670.67,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_030": {
+      "name": "logradouro_ocorrencia",
+      "points": [
+        "enderec_ocorrencia-ini",
+        "endereco-ocorrenciaFIM"
+      ],
+      "original_y_values": {
+        "enderec_ocorrencia-ini": 671.33,
+        "endereco-ocorrenciaFIM": 668.0
+      },
+      "aligned_y": 669.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_031": {
+      "name": "complemento_ocorrencia",
+      "points": [
+        "complemento-ocorrencia",
+        "complemento-ocorrencia-final"
+      ],
+      "original_y_values": {
+        "complemento-ocorrencia": 698.0,
+        "complemento-ocorrencia-final": 693.33
+      },
+      "aligned_y": 695.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_032": {
+      "name": "referencia_ocorrencia",
+      "points": [
+        "referencia-ocorrenciaINI",
+        "ocorrencia-referencia-FIM"
+      ],
+      "original_y_values": {
+        "referencia-ocorrenciaINI": 722.0,
+        "ocorrencia-referencia-FIM": 721.33
+      },
+      "aligned_y": 721.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_033": {
+      "name": "hora_ocorrencia",
+      "points": [
+        "hora-ocorrencia-dig1",
+        "hora-ocorrencia-dig2",
+        "minuto-ocorrencia-dig1",
+        "minuto-ocorrencia-dig2"
+      ],
+      "original_y_values": {
+        "hora-ocorrencia-dig1": 721.33,
+        "hora-ocorrencia-dig2": 720.0,
+        "minuto-ocorrencia-dig1": 720.67,
+        "minuto-ocorrencia-dig2": 723.33
+      },
+      "aligned_y": 721.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_034": {
+      "name": "local_ocorrencia_codigo",
+      "points": [
+        "local-ocorrencia-checkbox1",
+        "local-ocorrencia-checkbox2"
+      ],
+      "original_y_values": {
+        "local-ocorrencia-checkbox1": 734.67,
+        "local-ocorrencia-checkbox2": 736.67
+      },
+      "aligned_y": 735.67,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_035": {
+      "name": "local_ocorrencia_outro_texto",
+      "points": [
+        "local-ocorrencia-se-outros",
+        "local-ocorrencia-se-outros-final"
+      ],
+      "original_y_values": {
+        "local-ocorrencia-se-outros": 756.67,
+        "local-ocorrencia-se-outros-final": 756.0
+      },
+      "aligned_y": 756.34,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_036": {
+      "name": "motivacao_violencia_codigo",
+      "points": [
+        "motivo-ocorrencia-checkbox1",
+        "motivo-ocorrencia-checkbox2"
+      ],
+      "original_y_values": {
+        "motivo-ocorrencia-checkbox1": 56.67,
+        "motivo-ocorrencia-checkbox2": 58.0
+      },
+      "aligned_y": 59.34,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_037": {
+      "name": "tipo_violencia_outros_texto",
+      "points": [
+        "se-tipo-outros-letraINI",
+        "se-tipo-outros-letraFINAL"
+      ],
+      "original_y_values": {
+        "se-tipo-outros-letraINI": 127.33,
+        "se-tipo-outros-letraFINAL": 126.0
+      },
+      "aligned_y": 126.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_038": {
+      "name": "meio_agressao_outro_texto",
+      "points": [
+        "se-outro_letraINI",
+        "se-outro_letraFINAL"
+      ],
+      "original_y_values": {
+        "se-outro_letraINI": 121.33,
+        "se-outro_letraFINAL": 120.67
+      },
+      "aligned_y": 121.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_039": {
+      "name": "violencia_sexual_outros_texto",
+      "points": [
+        "seOUTROs_letraINI",
+        "seOUTROs_letraFIM"
+      ],
+      "original_y_values": {
+        "seOUTROs_letraINI": 154.67,
+        "seOUTROs_letraFIM": 154.67
+      },
+      "aligned_y": 154.67,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_040": {
+      "name": "vinculo_autor_outros_texto",
+      "points": [
+        "se-outros-letraINICIAL",
+        "se_outros_letraFINAL"
+      ],
+      "original_y_values": {
+        "se-outros-letraINICIAL": 270.0,
+        "se_outros_letraFINAL": 271.33
+      },
+      "aligned_y": 270.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_041": {
+      "name": "cid10_capitulo_xx",
+      "points": [
+        "CID10-CAPXX-dig1",
+        "CID10-CAPXX-dig2",
+        "CID10-CAPXX-dig3",
+        "CID10-CAPXX-dig4"
+      ],
+      "original_y_values": {
+        "CID10-CAPXX-dig1": 469.33,
+        "CID10-CAPXX-dig2": 470.67,
+        "CID10-CAPXX-dig3": 470.67,
+        "CID10-CAPXX-dig4": 468.67
+      },
+      "aligned_y": 470.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_042": {
+      "name": "data_encerramento",
+      "points": [
+        "data-encerramento-dig1",
+        "data-encerramento-dig2",
+        "data-encerramento-dig3",
+        "data-encerramento-dig4",
+        "data-encerramento-dig5",
+        "data-encerramento-dig6",
+        "data-encerramento-dig7",
+        "data-encerramento-dig8"
+      ],
+      "original_y_values": {
+        "data-encerramento-dig1": 510.0,
+        "data-encerramento-dig2": 510.67,
+        "data-encerramento-dig3": 511.33,
+        "data-encerramento-dig4": 509.33,
+        "data-encerramento-dig5": 508.0,
+        "data-encerramento-dig6": 508.0,
+        "data-encerramento-dig7": 508.0,
+        "data-encerramento-dig8": 511.33
+      },
+      "aligned_y": 509.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_043": {
+      "name": "nome_acompanhante",
+      "points": [
+        "nome-acompanhante-letraINICIAL",
+        "nome-do-acompanhante-letraFINAL"
+      ],
+      "original_y_values": {
+        "nome-acompanhante-letraINICIAL": 555.33,
+        "nome-do-acompanhante-letraFINAL": 555.33
+      },
+      "aligned_y": 555.33,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_044": {
+      "name": "vinculo_acompanhante",
+      "points": [
+        "vinculo-acompanhante-letraINI",
+        "vinculo-acompanhante-letraFINAL"
+      ],
+      "original_y_values": {
+        "vinculo-acompanhante-letraINI": 554.67,
+        "vinculo-acompanhante-letraFINAL": 555.33
+      },
+      "aligned_y": 555.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_045": {
+      "name": "telefone_acompanhante",
+      "points": [
+        "tel-acomp-dig1",
+        "tel-acomp-dig2",
+        "tel-acomp-dig3",
+        "tel-acomp-dig4",
+        "tel-acomp-dig5",
+        "tel-acomp-dig6",
+        "tel-acomp-dig7",
+        "tel-acomp-dig8",
+        "tel-acomp-dig9",
+        "tel-acomp-dig10"
+      ],
+      "original_y_values": {
+        "tel-acomp-dig1": 554.67,
+        "tel-acomp-dig2": 555.33,
+        "tel-acomp-dig3": 554.67,
+        "tel-acomp-dig4": 556.67,
+        "tel-acomp-dig5": 556.67,
+        "tel-acomp-dig6": 554.67,
+        "tel-acomp-dig7": 555.33,
+        "tel-acomp-dig8": 556.67,
+        "tel-acomp-dig9": 556.67,
+        "tel-acomp-dig10": 556.0
+      },
+      "aligned_y": 555.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_046": {
+      "name": "observacoes_linha_1",
+      "points": [
+        "obs-linha1-letraINI",
+        "obs-linha1-letraFINAL"
+      ],
+      "original_y_values": {
+        "obs-linha1-letraINI": 582.0,
+        "obs-linha1-letraFINAL": 580.67
+      },
+      "aligned_y": 581.34,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_047": {
+      "name": "observacoes_linha_2",
+      "points": [
+        "obs-linha2-letraINI",
+        "obs-linha2-letraFINAL"
+      ],
+      "original_y_values": {
+        "obs-linha2-letraINI": 593.33,
+        "obs-linha2-letraFINAL": 592.0
+      },
+      "aligned_y": 592.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_048": {
+      "name": "observacoes_linha_3",
+      "points": [
+        "obs-linha3-letraINI",
+        "obs-linha3-letraFINAL"
+      ],
+      "original_y_values": {
+        "obs-linha3-letraINI": 604.67,
+        "obs-linha3-letraFINAL": 604.0
+      },
+      "aligned_y": 604.34,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_049": {
+      "name": "observacoes_linha_4",
+      "points": [
+        "obs-linha4-letraINI",
+        "obs-linha4-letraFINAL"
+      ],
+      "original_y_values": {
+        "obs-linha4-letraINI": 616.0,
+        "obs-linha4-letraFINAL": 616.0
+      },
+      "aligned_y": 616.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_050": {
+      "name": "observacoes_linha_5",
+      "points": [
+        "obs-linha5-letraINI",
+        "obs-linha5-letraFINAL"
+      ],
+      "original_y_values": {
+        "obs-linha5-letraINI": 627.33,
+        "obs-linha5-letraFINAL": 628.67
+      },
+      "aligned_y": 628.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_051": {
+      "name": "municipio_unidade_saude_notificador",
+      "points": [
+        "MUNICIPIO-unidade-saude-notificadora-letraINI",
+        "municipio-saude-unidade-notificadora-letraFIM"
+      ],
+      "original_y_values": {
+        "MUNICIPIO-unidade-saude-notificadora-letraINI": 700.0,
+        "municipio-saude-unidade-notificadora-letraFIM": 698.0
+      },
+      "aligned_y": 699.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_052": {
+      "name": "cnes_notificador",
+      "points": [
+        "cnes-notif-dig1",
+        "cnes-notif-dig2",
+        "cnes-notif-dig3",
+        "cnes-notif-dig4",
+        "cnes-notif-dig5",
+        "cnes-notif-dig6",
+        "cnes-notif-dig7",
+        "cnes-notif-dig8"
+      ],
+      "original_y_values": {
+        "cnes-notif-dig1": 697.33,
+        "cnes-notif-dig2": 699.33,
+        "cnes-notif-dig3": 702.0,
+        "cnes-notif-dig4": 700.67,
+        "cnes-notif-dig5": 700.67,
+        "cnes-notif-dig6": 701.33,
+        "cnes-notif-dig7": 700.67,
+        "cnes-notif-dig8": 700.67
+      },
+      "aligned_y": 700.67,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_053": {
+      "name": "nome_notificador",
+      "points": [
+        "nome-notificador-letra-INI",
+        "nome-notificador-letraFINAL"
+      ],
+      "original_y_values": {
+        "nome-notificador-letra-INI": 730.0,
+        "nome-notificador-letraFINAL": 727.33
+      },
+      "aligned_y": 728.66,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    },
+    "group_054": {
+      "name": "cargo_notificador",
+      "points": [
+        "cargo-notificador-letra-inicial",
+        "cargo-notificador-letra-final"
+      ],
+      "original_y_values": {
+        "cargo-notificador-letra-inicial": 727.33,
+        "cargo-notificador-letra-final": 724.67
+      },
+      "aligned_y": 726.0,
+      "rule": "Y alinhado pela mediana dos Y originais do grupo."
+    }
+  },
+  "validation": {
+    "same_input_y_violations": [],
+    "status": "ok"
+  }
+}

@@ -1,0 +1,299 @@
+Glossario de coordenadas - Intoxicacao Exogena
+
+Objetivo
+Este arquivo descreve, em linguagem simples, o que cada chave de coordenada representa no JSON intoxica.json.
+A ideia e facilitar futuras revisoes do layout da ficha: caso o PDF mude, uma pessoa ou LLM pode correlacionar as novas posicoes com estes nomes.
+
+Como ler
+- Cada ponto tem page, x e y no JSON.
+- page usa indice baseado em zero: page 0 = primeira pagina do PDF; page 1 = segunda pagina.
+- Pontos terminados em numero geralmente sao casas individuais de campos digitados.
+- Pontos com primeira_letra/letraINICIAL e ultima_letra/letraFINAL delimitam campos textuais longos.
+- field_group mostra o grupo alinhado no JSON original, quando disponivel.
+
+Exemplos
+- data_da_notificacao1: e o primeiro digito referente a data no campo de dados gerais.
+- data_da_notificacao2: e o segundo digito referente a data no campo de dados gerais.
+- cnes_digito1 a cnes_digito7: sao os digitos do CNES do investigador no rodape; nao devem receber default automatico.
+
+Glossario
+
+- data_da_notificacao1: e o 1o digito referente a data da notificacao, em Dados gerais. pagina=0, x=449.33, y=154.67, field_group=group_001.
+- data_da_notificacao2: e o 2o digito referente a data da notificacao, em Dados gerais. pagina=0, x=464.67, y=154.67, field_group=group_001.
+- data_da_notificacao3: e o 3o digito referente a data da notificacao, em Dados gerais. pagina=0, x=478.0, y=154.67, field_group=group_001.
+- data_da_notificacao4: e o 4o digito referente a data da notificacao, em Dados gerais. pagina=0, x=492.0, y=154.67, field_group=group_001.
+- data_da_notificacao5: e o 5o digito referente a data da notificacao, em Dados gerais. pagina=0, x=507.33, y=154.67, field_group=group_001.
+- data_da_notificacao6: e o 6o digito referente a data da notificacao, em Dados gerais. pagina=0, x=522.67, y=154.67, field_group=group_001.
+- data_da_notificacao7: e o 7o digito referente a data da notificacao, em Dados gerais. pagina=0, x=536.67, y=154.67, field_group=group_001.
+- data_da_notificacao8: e o 8o digito referente a data da notificacao, em Dados gerais. pagina=0, x=552.0, y=154.67, field_group=group_001.
+- UF1: e a posicao 1 referente a UF da notificacao, em Dados gerais. pagina=0, x=59.33, y=185.67, field_group=group_002.
+- UF2: e a posicao 2 referente a UF da notificacao, em Dados gerais. pagina=0, x=72.67, y=185.67, field_group=group_002.
+- primeira_letra_municipio: e a coordenada inicial referente a inicio do municipio de notificacao, em Dados gerais. pagina=0, x=118.67, y=185.67, field_group=group_003.
+- ultima_letra_municipio: e a coordenada final referente a fim do municipio de notificacao, em Dados gerais. pagina=0, x=410.67, y=185.67, field_group=group_003.
+- codigoIBGE_numero1: e o 1o digito referente a codigo IBGE de notificacao, em Dados gerais. pagina=0, x=484.0, y=187.0, field_group=group_004.
+- codigoIBGE_numero2: e o 2o digito referente a codigo IBGE de notificacao, em Dados gerais. pagina=0, x=498.67, y=187.0, field_group=group_004.
+- codigoIBGE_numero3: e o 3o digito referente a codigo IBGE de notificacao, em Dados gerais. pagina=0, x=512.67, y=187.0, field_group=group_004.
+- codigoIBGE_numero4: e o 4o digito referente a codigo IBGE de notificacao, em Dados gerais. pagina=0, x=527.33, y=187.0, field_group=group_004.
+- codigoIBGE_numero5: e o 5o digito referente a codigo IBGE de notificacao, em Dados gerais. pagina=0, x=540.67, y=187.0, field_group=group_004.
+- codigoIBGE_numero6: e o 6o digito referente a codigo IBGE de notificacao, em Dados gerais. pagina=0, x=556.0, y=187.0, field_group=group_004.
+- unidade_de_saude_primeira_letra: e a coordenada inicial referente a unidade de saude notificadora, em Dados gerais. pagina=0, x=81.33, y=214.0, field_group=group_005.
+- unidade_de_saude_ultima_letra: e a coordenada final referente a unidade de saude notificadora, em Dados gerais. pagina=0, x=320.0, y=214.0, field_group=group_005.
+- CNES_digito1: e o 1o digito referente a CNES da unidade notificadora, em Dados gerais. pagina=0, x=343.33, y=214.67, field_group=group_006.
+- CNES_digito2: e o 2o digito referente a CNES da unidade notificadora, em Dados gerais. pagina=0, x=358.0, y=214.67, field_group=group_006.
+- CNES_digito3: e o 3o digito referente a CNES da unidade notificadora, em Dados gerais. pagina=0, x=371.33, y=214.67, field_group=group_006.
+- CNES_digito4: e o 4o digito referente a CNES da unidade notificadora, em Dados gerais. pagina=0, x=388.0, y=214.67, field_group=group_006.
+- CNES_digito5: e o 5o digito referente a CNES da unidade notificadora, em Dados gerais. pagina=0, x=398.67, y=214.67, field_group=group_006.
+- CNES_digito6: e o 6o digito referente a CNES da unidade notificadora, em Dados gerais. pagina=0, x=414.67, y=214.67, field_group=group_006.
+- CNES_digito7: e o 7o digito referente a CNES da unidade notificadora, em Dados gerais. pagina=0, x=430.67, y=214.67, field_group=group_006.
+- data_sintomas_digito1: e o 1o digito referente a data dos primeiros sintomas, em Dados gerais. pagina=0, x=448.0, y=214.67, field_group=group_007.
+- data_sintomas_digito2: e o 2o digito referente a data dos primeiros sintomas, em Dados gerais. pagina=0, x=465.33, y=214.67, field_group=group_007.
+- data_sintomas_digito3: e o 3o digito referente a data dos primeiros sintomas, em Dados gerais. pagina=0, x=478.67, y=214.67, field_group=group_007.
+- data_sintomas_digito4: e o 4o digito referente a data dos primeiros sintomas, em Dados gerais. pagina=0, x=493.33, y=214.67, field_group=group_007.
+- data_sintomas_digito5: e o 5o digito referente a data dos primeiros sintomas, em Dados gerais. pagina=0, x=506.67, y=214.67, field_group=group_007.
+- data_sintomas_digito6: e o 6o digito referente a data dos primeiros sintomas, em Dados gerais. pagina=0, x=520.0, y=214.67, field_group=group_007.
+- data_sintomas_digito7: e o 7o digito referente a data dos primeiros sintomas, em Dados gerais. pagina=0, x=534.0, y=214.67, field_group=group_007.
+- data_sintomas_digito8: e o 8o digito referente a data dos primeiros sintomas, em Dados gerais. pagina=0, x=553.33, y=214.67, field_group=group_007.
+- nome_paciente_primeira_letra: e a coordenada inicial referente a nome do paciente, na aba Paciente. pagina=0, x=74.0, y=243.33, field_group=group_008.
+- nome_do_paciente_ultima_letra: e a coordenada final referente a nome do paciente, na aba Paciente. pagina=0, x=422.67, y=243.33, field_group=group_008.
+- data_nascimento_digito1: e o 1o digito referente a data de nascimento, na aba Paciente. pagina=0, x=452.67, y=243.33, field_group=group_009.
+- data_nascimento_digito2: e o 2o digito referente a data de nascimento, na aba Paciente. pagina=0, x=467.33, y=243.33, field_group=group_009.
+- data_nascimento_digito3: e o 3o digito referente a data de nascimento, na aba Paciente. pagina=0, x=482.0, y=243.33, field_group=group_009.
+- data_nascimento_digito4: e o 4o digito referente a data de nascimento, na aba Paciente. pagina=0, x=497.33, y=243.33, field_group=group_009.
+- data_nascimento_digito5: e o 5o digito referente a data de nascimento, na aba Paciente. pagina=0, x=511.33, y=243.33, field_group=group_009.
+- data_nascimento_digito6: e o 6o digito referente a data de nascimento, na aba Paciente. pagina=0, x=526.67, y=243.33, field_group=group_009.
+- data_nascimento_digito7: e o 7o digito referente a data de nascimento, na aba Paciente. pagina=0, x=540.67, y=243.33, field_group=group_009.
+- data_nascimento_digito8: e o 8o digito referente a data de nascimento, na aba Paciente. pagina=0, x=557.33, y=243.33, field_group=group_009.
+- sexo_(M,F,I): e a coordenada referente a sexo (M,F,I). pagina=0, x=236.0, y=260.0, field_group=-.
+- codigo_gestante: e a coordenada referente a codigo gestante. pagina=0, x=430.67, y=258.67, field_group=-.
+- codigo_cor: e a coordenada referente a codigo cor. pagina=0, x=554.67, y=260.0, field_group=-.
+- codigo escolaridade: e a coordenada referente a codigo escolaridade. pagina=0, x=554.67, y=289.67, field_group=-.
+- cartao_sus_digito1: e o 1o digito referente a cartao SUS, na aba Paciente. pagina=0, x=57.33, y=335.33, field_group=group_010.
+- cartao_sus_digito2: e o 2o digito referente a cartao SUS, na aba Paciente. pagina=0, x=70.67, y=335.33, field_group=group_010.
+- cartao_sus_digito3: e o 3o digito referente a cartao SUS, na aba Paciente. pagina=0, x=81.33, y=335.33, field_group=group_010.
+- cartao_sus_digito4: e o 4o digito referente a cartao SUS, na aba Paciente. pagina=0, x=92.0, y=335.33, field_group=group_010.
+- cartao_sus_digito5: e o 5o digito referente a cartao SUS, na aba Paciente. pagina=0, x=103.33, y=335.33, field_group=group_010.
+- cartao_sus_digito6: e o 6o digito referente a cartao SUS, na aba Paciente. pagina=0, x=114.67, y=335.33, field_group=group_010.
+- cartao_sus_digito7: e o 7o digito referente a cartao SUS, na aba Paciente. pagina=0, x=126.67, y=335.33, field_group=group_010.
+- cartao_sus_digito8: e o 8o digito referente a cartao SUS, na aba Paciente. pagina=0, x=136.67, y=335.33, field_group=group_010.
+- cartao_sus_digito9: e o 9o digito referente a cartao SUS, na aba Paciente. pagina=0, x=148.67, y=335.33, field_group=group_010.
+- cartao_sus_digito10: e o 10o digito referente a cartao SUS, na aba Paciente. pagina=0, x=160.67, y=335.33, field_group=group_010.
+- cartao_sus_digito11: e o 11o digito referente a cartao SUS, na aba Paciente. pagina=0, x=172.67, y=335.33, field_group=group_010.
+- cartao_sus_digito12: e o 12o digito referente a cartao SUS, na aba Paciente. pagina=0, x=182.67, y=335.33, field_group=group_010.
+- cartao_sus_digito13: e o 13o digito referente a cartao SUS, na aba Paciente. pagina=0, x=195.33, y=335.33, field_group=group_010.
+- cartao_sus_digito14: e o 14o digito referente a cartao SUS, na aba Paciente. pagina=0, x=206.67, y=335.33, field_group=group_010.
+- cartao_sus_digito15: e o 15o digito referente a cartao SUS, na aba Paciente. pagina=0, x=219.33, y=335.33, field_group=group_010.
+- nome_da_mae_primeira_letra: e a coordenada inicial referente a nome da mae, na aba Paciente. pagina=0, x=279.33, y=330.33, field_group=group_011.
+- nome_da_mae_ultima_letra: e a coordenada final referente a nome da mae, na aba Paciente. pagina=0, x=516.67, y=330.33, field_group=group_011.
+- UF_residencia1: e a posicao 1 referente a UF de residencia. pagina=0, x=58.67, y=362.66, field_group=group_012.
+- UF_residencia2: e a posicao 2 referente a UF de residencia. pagina=0, x=71.33, y=362.66, field_group=group_012.
+- municipio_residencia_primeira_letra: e a coordenada inicial referente a municipio de residencia. pagina=0, x=154.0, y=363.0, field_group=group_013.
+- municipio_residencia_ultima_letra: e a coordenada final referente a municipio de residencia. pagina=0, x=303.33, y=363.0, field_group=group_013.
+- IBGE_residencia_digito1: e o 1o digito referente a codigo IBGE da residencia. pagina=0, x=331.33, y=361.0, field_group=group_014.
+- IBGE_residencia_digito2: e o 2o digito referente a codigo IBGE da residencia. pagina=0, x=345.33, y=361.0, field_group=group_014.
+- IBGE_residencia_digito3: e o 3o digito referente a codigo IBGE da residencia. pagina=0, x=359.33, y=361.0, field_group=group_014.
+- IBGE_residencia_digito4: e o 4o digito referente a codigo IBGE da residencia. pagina=0, x=372.67, y=361.0, field_group=group_014.
+- IBGE_residencia_digito5: e o 5o digito referente a codigo IBGE da residencia. pagina=0, x=389.33, y=361.0, field_group=group_014.
+- IBGE_residencia_digito6: e o 6o digito referente a codigo IBGE da residencia. pagina=0, x=404.0, y=361.0, field_group=group_014.
+- distrito_primeira_letra: e a coordenada inicial referente a distrito de residencia. pagina=0, x=444.0, y=362.0, field_group=group_015.
+- distrito_ultima_letra: e a coordenada final referente a distrito de residencia. pagina=0, x=546.0, y=362.0, field_group=group_015.
+- bairro_primeira_letra: e a coordenada inicial referente a bairro de residencia. pagina=0, x=68.0, y=385.67, field_group=group_016.
+- bairro_ultima_letra: e a coordenada final referente a bairro de residencia. pagina=0, x=173.33, y=385.67, field_group=group_016.
+- logradouro_primeira_letra: e a coordenada inicial referente a logradouro de residencia. pagina=0, x=212.0, y=387.34, field_group=group_017.
+- logradouro_ultima_letra: e a coordenada final referente a logradouro de residencia. pagina=0, x=455.33, y=387.34, field_group=group_017.
+- numero_da_rua: e a coordenada referente a numero da residencia. pagina=0, x=76.0, y=411.33, field_group=-.
+- primeira_letra_complemento: e a coordenada inicial referente a complemento do local de ocorrencia. pagina=0, x=182.67, y=411.0, field_group=group_018.
+- ultima_letra_complemento: e a coordenada final referente a complemento do local de ocorrencia. pagina=0, x=383.33, y=411.0, field_group=group_018.
+- numero_geo_codigo_o_default_3304557: e o 3304557o digito referente a numero geo codigo o default. pagina=0, x=452.0, y=413.33, field_group=-.
+- primeira_letra_campo_de_referencia_endereço: e a coordenada inicial referente a referencia do local de ocorrencia. pagina=0, x=278.0, y=437.0, field_group=group_019.
+- ultima_letra_campo_de_referencia_endereço: e a coordenada final referente a referencia do local de ocorrencia. pagina=0, x=429.33, y=437.0, field_group=group_019.
+- cep_digito1: e o 1o digito referente a CEP da residencia. pagina=0, x=460.0, y=441.33, field_group=group_020.
+- cep_digito2: e o 2o digito referente a CEP da residencia. pagina=0, x=475.33, y=441.33, field_group=group_020.
+- cep_digito3: e o 3o digito referente a CEP da residencia. pagina=0, x=489.33, y=441.33, field_group=group_020.
+- cep_digito4: e o 4o digito referente a CEP da residencia. pagina=0, x=502.67, y=441.33, field_group=group_020.
+- cep_digito5: e o 5o digito referente a CEP da residencia. pagina=0, x=517.33, y=441.33, field_group=group_020.
+- cep_digito6: e o 6o digito referente a CEP da residencia. pagina=0, x=532.0, y=441.33, field_group=group_020.
+- cep_digito7: e o 7o digito referente a CEP da residencia. pagina=0, x=543.33, y=441.33, field_group=group_020.
+- cep_digito8: e o 8o digito referente a CEP da residencia. pagina=0, x=558.67, y=441.33, field_group=group_020.
+- telefone_digito1: e o 1o digito referente a telefone da residencia. pagina=0, x=60.0, y=465.33, field_group=group_021.
+- telefone_digito2: e o 2o digito referente a telefone da residencia. pagina=0, x=74.67, y=465.33, field_group=group_021.
+- telefone_digito3: e o 3o digito referente a telefone da residencia. pagina=0, x=89.33, y=465.33, field_group=group_021.
+- telefone_digito4: e o 4o digito referente a telefone da residencia. pagina=0, x=105.33, y=465.33, field_group=group_021.
+- telefone_digito5: e o 5o digito referente a telefone da residencia. pagina=0, x=118.67, y=465.33, field_group=group_021.
+- telefone_digito6: e o 6o digito referente a telefone da residencia. pagina=0, x=132.0, y=465.33, field_group=group_021.
+- telefone_digito7: e o 7o digito referente a telefone da residencia. pagina=0, x=147.33, y=465.33, field_group=group_021.
+- telefone_digito8: e o 8o digito referente a telefone da residencia. pagina=0, x=160.0, y=465.33, field_group=group_021.
+- telefone_digito9: e o 9o digito referente a telefone da residencia. pagina=0, x=174.67, y=465.33, field_group=group_021.
+- telefone_digito10: e o 10o digito referente a telefone da residencia. pagina=0, x=192.67, y=465.33, field_group=group_021.
+- codigo_da_zona_de_moradia: e a coordenada referente a codigo da zona de moradia. pagina=0, x=336.0, y=452.67, field_group=-.
+- primeira_letra_pais_de_origem: e a coordenada inicial referente a pais de residencia/origem. pagina=0, x=390.0, y=464.66, field_group=group_022.
+- ultima_letra_pais_de_origem: e a coordenada final referente a pais de residencia/origem. pagina=0, x=522.67, y=464.66, field_group=group_022.
+- data_investigacao_digito1: e o 1o digito referente a data da investigacao, em Complementares. pagina=0, x=60.0, y=522.0, field_group=group_023.
+- data_investigacao_digito2: e o 2o digito referente a data da investigacao, em Complementares. pagina=0, x=78.67, y=522.0, field_group=group_023.
+- data_investigacao_digito3: e o 3o digito referente a data da investigacao, em Complementares. pagina=0, x=93.33, y=522.0, field_group=group_023.
+- data_investigacao_digito4: e o 4o digito referente a data da investigacao, em Complementares. pagina=0, x=105.33, y=522.0, field_group=group_023.
+- data_investigacao_digito5: e o 5o digito referente a data da investigacao, em Complementares. pagina=0, x=122.0, y=522.0, field_group=group_023.
+- data_investigacao_digito6: e o 6o digito referente a data da investigacao, em Complementares. pagina=0, x=136.67, y=522.0, field_group=group_023.
+- data_investigacao_digito7: e o 7o digito referente a data da investigacao, em Complementares. pagina=0, x=151.33, y=522.0, field_group=group_023.
+- data_investigacao_digito8: e o 8o digito referente a data da investigacao, em Complementares. pagina=0, x=164.0, y=522.0, field_group=group_023.
+- ocupação_primeira_letra: e a coordenada inicial referente a ocupacao, em Complementares. pagina=0, x=267.33, y=517.66, field_group=group_024.
+- ocupação_ultima_letra: e a coordenada final referente a ocupacao, em Complementares. pagina=0, x=504.0, y=517.66, field_group=group_024.
+- codigo_situacao_no_mercado_de_trabalho_digito1: e a posicao 1 referente a situacao no mercado de trabalho. pagina=0, x=534.67, y=541.0, field_group=group_025.
+- codigo_situacao_no_mercado_de_trabalho_digito2: e a posicao 2 referente a situacao no mercado de trabalho. pagina=0, x=547.33, y=541.0, field_group=group_025.
+- codigo_local_de_ocorrencia: e a coordenada referente a local de ocorrencia da exposicao. pagina=0, x=544.67, y=600.67, field_group=-.
+- espaço_para_escrever_se_situacao_do_mercado_for_12(outro): e a coordenada referente a texto livre quando situacao no mercado for Outro. pagina=0, x=496.0, y=570.67, field_group=-.
+- local_para_escrever_se_local_de_ocorrencia_for_7(outro): e a coordenada referente a texto livre quando local de ocorrencia for Outro. pagina=0, x=352.67, y=618.67, field_group=-.
+- CNAE_do_local: e a coordenada referente a CNAE do local de ocorrencia/trabalho. pagina=0, x=430.67, y=646.0, field_group=-.
+- UF_local_ocorrencia1: e a posicao 1 referente a UF do local de ocorrencia. pagina=0, x=57.33, y=672.0, field_group=group_027.
+- UF_local_ocorrencia2: e a posicao 2 referente a UF do local de ocorrencia. pagina=0, x=74.67, y=672.0, field_group=group_027.
+- IBGE_ocorrencia_digito1: e o 1o digito referente a codigo IBGE do local de ocorrencia. pagina=0, x=316.67, y=673.34, field_group=group_029.
+- IBGE_ocorrencia_digito2: e o 2o digito referente a codigo IBGE do local de ocorrencia. pagina=0, x=331.33, y=673.34, field_group=group_029.
+- IBGE_ocorrencia_digito3: e o 3o digito referente a codigo IBGE do local de ocorrencia. pagina=0, x=346.0, y=673.34, field_group=group_029.
+- IBGE_ocorrencia_digito4: e o 4o digito referente a codigo IBGE do local de ocorrencia. pagina=0, x=359.33, y=673.34, field_group=group_029.
+- IBGE_ocorrencia_digito5: e o 5o digito referente a codigo IBGE do local de ocorrencia. pagina=0, x=374.0, y=673.34, field_group=group_029.
+- IBGE_ocorrencia_digito6: e o 6o digito referente a codigo IBGE do local de ocorrencia. pagina=0, x=389.33, y=673.34, field_group=group_029.
+- municipio_da_ocorrencia_letra_inicial: e a coordenada inicial referente a municipio do local de ocorrencia. pagina=0, x=110.67, y=671.67, field_group=group_028.
+- municipio_da_ocorrencia_letra_final: e a coordenada final referente a municipio do local de ocorrencia. pagina=0, x=268.0, y=671.67, field_group=group_028.
+- nome_do_lugar_da_ocorrencia_letra_inicial: e a coordenada inicial referente a nome do local da ocorrencia. pagina=0, x=94.0, y=644.34, field_group=group_026.
+- nome_do_local_da_ocorrencia_letra_final: e a coordenada final referente a nome do local da ocorrencia. pagina=0, x=366.67, y=644.34, field_group=group_026.
+- distrito_da_ocorrencia_default_rioDEjaneiro: e a coordenada referente a distrito do local de ocorrencia. pagina=0, x=449.33, y=673.33, field_group=-.
+- bairro_da_ocorrencia_letra_inicial: e a coordenada inicial referente a bairro do local de ocorrencia. pagina=0, x=82.67, y=699.66, field_group=group_030.
+- bairro_da_ocorrencia_letra_final: e a coordenada final referente a bairro do local de ocorrencia. pagina=0, x=186.67, y=699.66, field_group=group_030.
+- rua_da_ocorrencia_letra_inicial: e a coordenada inicial referente a logradouro do local de ocorrencia. pagina=0, x=245.33, y=700.66, field_group=group_031.
+- rua_da_ocorrencia_letra_final: e a coordenada final referente a logradouro do local de ocorrencia. pagina=0, x=549.33, y=700.66, field_group=group_031.
+- numero_da_rua_da_ocorrencia: e a coordenada referente a numero da rua do local de ocorrencia. pagina=0, x=71.33, y=726.0, field_group=-.
+- complemento_letra_inicial: e a coordenada inicial referente a complemento da residencia. pagina=0, x=124.67, y=728.0, field_group=group_032.
+- complemento_letra_final: e a coordenada final referente a complemento da residencia. pagina=0, x=248.67, y=728.0, field_group=group_032.
+- referencia_letra_inicial: e a coordenada inicial referente a ponto de referencia da residencia. pagina=0, x=297.33, y=725.0, field_group=group_033.
+- referencia_letra_final: e a coordenada final referente a ponto de referencia da residencia. pagina=0, x=428.0, y=725.0, field_group=group_033.
+- cep_ocorrencia_digito1: e o 1o digito referente a CEP do local de ocorrencia. pagina=0, x=458.67, y=726.0, field_group=group_034.
+- cep_ocorrencia_digito2: e o 2o digito referente a CEP do local de ocorrencia. pagina=0, x=473.33, y=726.0, field_group=group_034.
+- cep_ocorrencia_digito3: e o 3o digito referente a CEP do local de ocorrencia. pagina=0, x=488.67, y=726.0, field_group=group_034.
+- cep_ocorrencia_digito4: e o 4o digito referente a CEP do local de ocorrencia. pagina=0, x=504.0, y=726.0, field_group=group_034.
+- cep_ocorrencia_digito5: e o 5o digito referente a CEP do local de ocorrencia. pagina=0, x=516.0, y=726.0, field_group=group_034.
+- cep_ocorrencia_digito6: e o 6o digito referente a CEP do local de ocorrencia. pagina=0, x=534.0, y=726.0, field_group=group_034.
+- cep_ocorrencia_digito7: e o 7o digito referente a CEP do local de ocorrencia. pagina=0, x=546.0, y=726.0, field_group=group_034.
+- cep_ocorrencia_digito8: e o 8o digito referente a CEP do local de ocorrencia. pagina=0, x=559.33, y=726.0, field_group=group_034.
+- telefone_ocorrencia_digito1: e o 1o digito referente a telefone do local de ocorrencia. pagina=0, x=59.33, y=754.67, field_group=group_035.
+- telefone_ocorrencia_digito2: e o 2o digito referente a telefone do local de ocorrencia. pagina=0, x=73.33, y=754.67, field_group=group_035.
+- telefone_ocorrencia_digito3: e o 3o digito referente a telefone do local de ocorrencia. pagina=0, x=90.0, y=754.67, field_group=group_035.
+- telefone_ocorrencia_digito4: e o 4o digito referente a telefone do local de ocorrencia. pagina=0, x=102.0, y=754.67, field_group=group_035.
+- telefone_ocorrencia_digito5: e o 5o digito referente a telefone do local de ocorrencia. pagina=0, x=114.67, y=754.67, field_group=group_035.
+- telefone_ocorrencia_digito6: e o 6o digito referente a telefone do local de ocorrencia. pagina=0, x=129.33, y=754.67, field_group=group_035.
+- telefone_ocorrencia_digito7: e o 7o digito referente a telefone do local de ocorrencia. pagina=0, x=144.0, y=754.67, field_group=group_035.
+- telefone_ocorrencia_digito8: e o 8o digito referente a telefone do local de ocorrencia. pagina=0, x=160.0, y=754.67, field_group=group_035.
+- telefone_ocorrencia_digito9: e o 9o digito referente a telefone do local de ocorrencia. pagina=0, x=173.33, y=754.67, field_group=group_035.
+- telefone_ocorrencia_digito10: e o 10o digito referente a telefone do local de ocorrencia. pagina=0, x=190.67, y=754.67, field_group=group_035.
+- codigo_zona_exposicao: e a coordenada referente a codigo zona exposicao. pagina=0, x=332.0, y=743.33, field_group=-.
+- pais_default_brasil: e a coordenada referente a pais default brasil. pagina=0, x=413.33, y=756.0, field_group=-.
+- codigo_agente_toxico_digito1: e a posicao 1 referente a grupo do agente toxico. pagina=1, x=536.0, y=39.34, field_group=group_036.
+- codigo_agente_toxico_digito2: e a posicao 2 referente a grupo do agente toxico. pagina=1, x=548.0, y=39.34, field_group=group_036.
+- nome_agente_toxico1_letraINICIAL: e a coordenada inicial referente a nome do agente toxico 1. pagina=1, x=95.33, y=118.66, field_group=group_037.
+- nome_agente_toxico1_letraIFINAL: e a coordenada referente a nome do agente toxico 1. pagina=1, x=276.67, y=118.66, field_group=group_037.
+- nome_agente_toxico2_letraINICIAL: e a coordenada inicial referente a nome do agente toxico 2. pagina=1, x=90.0, y=137.67, field_group=group_038.
+- nome_agente_toxico2_letraFINAL: e a coordenada final referente a nome do agente toxico 2. pagina=1, x=275.33, y=137.67, field_group=group_038.
+- nome_agente_toxico3_letraINICIAL: e a coordenada inicial referente a nome do agente toxico 3. pagina=1, x=92.67, y=156.0, field_group=group_039.
+- nome_agente_toxico3_letraFINAL: e a coordenada final referente a nome do agente toxico 3. pagina=1, x=275.33, y=156.0, field_group=group_039.
+- principio_ativo1_letraINICIAL: e a coordenada inicial referente a principio ativo 1. pagina=1, x=365.33, y=119.66, field_group=group_040.
+- principio_ativo1_letraFINAL: e a coordenada final referente a principio ativo 1. pagina=1, x=507.33, y=119.66, field_group=group_040.
+- principio_ativo2_letraINICIAL: e a coordenada inicial referente a principio ativo 2. pagina=1, x=365.33, y=140.0, field_group=group_041.
+- principio_ativo2_letraFINAL: e a coordenada final referente a principio ativo 2. pagina=1, x=508.67, y=140.0, field_group=group_041.
+- principio_ativo3_letraINICIAL: e a coordenada inicial referente a principio ativo 3. pagina=1, x=366.0, y=157.33, field_group=group_042.
+- principio_ativo3_letraFINAL: e a coordenada final referente a principio ativo 3. pagina=1, x=509.33, y=157.33, field_group=group_042.
+- agente_toxico_caso_marcadoOUTRO(14)_para_preencher: e a coordenada referente a texto livre para grupo agente toxico Outro. pagina=1, x=252.67, y=84.67, field_group=-.
+- tipo_de_agrotoxico: e a coordenada referente a finalidade/tipo de agrotoxico. pagina=1, x=535.33, y=179.67, field_group=-.
+- caso_tipo_de_agrotoxico_outro(7): e a coordenada referente a texto livre para finalidade de agrotoxico Outro. pagina=1, x=246.0, y=196.67, field_group=-.
+- codigo_opcao1_agrotoxico_digito1: e a posicao 1 referente a atividade com agrotoxico opcao 1. pagina=1, x=488.33, y=217.33, field_group=group_043.
+- codigo_opcao1_agrotoxico_digito2: e a posicao 2 referente a atividade com agrotoxico opcao 1. pagina=1, x=500.0, y=217.33, field_group=group_043.
+- codigo_opcao2_agrotoxico_digito1: e a posicao 1 referente a atividade com agrotoxico opcao 2. pagina=1, x=488.0, y=231.33, field_group=group_044.
+- codigo_opcao2_agrotoxico_digito2: e a posicao 2 referente a atividade com agrotoxico opcao 2. pagina=1, x=500.0, y=231.33, field_group=group_044.
+- codigo_opcao3_agrotoxico_digito1: e a posicao 1 referente a atividade com agrotoxico opcao 3. pagina=1, x=488.0, y=246.33, field_group=group_045.
+- codigo_opcao3_agrotoxico_digito2: e a posicao 2 referente a atividade com agrotoxico opcao 3. pagina=1, x=500.67, y=246.33, field_group=group_045.
+- tipo_de_plantação: e a coordenada referente a cultura/lavoura. pagina=1, x=236.0, y=282.67, field_group=-.
+- via_de_exposicao_1: e a posicao 1 referente a via de exposicao 1. pagina=1, x=489.33, y=304.67, field_group=-.
+- via_de_exposicao_2: e a posicao 2 referente a via de exposicao 2. pagina=1, x=489.67, y=318.67, field_group=-.
+- via_de_exposicao_3: e a posicao 3 referente a via de exposicao 3. pagina=1, x=489.0, y=333.33, field_group=-.
+- codigo_digito1_circunstancia_expo: e a coordenada referente a codigo composto. pagina=1, x=238.67, y=357.33, field_group=group_046.
+- codigo_digito2_circunstancia_expo: e a coordenada referente a codigo composto. pagina=1, x=249.33, y=357.33, field_group=group_046.
+- caso_circunstancia_13(outro): e a coordenada referente a caso circunstancia 13(outro). pagina=1, x=316.67, y=391.33, field_group=-.
+- codigo_se_expo_devido_trabalho: e a coordenada referente a exposicao decorrente do trabalho. pagina=1, x=286.67, y=420.0, field_group=-.
+- codigo_tipo_de_expo: e a coordenada referente a tipo de exposicao. pagina=1, x=540.67, y=422.0, field_group=-.
+- digito1_tempo_expo: e a coordenada referente a primeiro digito do tempo de exposicao. pagina=1, x=172.0, y=463.33, field_group=group_047.
+- codigo_digito2_tempo_expo: e a coordenada referente a segundo digito do tempo de exposicao. pagina=1, x=186.67, y=463.33, field_group=group_047.
+- digito3_tempo_expo: e a coordenada referente a unidade do tempo de exposicao. pagina=1, x=232.67, y=463.33, field_group=group_047.
+- tipo_de_atendimento_codigo: e a coordenada referente a onde foi socorrido/tipo de atendimento. pagina=1, x=248.67, y=486.0, field_group=-.
+- codigo_houve_hospitalizacao: e a coordenada referente a indicador de hospitalizacao. pagina=1, x=392.0, y=488.0, field_group=-.
+- data_internacao_digito1: e o 1o digito referente a data de internacao. pagina=1, x=421.33, y=509.33, field_group=group_048.
+- data_internacao_digito2: e o 2o digito referente a data de internacao. pagina=1, x=439.33, y=509.33, field_group=group_048.
+- data_internacao_digito3: e o 3o digito referente a data de internacao. pagina=1, x=451.33, y=509.33, field_group=group_048.
+- data_internacao_digito4: e o 4o digito referente a data de internacao. pagina=1, x=468.0, y=509.33, field_group=group_048.
+- data_internacao_digito5: e o 5o digito referente a data de internacao. pagina=1, x=483.33, y=509.33, field_group=group_048.
+- data_internacao_digito6: e o 6o digito referente a data de internacao. pagina=1, x=495.33, y=509.33, field_group=group_048.
+- data_internacao_digito7: e o 7o digito referente a data de internacao. pagina=1, x=508.67, y=509.33, field_group=group_048.
+- data_internacao_digito8: e o 8o digito referente a data de internacao. pagina=1, x=522.0, y=509.33, field_group=group_048.
+- uf_internação_digito1: e a posicao 1 referente a UF de internacao. pagina=1, x=540.33, y=509.0, field_group=group_049.
+- uf_internação_digito2: e a posicao 2 referente a UF de internacao. pagina=1, x=555.0, y=509.0, field_group=group_049.
+- municipio_interna_letraINICIAL: e a coordenada inicial referente a municipio de internacao. pagina=1, x=72.67, y=539.0, field_group=group_050.
+- municipio_interna_letraFINAL: e a coordenada final referente a municipio de internacao. pagina=1, x=212.67, y=539.0, field_group=group_050.
+- IBGE_inter_1: e o 1o digito referente a codigo IBGE de internacao. pagina=1, x=230.0, y=540.34, field_group=group_051.
+- IBGE_inter_2: e o 2o digito referente a codigo IBGE de internacao. pagina=1, x=246.0, y=540.34, field_group=group_051.
+- IBGE_inter_3: e o 3o digito referente a codigo IBGE de internacao. pagina=1, x=259.33, y=540.34, field_group=group_051.
+- IBGE_inter_4: e o 4o digito referente a codigo IBGE de internacao. pagina=1, x=273.33, y=540.34, field_group=group_051.
+- IBGE_inter_5: e o 5o digito referente a codigo IBGE de internacao. pagina=1, x=286.67, y=540.34, field_group=group_051.
+- IBGE_inter_6: e o 6o digito referente a codigo IBGE de internacao. pagina=1, x=301.33, y=540.34, field_group=group_051.
+- nome_unidade_de_saude_letraINICIAL: e a coordenada inicial referente a unidade do investigador. pagina=1, x=336.67, y=540.33, field_group=group_052.
+- nome_unidade_de_saude_letraFINAL: e a coordenada final referente a unidade do investigador. pagina=1, x=449.33, y=540.33, field_group=group_052.
+- cnes_unidade_digito1: e o 1o digito referente a CNES do local de hospitalizacao/socorro. pagina=1, x=469.33, y=540.0, field_group=group_053.
+- cnes_unidade_digito2: e o 2o digito referente a CNES do local de hospitalizacao/socorro. pagina=1, x=485.33, y=540.0, field_group=group_053.
+- cnes_unidade_digito3: e o 3o digito referente a CNES do local de hospitalizacao/socorro. pagina=1, x=500.67, y=540.0, field_group=group_053.
+- cnes_unidade_digito4: e o 4o digito referente a CNES do local de hospitalizacao/socorro. pagina=1, x=514.67, y=540.0, field_group=group_053.
+- cnes_unidade_digito5: e o 5o digito referente a CNES do local de hospitalizacao/socorro. pagina=1, x=528.67, y=540.0, field_group=group_053.
+- cnes_unidade_digito6: e o 6o digito referente a CNES do local de hospitalizacao/socorro. pagina=1, x=539.33, y=540.0, field_group=group_053.
+- cnes_unidade_digito7: e o 7o digito referente a CNES do local de hospitalizacao/socorro. pagina=1, x=557.33, y=540.0, field_group=group_053.
+- digito_classificação_final: e a coordenada referente a classificacao final. pagina=1, x=546.0, y=567.33, field_group=-.
+- primeira_letra_intoxicação_confirmada: e a coordenada inicial referente a inicio do diagnostico/intoxicacao confirmada. pagina=1, x=118.67, y=596.34, field_group=group_054.
+- ultima_letra_intoxicação_confirmada: e a coordenada final referente a fim do diagnostico/intoxicacao confirmada. pagina=1, x=401.33, y=596.34, field_group=group_054.
+- digito1_cid: e a coordenada referente a primeiro digito/letra do CID-10 diagnostico. pagina=1, x=494.0, y=601.67, field_group=group_055.
+- digito2_cid: e a coordenada referente a segundo digito do CID-10 diagnostico. pagina=1, x=510.67, y=601.67, field_group=group_055.
+- digito3_cid: e a coordenada referente a terceiro digito do CID-10 diagnostico. pagina=1, x=529.33, y=601.67, field_group=group_055.
+- digito4_cid: e a coordenada referente a quarto digito do CID-10 diagnostico. pagina=1, x=546.67, y=601.67, field_group=group_055.
+- digito_confirmação: e a coordenada referente a criterio de confirmacao. pagina=1, x=209.33, y=614.67, field_group=-.
+- digito_evolução: e a coordenada referente a evolucao do caso. pagina=1, x=545.33, y=614.67, field_group=-.
+- data_se_obito_digito1: e o 1o digito referente a data de obito. pagina=1, x=64.67, y=662.34, field_group=group_056.
+- data_se_obito_digito2: e o 2o digito referente a data de obito. pagina=1, x=81.33, y=662.34, field_group=group_056.
+- data_se_obito_digito3: e o 3o digito referente a data de obito. pagina=1, x=97.33, y=662.34, field_group=group_056.
+- data_se_obito_digito4: e o 4o digito referente a data de obito. pagina=1, x=110.67, y=662.34, field_group=group_056.
+- data_se_obito_digito5: e o 5o digito referente a data de obito. pagina=1, x=123.33, y=662.34, field_group=group_056.
+- data_se_obito_digito6: e o 6o digito referente a data de obito. pagina=1, x=136.0, y=662.34, field_group=group_056.
+- data_se_obito_digito7: e o 7o digito referente a data de obito. pagina=1, x=153.33, y=662.34, field_group=group_056.
+- data_se_obito_digito8: e o 8o digito referente a data de obito. pagina=1, x=167.33, y=662.34, field_group=group_056.
+- digito_cat: e a coordenada referente a comunicacao CAT. pagina=1, x=433.33, y=651.33, field_group=-.
+- data_encerramento_digito1: e o 1o digito referente a data de encerramento. pagina=1, x=464.0, y=663.66, field_group=group_057.
+- data_encerramento_digito2: e o 2o digito referente a data de encerramento. pagina=1, x=479.33, y=663.66, field_group=group_057.
+- data_encerramento_digito3: e o 3o digito referente a data de encerramento. pagina=1, x=492.67, y=663.66, field_group=group_057.
+- data_encerramento_digito4: e o 4o digito referente a data de encerramento. pagina=1, x=506.67, y=663.66, field_group=group_057.
+- data_encerramento_digito5: e o 5o digito referente a data de encerramento. pagina=1, x=521.33, y=663.66, field_group=group_057.
+- data_encerramento_digito6: e o 6o digito referente a data de encerramento. pagina=1, x=534.67, y=663.66, field_group=group_057.
+- data_encerramento_digito7: e o 7o digito referente a data de encerramento. pagina=1, x=548.0, y=663.66, field_group=group_057.
+- data_encerramento_digito8: e o 8o digito referente a data de encerramento. pagina=1, x=560.67, y=663.66, field_group=group_057.
+- obs_linha1_1: e a posicao 1 referente a linha de observacoes. pagina=1, x=62.0, y=716.67, field_group=group_058.
+- obs_linha1_2: e a posicao 2 referente a linha de observacoes. pagina=1, x=522.0, y=716.67, field_group=group_058.
+- obs_linha2_1: e a posicao 1 referente a linha de observacoes. pagina=1, x=60.67, y=733.66, field_group=group_059.
+- obs_linha2_2: e a posicao 2 referente a linha de observacoes. pagina=1, x=520.67, y=733.66, field_group=group_059.
+- obs_linha3_1: e a posicao 1 referente a linha de observacoes. pagina=1, x=58.67, y=747.33, field_group=group_060.
+- obs_linha3_2: e a posicao 2 referente a linha de observacoes. pagina=1, x=520.0, y=747.33, field_group=group_060.
+- unidade_da_ficha_letra_inicial: e a coordenada inicial referente a unidade de saude de hospitalizacao. pagina=1, x=95.33, y=774.34, field_group=group_061.
+- unidade_da_ficha_letra_final: e a coordenada final referente a unidade de saude de hospitalizacao. pagina=1, x=412.67, y=774.34, field_group=group_061.
+- cnes_digito1: e o 1o digito referente a CNES do investigador/rodape. pagina=1, x=471.33, y=779.33, field_group=group_062.
+- cnes_digito2: e o 2o digito referente a CNES do investigador/rodape. pagina=1, x=487.33, y=779.33, field_group=group_062.
+- cnes_digito3: e o 3o digito referente a CNES do investigador/rodape. pagina=1, x=499.33, y=779.33, field_group=group_062.
+- cnes_digito4: e o 4o digito referente a CNES do investigador/rodape. pagina=1, x=513.33, y=779.33, field_group=group_062.
+- cnes_digito5: e o 5o digito referente a CNES do investigador/rodape. pagina=1, x=528.67, y=779.33, field_group=group_062.
+- cnes_digito6: e o 6o digito referente a CNES do investigador/rodape. pagina=1, x=541.33, y=779.33, field_group=group_062.
+- cnes_digito7: e o 7o digito referente a CNES do investigador/rodape. pagina=1, x=558.0, y=779.33, field_group=group_062.
+- nome_investigador_letraINICIAL: e a coordenada inicial referente a nome do investigador. pagina=1, x=69.33, y=803.0, field_group=group_063.
+- nome_investigador_letraFINAL: e a coordenada final referente a nome do investigador. pagina=1, x=234.67, y=803.0, field_group=group_063.
+- profissao_investigador_letraINICIAL: e a coordenada inicial referente a funcao/profissao do investigador. pagina=1, x=281.33, y=804.67, field_group=group_064.
+- profissao_investigador_letrafinal: e a coordenada final referente a funcao/profissao do investigador. pagina=1, x=436.67, y=804.67, field_group=group_064.
+
+Observacao
+Este glossario e auxiliar. A fonte tecnica continua sendo intoxica.json, usado diretamente pelo motor de carimbo em src/pdf_stamper.py.

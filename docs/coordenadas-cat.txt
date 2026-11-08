@@ -1,0 +1,96 @@
+COORDENADAS — FICHA SINAN ACIDENTE DE TRABALHO
+Unidade: ponto PDF (1/72 polegada). Origem no canto superior esquerdo. Página começa em 1.
+y é linha de base do texto. Para campos boxes, xs são centros dos dígitos; centralizar cada glifo em seu x.
+Campos 35 e 48: imprimir até dois dígitos por célula em fonte menor quando necessário, pois a ficha contém menos células do que os 14 dígitos de um CNPJ.
+
+numero_notificacao: página 1, text, x=472 largura=86, y=51
+data_notificacao: página 1, boxes, centros x=454.2,468.75,483.3,497.85,512.4,526.95,541.5,556.05, y=218
+uf_notificacao: página 1, boxes, centros x=60.5,74.6, y=247
+municipio_notificacao: página 1, text, x=88 largura=375, y=246
+codigo_ibge_notificacao: página 1, boxes, centros x=484.0,498.88,513.76,528.64,543.52,558.4, y=247
+unidade_saude: página 1, text, x=58 largura=275, y=275
+codigo_unidade_saude: página 1, boxes, centros x=344.0,358.9,373.8,388.7,403.6,418.5,433.4, y=276
+data_acidente: página 1, boxes, centros x=451.4,465.85,480.3,494.75,509.2,523.65,538.1,552.55, y=274
+nome_paciente: página 1, text, x=58 largura=378, y=304
+data_nascimento: página 1, boxes, centros x=454.6,469.03,483.46,497.89,512.32,526.75,541.18,555.61, y=305
+idade_numero: página 1, boxes, centros x=70.5,85.0, y=335
+idade_unidade: página 1, boxes, centros x=116, y=329
+sexo: página 1, boxes, centros x=239, y=320
+gestante: página 1, boxes, centros x=433.3, y=320
+raca_cor: página 1, boxes, centros x=558, y=320
+escolaridade: página 1, boxes, centros x=558.5, y=351
+cartao_sus: página 1, boxes, centros x=59.6,71.35,83.1,94.85,106.6,118.35,130.1,141.85,153.6,165.35,177.1,188.85,200.6,212.35,224.1, y=395
+nome_mae: página 1, text, x=237 largura=326, y=395
+uf_residencia: página 1, boxes, centros x=61.5,75.5, y=425
+municipio_residencia: página 1, text, x=88 largura=236, y=424
+codigo_ibge_residencia: página 1, boxes, centros x=333.0,347.88,362.76,377.64,392.52,407.4, y=424
+distrito_residencia: página 1, text, x=417 largura=146, y=424
+bairro_residencia: página 1, text, x=58 largura=133, y=450
+logradouro_residencia: página 1, text, x=198 largura=278, y=450
+codigo_logradouro: página 1, boxes, centros x=487.0,501.88,516.76,531.64,546.52,561.4, y=451
+numero_residencia: página 1, text, x=58 largura=49, y=472
+complemento_residencia: página 1, text, x=115 largura=290, y=472
+geo_campo_1: página 1, text, x=415 largura=147, y=472
+geo_campo_2: página 1, text, x=58 largura=150, y=497
+referencia_residencia: página 1, text, x=220 largura=229, y=497
+cep_residencia: página 1, boxes, centros x=463.5,478.4,493.3,508.2,523.1,538.5,553.4,564.6, y=501
+telefone_residencia: página 1, boxes, centros x=62.8,77.68,92.56,107.44,122.32,137.2,152.08,166.96,181.84,196.72, y=525
+zona_residencia: página 1, boxes, centros x=339.5, y=513
+pais_residencia: página 1, text, x=359 largura=201, y=524
+ocupacao: página 1, text, x=58 largura=505, y=579
+situacao_trabalho: página 1, boxes, centros x=535.4,548.4, y=594
+tempo_trabalho: página 1, boxes, centros x=70.5,85.0, y=675
+unidade_tempo_trabalho: página 1, boxes, centros x=108.7, y=675
+local_acidente: página 1, boxes, centros x=554.5, y=656
+registro_empresa: página 1, boxes, centros x=85,100,115,130,145,160,175,190,208,226, y=717
+nome_empresa: página 1, text, x=251 largura=310, y=716
+cnae_empresa: página 1, text, x=58 largura=150, y=745
+uf_empresa: página 1, boxes, centros x=220.3,234.6, y=748
+municipio_empresa: página 1, text, x=251 largura=223, y=746
+codigo_ibge_empresa: página 1, boxes, centros x=485.0,499.9,514.8,529.7,544.6,559.5, y=748
+distrito_empresa: página 1, text, x=58 largura=151, y=771
+bairro_empresa: página 1, text, x=220 largura=155, y=771
+endereco_empresa: página 1, text, x=383 largura=179, y=771
+numero_empresa: página 1, text, x=58 largura=43, y=795
+referencia_empresa: página 1, text, x=112 largura=304, y=795
+telefone_empresa: página 1, boxes, centros x=429.5,444.35,459.2,474.05,488.9,503.75,518.6,533.45,548.3,563.15, y=797
+terceirizada: página 2, boxes, centros x=480, y=41
+cnae_empresa_principal: página 2, boxes, centros x=195.0,209.8,224.6,239.4,254.2,269.0,283.8,298.6, y=82
+cnpj_empresa_principal: página 2, boxes, centros x=400,415,430,445,460,475,490,505,523,541,555.7, y=82
+razao_social_principal: página 2, text, x=61 largura=500, y=109
+hora_acidente: página 2, boxes, centros x=100.0,114.5, y=146
+minuto_acidente: página 2, boxes, centros x=203.0,217.3, y=146
+horas_jornada: página 2, boxes, centros x=412,426, y=146
+minutos_jornada: página 2, boxes, centros x=479,493, y=146
+uf_ocorrencia: página 2, boxes, centros x=64,78, y=175
+municipio_ocorrencia: página 2, text, x=93 largura=137, y=175
+codigo_ibge_ocorrencia: página 2, boxes, centros x=243.0,257.88,272.76,287.64,302.52,317.4,332.28, y=176
+cid_causa: página 2, boxes, centros x=498.0,512.9,527.8,542.7, y=176
+tipo_acidente: página 2, boxes, centros x=224.2, y=190
+outros_trabalhadores: página 2, boxes, centros x=438, y=189
+quantidade_trabalhadores: página 2, boxes, centros x=497,515,533, y=205
+atendimento_medico: página 2, boxes, centros x=370.5, y=226
+data_atendimento: página 2, boxes, centros x=417.5,431.95,446.4,460.85,475.3,489.75,504.2,518.65, y=235
+uf_atendimento: página 2, boxes, centros x=541,555, y=235
+municipio_atendimento: página 2, text, x=61 largura=128, y=264
+codigo_ibge_atendimento: página 2, boxes, centros x=200.5,215.38,230.26,245.14,260.02,274.9,289.78, y=265
+unidade_atendimento: página 2, text, x=304 largura=151, y=264
+codigo_unidade_atendimento: página 2, boxes, centros x=469.7,484.58,499.46,514.34,529.22,544.1,558.98, y=265
+parte_corpo_1: página 2, boxes, centros x=315.3,326.3, y=292
+parte_corpo_2: página 2, boxes, centros x=315.3,326.3, y=306
+parte_corpo_3: página 2, boxes, centros x=315.3,326.3, y=320
+cid_lesao: página 2, boxes, centros x=365.6,380.5,395.4,410.3, y=321
+regime_tratamento: página 2, boxes, centros x=553.3, y=296
+evolucao: página 2, boxes, centros x=548, y=345
+data_obito: página 2, boxes, centros x=69.5,83.9,98.3,112.7,127.1,141.5,155.9,170.3, y=410
+emitiu_cat: página 2, boxes, centros x=549.8, y=400
+descricao_acidente: página 2, multiline, x=38 largura=518, y=477, linhas=7, espaçamento=13.7
+outras_informacoes: página 2, multiline, x=40 largura=516, y=591, linhas=7, espaçamento=13.7
+municipio_unidade_investigador: página 2, text, x=60 largura=395, y=706
+codigo_unidade_investigador: página 2, boxes, centros x=472.0,486.9,501.8,516.7,531.6,546.5,561.4, y=710
+nome_investigador: página 2, text, x=60 largura=190, y=735
+funcao_investigador: página 2, text, x=263 largura=194, y=735
+
+Telefones aceitam 11 dígitos (com DDD); quando necessário, os dois últimos são impressos juntos em fonte menor na última célula. O código 10 de escolaridade também é impresso em fonte menor na célula única. CPF/CNPJ de até 14 dígitos é preservado com pares de dígitos em células finais.
+
+No último dígito do CEP, a fonte é reduzida a 6 pontos para caber na célula estreita. Pares de dígitos em uma célula são impressos em 7 pontos.

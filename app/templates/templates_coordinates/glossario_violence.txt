@@ -1,0 +1,358 @@
+# Glossário de coordenadas — Violência Interpessoal/Autoprovocada
+
+Este glossário descreve, em linguagem simples, cada chave do mapa `violencia_mapa_coordenadas_corrigido.json`.
+
+## Como ler
+
+- `page` usa índice baseado em zero: `0` = primeira página; `1` = segunda página.
+- Campos com `dig` representam casas individuais de datas, IBGE, CNES, CEP, telefone ou códigos.
+- Campos com `letraINI`, `letraINICIAL`, `primeira_letra`, `letraFINAL`, `letraFIM` etc. delimitam campos textuais longos.
+- `field_group` indica o grupo de alinhamento usado no JSON corrigido.
+- No campo de observações, além de alinhar o Y por linha, o X inicial e o X final foram alinhados entre todas as linhas.
+
+## Grupos de alinhamento
+
+- **group_001 — data_notificacao**: 8 ponto(s), Y corrigido = `143.33`.
+- **group_002 — uf_notificacao**: 2 ponto(s), Y corrigido = `165.0`.
+- **group_003 — municipio_notificacao**: 2 ponto(s), Y corrigido = `165.0`.
+- **group_004 — ibge_municipio_notificacao**: 6 ponto(s), Y corrigido = `162.67`.
+- **group_005 — nome_unidade_notificadora**: 2 ponto(s), Y corrigido = `207.0`.
+- **group_006 — codigo_unidade_notificadora**: 2 ponto(s), Y corrigido = `204.67`.
+- **group_007 — unidade_de_saude**: 2 ponto(s), Y corrigido = `223.0`.
+- **group_008 — cnes_unidade_saude**: 7 ponto(s), Y corrigido = `226.0`.
+- **group_009 — data_ocorrencia_violencia**: 8 ponto(s), Y corrigido = `215.67`.
+- **group_010 — nome_paciente**: 2 ponto(s), Y corrigido = `245.33`.
+- **group_011 — data_nascimento**: 8 ponto(s), Y corrigido = `246.67`.
+- **group_012 — cartao_sus**: 15 ponto(s), Y corrigido = `338.67`.
+- **group_013 — nome_mae**: 2 ponto(s), Y corrigido = `331.33`.
+- **group_014 — uf_residencia**: 2 ponto(s), Y corrigido = `368.0`.
+- **group_015 — municipio_residencia**: 2 ponto(s), Y corrigido = `364.66`.
+- **group_016 — ibge_residencia**: 6 ponto(s), Y corrigido = `369.0`.
+- **group_017 — distrito_residencia**: 2 ponto(s), Y corrigido = `365.0`.
+- **group_018 — bairro_residencia**: 2 ponto(s), Y corrigido = `389.66`.
+- **group_019 — logradouro_residencia**: 2 ponto(s), Y corrigido = `391.0`.
+- **group_020 — complemento_residencia**: 2 ponto(s), Y corrigido = `414.66`.
+- **group_021 — referencia_residencia**: 2 ponto(s), Y corrigido = `441.0`.
+- **group_022 — cep_residencia**: 8 ponto(s), Y corrigido = `444.0`.
+- **group_023 — telefone_residencia**: 10 ponto(s), Y corrigido = `468.0`.
+- **group_024 — nome_social**: 2 ponto(s), Y corrigido = `509.66`.
+- **group_025 — ocupacao**: 2 ponto(s), Y corrigido = `510.0`.
+- **group_026 — uf_ocorrencia**: 2 ponto(s), Y corrigido = `648.66`.
+- **group_027 — municipio_ocorrencia**: 2 ponto(s), Y corrigido = `645.67`.
+- **group_028 — ibge_ocorrencia**: 6 ponto(s), Y corrigido = `648.66`.
+- **group_029 — bairro_ocorrencia**: 2 ponto(s), Y corrigido = `670.67`.
+- **group_030 — logradouro_ocorrencia**: 2 ponto(s), Y corrigido = `669.66`.
+- **group_031 — complemento_ocorrencia**: 2 ponto(s), Y corrigido = `695.66`.
+- **group_032 — referencia_ocorrencia**: 2 ponto(s), Y corrigido = `721.66`.
+- **group_033 — hora_ocorrencia**: 4 ponto(s), Y corrigido = `721.0`.
+- **group_034 — local_ocorrencia_codigo**: 2 ponto(s), Y corrigido = `735.67`.
+- **group_035 — local_ocorrencia_outro_texto**: 2 ponto(s), Y corrigido = `756.34`.
+- **group_036 — motivacao_violencia_codigo**: 2 ponto(s), Y corrigido = `57.34`.
+- **group_037 — tipo_violencia_outros_texto**: 2 ponto(s), Y corrigido = `126.66`.
+- **group_038 — meio_agressao_outro_texto**: 2 ponto(s), Y corrigido = `121.0`.
+- **group_039 — violencia_sexual_outros_texto**: 2 ponto(s), Y corrigido = `154.67`.
+- **group_040 — vinculo_autor_outros_texto**: 2 ponto(s), Y corrigido = `270.66`.
+- **group_041 — cid10_capitulo_xx**: 4 ponto(s), Y corrigido = `470.0`.
+- **group_042 — data_encerramento**: 8 ponto(s), Y corrigido = `509.66`.
+- **group_043 — nome_acompanhante**: 2 ponto(s), Y corrigido = `555.33`.
+- **group_044 — vinculo_acompanhante**: 2 ponto(s), Y corrigido = `555.0`.
+- **group_045 — telefone_acompanhante**: 10 ponto(s), Y corrigido = `555.66`.
+- **group_046 — observacoes_linha_1**: 2 ponto(s), Y corrigido = `581.34`.
+- **group_047 — observacoes_linha_2**: 2 ponto(s), Y corrigido = `592.66`.
+- **group_048 — observacoes_linha_3**: 2 ponto(s), Y corrigido = `604.34`.
+- **group_049 — observacoes_linha_4**: 2 ponto(s), Y corrigido = `616.0`.
+- **group_050 — observacoes_linha_5**: 2 ponto(s), Y corrigido = `628.0`.
+- **group_051 — municipio_unidade_saude_notificador**: 2 ponto(s), Y corrigido = `699.0`.
+- **group_052 — cnes_notificador**: 8 ponto(s), Y corrigido = `700.67`.
+- **group_053 — nome_notificador**: 2 ponto(s), Y corrigido = `728.66`.
+- **group_054 — cargo_notificador**: 2 ponto(s), Y corrigido = `726.0`.
+
+## Glossário por chave
+
+- **3data_digito1**: dígito da Data da notificação, em Dados Gerais. página=0, x=446.0, y=143.33, field_group=group_001 (data_notificacao). Correção: Y 142.67 → 143.33.
+- **3data_digito2**: dígito da Data da notificação, em Dados Gerais. página=0, x=462.67, y=143.33, field_group=group_001 (data_notificacao). Correção: sem alteração de coordenada.
+- **3data_digito3**: dígito da Data da notificação, em Dados Gerais. página=0, x=476.67, y=143.33, field_group=group_001 (data_notificacao). Correção: sem alteração de coordenada.
+- **3data_digito4**: dígito da Data da notificação, em Dados Gerais. página=0, x=492.67, y=143.33, field_group=group_001 (data_notificacao). Correção: sem alteração de coordenada.
+- **3data_digito5**: dígito da Data da notificação, em Dados Gerais. página=0, x=506.67, y=143.33, field_group=group_001 (data_notificacao). Correção: Y 144.67 → 143.33.
+- **3data_digito6**: dígito da Data da notificação, em Dados Gerais. página=0, x=520.67, y=143.33, field_group=group_001 (data_notificacao). Correção: sem alteração de coordenada.
+- **3data_digito7**: dígito da Data da notificação, em Dados Gerais. página=0, x=535.33, y=143.33, field_group=group_001 (data_notificacao). Correção: Y 142.67 → 143.33.
+- **3data_digito8**: dígito da Data da notificação, em Dados Gerais. página=0, x=552.67, y=143.33, field_group=group_001 (data_notificacao). Correção: sem alteração de coordenada.
+- **4UF_primeira_letra**: letra da UF de notificação, em Dados Gerais. página=0, x=60.67, y=165.0, field_group=group_002 (uf_notificacao). Correção: Y 164.67 → 165.0.
+- **4UF_segunda_letra**: letra da UF de notificação, em Dados Gerais. página=0, x=73.33, y=165.0, field_group=group_002 (uf_notificacao). Correção: Y 165.33 → 165.0.
+- **municipio_primeiraLETRA**: delimitador do campo Município de notificação. página=0, x=106.0, y=165.0, field_group=group_003 (municipio_notificacao). Correção: Y 166.67 → 165.0.
+- **municipio_segundaLETRA**: delimitador do campo Município de notificação. página=0, x=396.67, y=165.0, field_group=group_003 (municipio_notificacao). Correção: Y 163.33 → 165.0.
+- **IBGE-dig1**: dígito do Código IBGE do município de notificação. página=0, x=482.0, y=162.67, field_group=group_004 (ibge_municipio_notificacao). Correção: Y 161.33 → 162.67.
+- **IBGE-dig2**: dígito do Código IBGE do município de notificação. página=0, x=497.33, y=162.67, field_group=group_004 (ibge_municipio_notificacao). Correção: Y 160.0 → 162.67.
+- **IBGE-dig3**: dígito do Código IBGE do município de notificação. página=0, x=510.67, y=162.67, field_group=group_004 (ibge_municipio_notificacao). Correção: sem alteração de coordenada.
+- **IBGE-dig4**: dígito do Código IBGE do município de notificação. página=0, x=527.33, y=162.67, field_group=group_004 (ibge_municipio_notificacao). Correção: sem alteração de coordenada.
+- **IBGE-dig5**: dígito do Código IBGE do município de notificação. página=0, x=540.0, y=162.67, field_group=group_004 (ibge_municipio_notificacao). Correção: Y 164.0 → 162.67.
+- **IBGE-dig6**: dígito do Código IBGE do município de notificação. página=0, x=554.67, y=162.67, field_group=group_004 (ibge_municipio_notificacao). Correção: Y 163.33 → 162.67.
+- **6_checkbox_unidade**: ponto de preenchimento mapeado na ficha de violência; revisar visualmente se necessário. página=0, x=150.67, y=176.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **nome_da_unidade_primeira_letra**: delimitador do campo Nome da Unidade Notificadora. página=0, x=79.33, y=207.0, field_group=group_005 (nome_unidade_notificadora). Correção: Y 207.33 → 207.0.
+- **nome_da_unidade_ultima_letra**: delimitador do campo Nome da Unidade Notificadora. página=0, x=308.67, y=207.0, field_group=group_005 (nome_unidade_notificadora). Correção: Y 206.67 → 207.0.
+- **codigo_unidade_primeira_letra**: delimitador do campo Código Unidade, na Unidade Notificadora. página=0, x=344.67, y=204.67, field_group=group_006 (codigo_unidade_notificadora). Correção: sem alteração de coordenada.
+- **codigo_unidade_ultima_letra**: delimitador do campo Código Unidade, na Unidade Notificadora. página=0, x=420.67, y=204.67, field_group=group_006 (codigo_unidade_notificadora). Correção: sem alteração de coordenada.
+- **unidade_de_saude_primeira_letra**: delimitador do campo Unidade de Saúde. página=0, x=138.67, y=223.0, field_group=group_007 (unidade_de_saude). Correção: Y 222.0 → 223.0.
+- **unidade_de_saude_ultima_letra**: delimitador do campo Unidade de Saúde. página=0, x=305.33, y=223.0, field_group=group_007 (unidade_de_saude). Correção: Y 224.0 → 223.0.
+- **cnes_dig1**: dígito do Código CNES da unidade de saúde. página=0, x=340.0, y=226.0, field_group=group_008 (cnes_unidade_saude). Correção: Y 224.0 → 226.0.
+- **cnes_dig2**: dígito do Código CNES da unidade de saúde. página=0, x=353.33, y=226.0, field_group=group_008 (cnes_unidade_saude). Correção: Y 224.0 → 226.0.
+- **cnes_dig3**: dígito do Código CNES da unidade de saúde. página=0, x=368.67, y=226.0, field_group=group_008 (cnes_unidade_saude). Correção: Y 225.33 → 226.0.
+- **cnes_dig4**: dígito do Código CNES da unidade de saúde. página=0, x=382.67, y=226.0, field_group=group_008 (cnes_unidade_saude). Correção: sem alteração de coordenada.
+- **cnes_dig5**: dígito do Código CNES da unidade de saúde. página=0, x=398.67, y=226.0, field_group=group_008 (cnes_unidade_saude). Correção: sem alteração de coordenada.
+- **cnes_dig6**: dígito do Código CNES da unidade de saúde. página=0, x=414.67, y=226.0, field_group=group_008 (cnes_unidade_saude). Correção: Y 226.67 → 226.0.
+- **cnes_dig7**: dígito do Código CNES da unidade de saúde. página=0, x=427.33, y=226.0, field_group=group_008 (cnes_unidade_saude). Correção: sem alteração de coordenada.
+- **dig1_data_violence**: dígito da Data da ocorrência da violência. página=0, x=446.67, y=215.67, field_group=group_009 (data_ocorrencia_violencia). Correção: Y 212.0 → 215.67.
+- **dig2_data_violence**: dígito da Data da ocorrência da violência. página=0, x=463.33, y=215.67, field_group=group_009 (data_ocorrencia_violencia). Correção: Y 212.67 → 215.67.
+- **dig3_data_violence**: dígito da Data da ocorrência da violência. página=0, x=477.33, y=215.67, field_group=group_009 (data_ocorrencia_violencia). Correção: Y 212.0 → 215.67.
+- **dig4_data_violence**: dígito da Data da ocorrência da violência. página=0, x=491.33, y=215.67, field_group=group_009 (data_ocorrencia_violencia). Correção: Y 216.0 → 215.67.
+- **dig5_data_violence**: dígito da Data da ocorrência da violência. página=0, x=505.33, y=215.67, field_group=group_009 (data_ocorrencia_violencia). Correção: Y 215.33 → 215.67.
+- **dig6_data_violence**: dígito da Data da ocorrência da violência. página=0, x=518.67, y=215.67, field_group=group_009 (data_ocorrencia_violencia). Correção: Y 218.67 → 215.67.
+- **dig7_data_violence**: dígito da Data da ocorrência da violência. página=0, x=534.67, y=215.67, field_group=group_009 (data_ocorrencia_violencia). Correção: Y 218.67 → 215.67.
+- **dig8_data_violence**: dígito da Data da ocorrência da violência. página=0, x=548.67, y=215.67, field_group=group_009 (data_ocorrencia_violencia). Correção: Y 220.0 → 215.67.
+- **nome_paciente_primeiraLETRA**: delimitador do campo Nome do paciente. página=0, x=136.67, y=245.33, field_group=group_010 (nome_paciente). Correção: Y 247.33 → 245.33.
+- **nome_paciente_ultima_letra**: delimitador do campo Nome do paciente. página=0, x=422.0, y=245.33, field_group=group_010 (nome_paciente). Correção: Y 243.33 → 245.33.
+- **nascimento_dig1**: dígito da Data de nascimento. página=0, x=450.67, y=246.67, field_group=group_011 (data_nascimento). Correção: sem alteração de coordenada.
+- **nascimento_dig2**: dígito da Data de nascimento. página=0, x=466.0, y=246.67, field_group=group_011 (data_nascimento). Correção: sem alteração de coordenada.
+- **nascimento_dig3**: dígito da Data de nascimento. página=0, x=480.67, y=246.67, field_group=group_011 (data_nascimento). Correção: sem alteração de coordenada.
+- **nascimento_dig4**: dígito da Data de nascimento. página=0, x=494.0, y=246.67, field_group=group_011 (data_nascimento). Correção: sem alteração de coordenada.
+- **nascimento_dig5**: dígito da Data de nascimento. página=0, x=510.0, y=246.67, field_group=group_011 (data_nascimento). Correção: Y 248.67 → 246.67.
+- **nascimento_dig6**: dígito da Data de nascimento. página=0, x=524.0, y=246.67, field_group=group_011 (data_nascimento). Correção: Y 248.0 → 246.67.
+- **nascimento_dig7**: dígito da Data de nascimento. página=0, x=540.0, y=246.67, field_group=group_011 (data_nascimento). Correção: sem alteração de coordenada.
+- **nascimento_dig8**: dígito da Data de nascimento. página=0, x=555.33, y=246.67, field_group=group_011 (data_nascimento). Correção: Y 247.33 → 246.67.
+- **checkbox_sexo**: marcação/código do campo Sexo. página=0, x=236.67, y=265.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_gestante**: marcação/código do campo Gestante. página=0, x=422.0, y=265.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_racial**: marcação/código do campo Raça/Cor. página=0, x=554.67, y=265.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_escolaridade**: marcação/código do campo Escolaridade. página=0, x=556.0, y=294.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **cartaoSUS-dig1**: dígito do Número do Cartão SUS. página=0, x=58.67, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 336.0 → 338.67.
+- **cartaoSUS-dig2**: dígito do Número do Cartão SUS. página=0, x=68.67, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 336.0 → 338.67.
+- **cartaoSUS-dig3**: dígito do Número do Cartão SUS. página=0, x=80.67, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 336.67 → 338.67.
+- **cartaoSUS-dig4**: dígito do Número do Cartão SUS. página=0, x=92.67, y=338.67, field_group=group_012 (cartao_sus). Correção: sem alteração de coordenada.
+- **cartaoSUS-dig5**: dígito do Número do Cartão SUS. página=0, x=104.67, y=338.67, field_group=group_012 (cartao_sus). Correção: sem alteração de coordenada.
+- **cartaoSUS-dig6**: dígito do Número do Cartão SUS. página=0, x=114.67, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 338.0 → 338.67.
+- **cartaoSUS-dig7**: dígito do Número do Cartão SUS. página=0, x=128.0, y=338.67, field_group=group_012 (cartao_sus). Correção: sem alteração de coordenada.
+- **cartaoSUS-dig8**: dígito do Número do Cartão SUS. página=0, x=139.33, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 340.0 → 338.67.
+- **cartaoSUS-dig9**: dígito do Número do Cartão SUS. página=0, x=152.0, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 340.0 → 338.67.
+- **cartaoSUS-dig10**: dígito do Número do Cartão SUS. página=0, x=162.67, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 339.33 → 338.67.
+- **cartaoSUS-dig11**: dígito do Número do Cartão SUS. página=0, x=174.0, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 339.33 → 338.67.
+- **cartaoSUS-dig12**: dígito do Número do Cartão SUS. página=0, x=187.33, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 338.0 → 338.67.
+- **cartaoSUS-dig13**: dígito do Número do Cartão SUS. página=0, x=198.0, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 340.0 → 338.67.
+- **cartaoSUS-dig14**: dígito do Número do Cartão SUS. página=0, x=210.0, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 339.33 → 338.67.
+- **cartaoSUS-dig15**: dígito do Número do Cartão SUS. página=0, x=222.67, y=338.67, field_group=group_012 (cartao_sus). Correção: Y 340.0 → 338.67.
+- **nome_da_mae_letraINICIAL**: delimitador do campo Nome da mãe. página=0, x=320.0, y=331.33, field_group=group_013 (nome_mae). Correção: sem alteração de coordenada.
+- **nome_da_mae_letraFINAL**: delimitador do campo Nome da mãe. página=0, x=530.0, y=331.33, field_group=group_013 (nome_mae). Correção: sem alteração de coordenada.
+- **UF_res1**: letra da UF de residência. página=0, x=59.33, y=368.0, field_group=group_014 (uf_residencia). Correção: Y 367.33 → 368.0.
+- **UF_res2**: letra da UF de residência. página=0, x=75.33, y=368.0, field_group=group_014 (uf_residencia). Correção: Y 368.67 → 368.0.
+- **municipio_moradia_letraINI**: delimitador do campo Município de residência. página=0, x=138.0, y=364.66, field_group=group_015 (municipio_residencia). Correção: Y 365.33 → 364.66.
+- **municipio_moradial_letraFINAL**: delimitador do campo Município de residência. página=0, x=305.33, y=364.66, field_group=group_015 (municipio_residencia). Correção: Y 364.0 → 364.66.
+- **ibge_mor_dig1**: dígito do Código IBGE do município de residência. página=0, x=332.67, y=369.0, field_group=group_016 (ibge_residencia). Correção: Y 366.67 → 369.0.
+- **ibge_mor_dig2**: dígito do Código IBGE do município de residência. página=0, x=345.33, y=369.0, field_group=group_016 (ibge_residencia). Correção: Y 367.33 → 369.0.
+- **ibge_mor_dig3**: dígito do Código IBGE do município de residência. página=0, x=359.33, y=369.0, field_group=group_016 (ibge_residencia). Correção: Y 368.67 → 369.0.
+- **ibge_mor_dig4**: dígito do Código IBGE do município de residência. página=0, x=376.0, y=369.0, field_group=group_016 (ibge_residencia). Correção: Y 369.33 → 369.0.
+- **ibge_mor_dig5**: dígito do Código IBGE do município de residência. página=0, x=390.67, y=369.0, field_group=group_016 (ibge_residencia). Correção: Y 369.33 → 369.0.
+- **ibge_mor_dig6**: dígito do Código IBGE do município de residência. página=0, x=405.33, y=369.0, field_group=group_016 (ibge_residencia). Correção: Y 369.33 → 369.0.
+- **distrito_letraINI**: delimitador do campo Distrito de residência. página=0, x=482.67, y=365.0, field_group=group_017 (distrito_residencia). Correção: Y 362.67 → 365.0.
+- **distrito_letraFINAL**: delimitador do campo Distrito de residência. página=0, x=550.67, y=365.0, field_group=group_017 (distrito_residencia). Correção: Y 367.33 → 365.0.
+- **bairro_letraINI**: delimitador do campo Bairro de residência. página=0, x=76.67, y=389.66, field_group=group_018 (bairro_residencia). Correção: Y 390.0 → 389.66.
+- **bairro_letraFINAL**: delimitador do campo Bairro de residência. página=0, x=180.0, y=389.66, field_group=group_018 (bairro_residencia). Correção: Y 389.33 → 389.66.
+- **endereco-letraINI**: delimitador do campo Logradouro de residência. página=0, x=224.67, y=391.0, field_group=group_019 (logradouro_residencia). Correção: Y 392.67 → 391.0.
+- **endereco-letraFINAL**: delimitador do campo Logradouro de residência. página=0, x=440.0, y=391.0, field_group=group_019 (logradouro_residencia). Correção: Y 389.33 → 391.0.
+- **numero_casa**: posição do campo Número da residência. página=0, x=70.0, y=415.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **complemento_letraINI**: delimitador do campo Complemento de residência. página=0, x=154.67, y=414.66, field_group=group_020 (complemento_residencia). Correção: Y 415.33 → 414.66.
+- **complemento_letraFINAL**: delimitador do campo Complemento de residência. página=0, x=362.0, y=414.66, field_group=group_020 (complemento_residencia). Correção: Y 414.0 → 414.66.
+- **referencia_letraINI**: delimitador do campo Ponto de Referência da residência. página=0, x=248.0, y=441.0, field_group=group_021 (referencia_residencia). Correção: Y 441.33 → 441.0.
+- **referencia_letraFINAL**: delimitador do campo Ponto de Referência da residência. página=0, x=405.33, y=441.0, field_group=group_021 (referencia_residencia). Correção: Y 440.67 → 441.0.
+- **cep-dig1**: dígito do CEP da residência. página=0, x=459.33, y=444.0, field_group=group_022 (cep_residencia). Correção: Y 442.67 → 444.0.
+- **cep-dig2**: dígito do CEP da residência. página=0, x=476.0, y=444.0, field_group=group_022 (cep_residencia). Correção: Y 445.33 → 444.0.
+- **cep-dig3**: dígito do CEP da residência. página=0, x=489.33, y=444.0, field_group=group_022 (cep_residencia). Correção: Y 445.33 → 444.0.
+- **cep-dig4**: dígito do CEP da residência. página=0, x=504.67, y=444.0, field_group=group_022 (cep_residencia). Correção: Y 445.33 → 444.0.
+- **cep-dig5**: dígito do CEP da residência. página=0, x=519.33, y=444.0, field_group=group_022 (cep_residencia). Correção: Y 443.33 → 444.0.
+- **cep-dig6**: dígito do CEP da residência. página=0, x=532.0, y=444.0, field_group=group_022 (cep_residencia). Correção: Y 443.33 → 444.0.
+- **cep-dig7**: dígito do CEP da residência. página=0, x=546.0, y=444.0, field_group=group_022 (cep_residencia). Correção: Y 444.67 → 444.0.
+- **cep-dig8**: dígito do CEP da residência. página=0, x=557.33, y=444.0, field_group=group_022 (cep_residencia). Correção: Y 443.33 → 444.0.
+- **tel-dig1**: dígito do Telefone da residência. página=0, x=60.0, y=468.0, field_group=group_023 (telefone_residencia). Correção: Y 466.67 → 468.0.
+- **tel-dig2**: dígito do Telefone da residência. página=0, x=77.33, y=468.0, field_group=group_023 (telefone_residencia). Correção: Y 466.67 → 468.0.
+- **tel-dig3**: dígito do Telefone da residência. página=0, x=89.33, y=468.0, field_group=group_023 (telefone_residencia). Correção: Y 466.67 → 468.0.
+- **tel-dig4**: dígito do Telefone da residência. página=0, x=102.0, y=468.0, field_group=group_023 (telefone_residencia). Correção: sem alteração de coordenada.
+- **tel-dig5**: dígito do Telefone da residência. página=0, x=118.0, y=468.0, field_group=group_023 (telefone_residencia). Correção: sem alteração de coordenada.
+- **tel-dig6**: dígito do Telefone da residência. página=0, x=132.0, y=468.0, field_group=group_023 (telefone_residencia). Correção: Y 471.33 → 468.0.
+- **tel-dig7**: dígito do Telefone da residência. página=0, x=148.0, y=468.0, field_group=group_023 (telefone_residencia). Correção: Y 469.33 → 468.0.
+- **tel-dig8**: dígito do Telefone da residência. página=0, x=164.0, y=468.0, field_group=group_023 (telefone_residencia). Correção: Y 469.33 → 468.0.
+- **tel-dig9**: dígito do Telefone da residência. página=0, x=179.33, y=468.0, field_group=group_023 (telefone_residencia). Correção: Y 469.33 → 468.0.
+- **tel-dig10**: dígito do Telefone da residência. página=0, x=192.67, y=468.0, field_group=group_023 (telefone_residencia). Correção: sem alteração de coordenada.
+- **check_box_zona_moradia**: marcação/código do campo Zona de residência. página=0, x=338.67, y=458.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **nome_social_letraINI**: delimitador do campo Nome Social. página=0, x=99.33, y=509.66, field_group=group_024 (nome_social). Correção: Y 511.33 → 509.66.
+- **nome_social_letraFINAL**: delimitador do campo Nome Social. página=0, x=309.33, y=509.66, field_group=group_024 (nome_social). Correção: Y 508.0 → 509.66.
+- **profissao_letraINI**: delimitador do campo Ocupação. página=0, x=391.33, y=510.0, field_group=group_025 (ocupacao). Correção: sem alteração de coordenada.
+- **profissao_letraFINAL**: delimitador do campo Ocupação. página=0, x=530.67, y=510.0, field_group=group_025 (ocupacao). Correção: sem alteração de coordenada.
+- **estadocivil_checkbox**: marcação/código do campo Situação conjugal / Estado civil. página=0, x=555.33, y=532.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **orientacaoSEX_checkbox**: marcação/código do campo Orientação Sexual. página=0, x=295.0, y=560.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **identidade_de_genero_checkbox**: marcação/código do campo Identidade de gênero. página=0, x=552.67, y=563.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_deficienciaOUtranstorno**: marcação/código do campo Possui algum tipo de deficiência/transtorno. página=0, x=172.67, y=595.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **se_deficiente_fisico_checkbox**: marcação ou texto complementar do tipo de deficiência/transtorno. página=0, x=198.67, y=602.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-deficiente-intelectual_checkbox**: marcação ou texto complementar do tipo de deficiência/transtorno. página=0, x=199.33, y=615.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-deficiente-visual-checkbox**: marcação ou texto complementar do tipo de deficiência/transtorno. página=0, x=298.0, y=602.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-deficiente-auditivo-checkbox**: marcação ou texto complementar do tipo de deficiência/transtorno. página=0, x=296.0, y=614.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-transtorno-mental-checkbox**: marcação ou texto complementar do tipo de deficiência/transtorno. página=0, x=392.67, y=604.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-transtorno-comportamental-checkbox**: marcação ou texto complementar do tipo de deficiência/transtorno. página=0, x=392.67, y=617.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-outro-checkbox**: ponto de preenchimento mapeado na ficha de violência; revisar visualmente se necessário. página=0, x=478.0, y=605.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-outro-espaço escrita**: marcação ou texto complementar do tipo de deficiência/transtorno. página=0, x=514.0, y=605.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **uf-ocorrencia1**: letra da UF de ocorrência. página=0, x=60.0, y=648.66, field_group=group_026 (uf_ocorrencia). Correção: Y 648.0 → 648.66.
+- **uf-ocorrencia2**: letra da UF de ocorrência. página=0, x=77.33, y=648.66, field_group=group_026 (uf_ocorrencia). Correção: Y 649.33 → 648.66.
+- **letra-inicial-ocorrencia**: delimitador do campo Município de ocorrência. página=0, x=166.67, y=645.67, field_group=group_027 (municipio_ocorrencia). Correção: Y 646.67 → 645.67.
+- **letra-final-ocorrencia**: delimitador do campo Município de ocorrência. página=0, x=290.67, y=645.67, field_group=group_027 (municipio_ocorrencia). Correção: Y 644.67 → 645.67.
+- **ocorrencia-ibge-dig1**: dígito do Código IBGE do município de ocorrência. página=0, x=331.33, y=648.66, field_group=group_028 (ibge_ocorrencia). Correção: Y 646.67 → 648.66.
+- **ocorrencia-ibge-dig2**: dígito do Código IBGE do município de ocorrência. página=0, x=346.67, y=648.66, field_group=group_028 (ibge_ocorrencia). Correção: Y 646.0 → 648.66.
+- **ocorrencia-ibge-dig3**: dígito do Código IBGE do município de ocorrência. página=0, x=361.33, y=648.66, field_group=group_028 (ibge_ocorrencia). Correção: Y 648.0 → 648.66.
+- **ocorrencia-ibge-dig4**: dígito do Código IBGE do município de ocorrência. página=0, x=376.0, y=648.66, field_group=group_028 (ibge_ocorrencia). Correção: Y 649.33 → 648.66.
+- **ocorrencia-ibge-dig5**: dígito do Código IBGE do município de ocorrência. página=0, x=392.67, y=648.66, field_group=group_028 (ibge_ocorrencia). Correção: Y 650.0 → 648.66.
+- **ocorrencia-ibge-dig6**: dígito do Código IBGE do município de ocorrência. página=0, x=404.0, y=648.66, field_group=group_028 (ibge_ocorrencia). Correção: Y 649.33 → 648.66.
+- **bairro-ocorrencia-letraINI**: delimitador do campo Bairro de ocorrência. página=0, x=70.0, y=670.67, field_group=group_029 (bairro_ocorrencia). Correção: sem alteração de coordenada.
+- **bairro-ocorrencia-letraFINAL**: delimitador do campo Bairro de ocorrência. página=0, x=174.0, y=670.67, field_group=group_029 (bairro_ocorrencia). Correção: sem alteração de coordenada.
+- **enderec_ocorrencia-ini**: delimitador do campo Logradouro de ocorrência. página=0, x=218.0, y=669.66, field_group=group_030 (logradouro_ocorrencia). Correção: Y 671.33 → 669.66.
+- **endereco-ocorrenciaFIM**: delimitador do campo Logradouro de residência. página=0, x=414.0, y=669.66, field_group=group_030 (logradouro_ocorrencia). Correção: Y 668.0 → 669.66.
+- **numero-ocorrencia**: posição do campo Número do local de ocorrência. página=0, x=69.33, y=698.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **complemento-ocorrencia**: delimitador do campo Complemento da ocorrência. página=0, x=144.0, y=695.66, field_group=group_031 (complemento_ocorrencia). Correção: Y 698.0 → 695.66.
+- **complemento-ocorrencia-final**: delimitador do campo Complemento da ocorrência. página=0, x=270.67, y=695.66, field_group=group_031 (complemento_ocorrencia). Correção: Y 693.33 → 695.66.
+- **referencia-ocorrenciaINI**: delimitador do campo Ponto de Referência da ocorrência. página=0, x=82.0, y=721.66, field_group=group_032 (referencia_ocorrencia). Correção: Y 722.0 → 721.66.
+- **ocorrencia-referencia-FIM**: delimitador do campo Ponto de Referência da ocorrência. página=0, x=200.67, y=721.66, field_group=group_032 (referencia_ocorrencia). Correção: Y 721.33 → 721.66.
+- **zona-ocorrencia-checkbox**: marcação/código do campo Zona da ocorrência. página=0, x=337.33, y=710.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **hora-ocorrencia-dig1**: dígito do horário da ocorrência. página=0, x=494.67, y=721.0, field_group=group_033 (hora_ocorrencia). Correção: Y 721.33 → 721.0.
+- **hora-ocorrencia-dig2**: dígito do horário da ocorrência. página=0, x=510.67, y=721.0, field_group=group_033 (hora_ocorrencia). Correção: Y 720.0 → 721.0.
+- **minuto-ocorrencia-dig1**: dígito do horário da ocorrência. página=0, x=523.33, y=721.0, field_group=group_033 (hora_ocorrencia). Correção: Y 720.67 → 721.0.
+- **minuto-ocorrencia-dig2**: dígito do horário da ocorrência. página=0, x=535.33, y=721.0, field_group=group_033 (hora_ocorrencia). Correção: Y 723.33 → 721.0.
+- **local-ocorrencia-checkbox1**: dígito/código do campo Local de ocorrência. página=0, x=386.0, y=735.67, field_group=group_034 (local_ocorrencia_codigo). Correção: Y 734.67 → 735.67.
+- **local-ocorrencia-checkbox2**: dígito/código do campo Local de ocorrência. página=0, x=398.67, y=735.67, field_group=group_034 (local_ocorrencia_codigo). Correção: Y 736.67 → 735.67.
+- **local-ocorrencia-se-outros**: delimitador do texto complementar quando Local de ocorrência = Outro. página=0, x=322.0, y=756.34, field_group=group_035 (local_ocorrencia_outro_texto). Correção: Y 756.67 → 756.34.
+- **local-ocorrencia-se-outros-final**: delimitador do texto complementar quando Local de ocorrência = Outro. página=0, x=397.33, y=756.34, field_group=group_035 (local_ocorrencia_outro_texto). Correção: Y 756.0 → 756.34.
+- **checkbox-vezes**: marcação/código do campo Ocorreu outras vezes?. página=0, x=555.33, y=733.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-lesao-autoprovocada**: marcação/código do campo A lesão foi autoprovocada?. página=0, x=556.67, y=760.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **motivo-ocorrencia-checkbox1**: dígito/código do campo Motivação da violência. página=1, x=549.33, y=57.34, field_group=group_036 (motivacao_violencia_codigo). Correção: Y 56.67 → 57.34.
+- **motivo-ocorrencia-checkbox2**: dígito/código do campo Motivação da violência. página=1, x=561.33, y=57.34, field_group=group_036 (motivacao_violencia_codigo). Correção: Y 58.0 → 57.34.
+- **check-box-tipo-de-viol-fisica**: marcação do campo Tipo de violência. página=1, x=74.0, y=88.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-tipo-de-viol-psicologica**: marcação do campo Tipo de violência. página=1, x=72.67, y=103.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-tipo-de-viol-tortura**: marcação do campo Tipo de violência. página=1, x=72.0, y=117.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-tipo-de-viol-sex**: marcação do campo Tipo de violência. página=1, x=73.33, y=129.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-tipo-de-viol-trafico-humano**: marcação do campo Tipo de violência. página=1, x=158.67, y=88.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-tipo-de-viol-financeira**: marcação do campo Tipo de violência. página=1, x=157.33, y=104.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-tipo-de-viol-negligencia**: marcação do campo Tipo de violência. página=1, x=159.33, y=118.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-tipo-de-viol-trabalhoINFANTIL**: marcação do campo Tipo de violência. página=1, x=158.67, y=128.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-tipo-de-viol-intervencaoLEGAL**: marcação do campo Tipo de violência. página=1, x=260.0, y=102.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-tipo-de-viol-outros**: marcação do campo Tipo de violência. página=1, x=262.67, y=116.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-tipo-outros-letraINI**: delimitador do texto complementar para Tipo de violência = Outros. página=1, x=273.33, y=126.66, field_group=group_037 (tipo_violencia_outros_texto). Correção: Y 127.33 → 126.66.
+- **se-tipo-outros-letraFINAL**: delimitador do texto complementar para Tipo de violência = Outros. página=1, x=331.33, y=126.66, field_group=group_037 (tipo_violencia_outros_texto). Correção: Y 126.0 → 126.66.
+- **checkbox_meio-agressao_corpo**: marcação do campo Meio de agressão. página=1, x=350.67, y=97.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_meio-agressao_enforcamento**: marcação do campo Meio de agressão. página=1, x=350.67, y=113.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_meio-agressao_objetoCONTUSO**: marcação do campo Meio de agressão. página=1, x=351.33, y=128.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_meio-agressao_obj_perfurante**: marcação do campo Meio de agressão. página=1, x=426.67, y=92.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_meio-agressao_quimico**: marcação do campo Meio de agressão. página=1, x=426.67, y=110.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_meio-agressao_envenenamento**: marcação do campo Meio de agressão. página=1, x=428.0, y=125.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_meio-agressao_armaDEfogo**: marcação do campo Meio de agressão. página=1, x=499.33, y=96.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_meio-agressao_ameaca**: marcação do campo Meio de agressão. página=1, x=499.33, y=108.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_meio-agressao_outro**: marcação do campo Meio de agressão. página=1, x=502.0, y=122.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-outro_letraINI**: delimitador do texto complementar para Meio de agressão = Outro. página=1, x=533.33, y=121.0, field_group=group_038 (meio_agressao_outro_texto). Correção: Y 121.33 → 121.0.
+- **se-outro_letraFINAL**: delimitador do texto complementar para Meio de agressão = Outro. página=1, x=572.0, y=121.0, field_group=group_038 (meio_agressao_outro_texto). Correção: Y 120.67 → 121.0.
+- **checkbox_sexual_assedio**: marcação do campo Tipo de violência sexual. página=1, x=71.33, y=156.00, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_sexual_estupro**: marcação do campo Tipo de violência sexual. página=1, x=159.33, y=156.00, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_sexual_infantil**: marcação do campo Tipo de violência sexual. página=1, x=234.67, y=155.00, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_sexual_exploracao**: marcação/código do campo Raça/Cor. página=1, x=342.67, y=155.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox_sexual_outros**: marcação do campo Tipo de violência sexual. página=1, x=443.33, y=154.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **seOUTROs_letraINI**: delimitador do texto complementar para Violência sexual = Outros. página=1, x=482.67, y=154.67, field_group=group_039 (violencia_sexual_outros_texto). Correção: sem alteração de coordenada.
+- **seOUTROs_letraFIM**: delimitador do texto complementar para Violência sexual = Outros. página=1, x=558.0, y=154.67, field_group=group_039 (violencia_sexual_outros_texto). Correção: sem alteração de coordenada.
+- **se-sexual-procedimento-profilaxia-DST**: marcação do campo Procedimento realizado em caso de violência sexual. página=1, x=73.67, y=190.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-sexual-procedimento-profilaxia-HIV**: marcação do campo Procedimento realizado em caso de violência sexual. página=1, x=70.0, y=202.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-sexual-procedimento-profilaxia-HBV**: marcação do campo Procedimento realizado em caso de violência sexual. página=1, x=160.0, y=191.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-sexual-procedimento-profilaxia-COLETASANG**: marcação do campo Procedimento realizado em caso de violência sexual. página=1, x=158.0, y=202.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-sexual-procedimento-COLETASEMEN**: marcação do campo Procedimento realizado em caso de violência sexual. página=1, x=270.67, y=190.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-sexual-procedimento-COLETAVAG**: marcação do campo Procedimento realizado em caso de violência sexual. página=1, x=269.33, y=203.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-sexual-procedimento-profilaxia-CONTRACEPCAO**: marcação do campo Procedimento realizado em caso de violência sexual. página=1, x=412.67, y=190.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-sexual-procedimento-ABORTO**: marcação do campo Procedimento realizado em caso de violência sexual. página=1, x=411.33, y=202.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-numero-de-pessoas**: marcação/código do campo Número de envolvidos. página=1, x=98.0, y=240.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-pai**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=122.0, y=233.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-mae**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=122.67, y=248.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-padrasto**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=121.33, y=259.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-madrasta**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=122.67, y=272.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-conjuge**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=120.0, y=282.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-ex-conjuge**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=177.33, y=233.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-namorado**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=177.33, y=248.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-ex-namorado**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=176.0, y=260.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-filho**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=175.33, y=272.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-irmao**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=176.0, y=284.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-desconhecidos**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=256.0, y=248.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-cuidador**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=256.67, y=262.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-patrao**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=256.0, y=272.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-pessoa_comRELACAO_institucional**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=254.0, y=284.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-agente-da-lei**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=343.33, y=236.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-PROPRIO**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=342.0, y=260.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **check-box-vinculo-OUTROS**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=344.0, y=272.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-outros-letraINICIAL**: ponto de preenchimento mapeado na ficha de violência; revisar visualmente se necessário. página=1, x=378.67, y=270.66, field_group=group_040 (vinculo_autor_outros_texto). Correção: Y 270.0 → 270.66.
+- **se_outros_letraFINAL**: ponto de preenchimento mapeado na ficha de violência; revisar visualmente se necessário. página=1, x=410.0, y=270.66, field_group=group_040 (vinculo_autor_outros_texto). Correção: Y 271.33 → 270.66.
+- **check-box-vinculo-amigosOUconhecidos**: marcação ou texto complementar do Vínculo/grau de parentesco com a pessoa atendida. página=1, x=252.67, y=233.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-autor-da-viol**: marcação/código do Sexo do provável autor da violência. página=1, x=486.0, y=243.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-se-autor-usouALCOOL**: marcação/código de Suspeita de uso de álcool pelo autor. página=1, x=554.67, y=241.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **idade-do-autor-checkbox**: marcação/código do ciclo de vida/idade do provável autor. página=1, x=236.67, y=305.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-rede-de-saude**: marcação do campo Encaminhamento. página=1, x=56.0, y=364.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-rede-social**: marcação do campo Encaminhamento. página=1, x=56.0, y=379.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-rede-educacao**: marcação do campo Encaminhamento. página=1, x=56.0, y=393.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-rede-mulher**: marcação do campo Encaminhamento. página=1, x=56.0, y=407.33, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-rede-tutelar**: marcação do campo Encaminhamento. página=1, x=56.0, y=422.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-rede-do-idoso**: marcação do campo Encaminhamento. página=1, x=290.0, y=364.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-delegaciaIDOSO**: marcação do campo Encaminhamento. página=1, x=289.33, y=379.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-rede-de-direitoshumanos**: marcação do campo Encaminhamento. página=1, x=290.67, y=388.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-MP**: marcação do campo Encaminhamento. página=1, x=286.0, y=404.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-delegacia-infancia**: marcação do campo Encaminhamento. página=1, x=286.0, y=419.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-delegacia-mulher**: marcação do campo Encaminhamento. página=1, x=439.67, y=362.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-outras-delegacias**: marcação do campo Encaminhamento. página=1, x=436.67, y=378.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-justiça-da-infancia**: marcação do campo Encaminhamento. página=1, x=437.33, y=387.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-encaminhamento-defensoria-publica**: marcação do campo Encaminhamento. página=1, x=439.33, y=408.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **checkbox-viol-relacionadaAOtrabalho**: marcação/código do campo Violência relacionada ao trabalho. página=1, x=170.0, y=452.0, field_group=- (-). Correção: sem alteração de coordenada.
+- **se-violencia-do-trabalho-CAT-CHECKBOX**: marcação/código do campo CAT emitida. página=1, x=360.0, y=450.67, field_group=- (-). Correção: sem alteração de coordenada.
+- **CID10-CAPXX-dig1**: dígito do CID-10 Capítulo XX / Circunstância da lesão. página=1, x=510.67, y=470.0, field_group=group_041 (cid10_capitulo_xx). Correção: Y 469.33 → 470.0.
+- **CID10-CAPXX-dig2**: dígito do CID-10 Capítulo XX / Circunstância da lesão. página=1, x=528.0, y=470.0, field_group=group_041 (cid10_capitulo_xx). Correção: Y 470.67 → 470.0.
+- **CID10-CAPXX-dig3**: dígito do CID-10 Capítulo XX / Circunstância da lesão. página=1, x=541.33, y=470.0, field_group=group_041 (cid10_capitulo_xx). Correção: Y 470.67 → 470.0.
+- **CID10-CAPXX-dig4**: dígito do CID-10 Capítulo XX / Circunstância da lesão. página=1, x=553.33, y=470.0, field_group=group_041 (cid10_capitulo_xx). Correção: Y 468.67 → 470.0.
+- **data-encerramento-dig1**: dígito da Data de encerramento. página=1, x=59.33, y=509.66, field_group=group_042 (data_encerramento). Correção: Y 510.0 → 509.66.
+- **data-encerramento-dig2**: dígito da Data de encerramento. página=1, x=74.67, y=509.66, field_group=group_042 (data_encerramento). Correção: Y 510.67 → 509.66.
+- **data-encerramento-dig3**: dígito da Data de encerramento. página=1, x=87.33, y=509.66, field_group=group_042 (data_encerramento). Correção: Y 511.33 → 509.66.
+- **data-encerramento-dig4**: dígito da Data de encerramento. página=1, x=101.33, y=509.66, field_group=group_042 (data_encerramento). Correção: Y 509.33 → 509.66.
+- **data-encerramento-dig5**: dígito da Data de encerramento. página=1, x=114.67, y=509.66, field_group=group_042 (data_encerramento). Correção: Y 508.0 → 509.66.
+- **data-encerramento-dig6**: dígito da Data de encerramento. página=1, x=129.33, y=509.66, field_group=group_042 (data_encerramento). Correção: Y 508.0 → 509.66.
+- **data-encerramento-dig7**: dígito da Data de encerramento. página=1, x=144.67, y=509.66, field_group=group_042 (data_encerramento). Correção: Y 508.0 → 509.66.
+- **data-encerramento-dig8**: dígito da Data de encerramento. página=1, x=162.67, y=509.66, field_group=group_042 (data_encerramento). Correção: Y 511.33 → 509.66.
+- **nome-acompanhante-letraINICIAL**: delimitador do campo Nome do acompanhante. página=1, x=42.67, y=555.33, field_group=group_043 (nome_acompanhante). Correção: sem alteração de coordenada.
+- **nome-do-acompanhante-letraFINAL**: delimitador do campo Nome do acompanhante. página=1, x=207.33, y=555.33, field_group=group_043 (nome_acompanhante). Correção: sem alteração de coordenada.
+- **vinculo-acompanhante-letraINI**: delimitador do campo Vínculo/grau de parentesco do acompanhante. página=1, x=252.67, y=555.0, field_group=group_044 (vinculo_acompanhante). Correção: Y 554.67 → 555.0.
+- **vinculo-acompanhante-letraFINAL**: delimitador do campo Vínculo/grau de parentesco do acompanhante. página=1, x=394.0, y=555.0, field_group=group_044 (vinculo_acompanhante). Correção: Y 555.33 → 555.0.
+- **tel-acomp-dig1**: dígito do Telefone do acompanhante. página=1, x=424.67, y=555.66, field_group=group_045 (telefone_acompanhante). Correção: Y 554.67 → 555.66.
+- **tel-acomp-dig2**: dígito do Telefone do acompanhante. página=1, x=440.0, y=555.66, field_group=group_045 (telefone_acompanhante). Correção: Y 555.33 → 555.66.
+- **tel-acomp-dig3**: dígito do Telefone do acompanhante. página=1, x=453.33, y=555.66, field_group=group_045 (telefone_acompanhante). Correção: Y 554.67 → 555.66.
+- **tel-acomp-dig4**: dígito do Telefone do acompanhante. página=1, x=470.0, y=555.66, field_group=group_045 (telefone_acompanhante). Correção: Y 556.67 → 555.66.
+- **tel-acomp-dig5**: dígito do Telefone do acompanhante. página=1, x=484.67, y=555.66, field_group=group_045 (telefone_acompanhante). Correção: Y 556.67 → 555.66.
+- **tel-acomp-dig6**: dígito do Telefone do acompanhante. página=1, x=498.67, y=555.66, field_group=group_045 (telefone_acompanhante). Correção: Y 554.67 → 555.66.
+- **tel-acomp-dig7**: dígito do Telefone do acompanhante. página=1, x=514.0, y=555.66, field_group=group_045 (telefone_acompanhante). Correção: Y 555.33 → 555.66.
+- **tel-acomp-dig8**: dígito do Telefone do acompanhante. página=1, x=528.0, y=555.66, field_group=group_045 (telefone_acompanhante). Correção: Y 556.67 → 555.66.
+- **tel-acomp-dig9**: dígito do Telefone do acompanhante. página=1, x=543.33, y=555.66, field_group=group_045 (telefone_acompanhante). Correção: Y 556.67 → 555.66.
+- **tel-acomp-dig10**: dígito do Telefone do acompanhante. página=1, x=556.0, y=555.66, field_group=group_045 (telefone_acompanhante). Correção: Y 556.0 → 555.66.
+- **obs-linha1-letraINI**: delimitador de linha do campo Informações complementares e observações. página=1, x=66.0, y=581.34, field_group=group_046 (observacoes_linha_1). Correção: Y 582.0 → 581.34; X 66.67 → 66.0.
+- **obs-linha2-letraINI**: delimitador de linha do campo Informações complementares e observações. página=1, x=66.0, y=592.66, field_group=group_047 (observacoes_linha_2). Correção: Y 593.33 → 592.66.
+- **obs-linha3-letraINI**: delimitador de linha do campo Informações complementares e observações. página=1, x=66.0, y=604.34, field_group=group_048 (observacoes_linha_3). Correção: Y 604.67 → 604.34.
+- **obs-linha4-letraINI**: delimitador de linha do campo Informações complementares e observações. página=1, x=66.0, y=616.0, field_group=group_049 (observacoes_linha_4). Correção: sem alteração de coordenada.
+- **obs-linha5-letraINI**: delimitador de linha do campo Informações complementares e observações. página=1, x=66.0, y=628.0, field_group=group_050 (observacoes_linha_5). Correção: Y 627.33 → 628.0; X 66.67 → 66.0.
+- **obs-linha1-letraFINAL**: delimitador de linha do campo Informações complementares e observações. página=1, x=524.67, y=581.34, field_group=group_046 (observacoes_linha_1). Correção: Y 580.67 → 581.34.
+- **obs-linha2-letraFINAL**: delimitador de linha do campo Informações complementares e observações. página=1, x=524.67, y=592.66, field_group=group_047 (observacoes_linha_2). Correção: Y 592.0 → 592.66; X 524.0 → 524.67.
+- **obs-linha3-letraFINAL**: delimitador de linha do campo Informações complementares e observações. página=1, x=524.67, y=604.34, field_group=group_048 (observacoes_linha_3). Correção: Y 604.0 → 604.34; X 524.0 → 524.67.
+- **obs-linha4-letraFINAL**: delimitador de linha do campo Informações complementares e observações. página=1, x=524.67, y=616.0, field_group=group_049 (observacoes_linha_4). Correção: sem alteração de coordenada.
+- **obs-linha5-letraFINAL**: delimitador de linha do campo Informações complementares e observações. página=1, x=524.67, y=628.0, field_group=group_050 (observacoes_linha_5). Correção: Y 628.67 → 628.0; X 525.33 → 524.67.
+- **MUNICIPIO-unidade-saude-notificadora-letraINI**: delimitador do campo Município/Unidade de Saúde do notificador. página=1, x=80.0, y=699.0, field_group=group_051 (municipio_unidade_saude_notificador). Correção: Y 700.0 → 699.0.
+- **municipio-saude-unidade-notificadora-letraFIM**: ponto de preenchimento mapeado na ficha de violência; revisar visualmente se necessário. página=1, x=422.67, y=699.0, field_group=group_051 (municipio_unidade_saude_notificador). Correção: Y 698.0 → 699.0.
+- **cnes-notif-dig1**: dígito do Cód. da Unidade de Saúde/CNES do notificador. página=1, x=458.0, y=700.67, field_group=group_052 (cnes_notificador). Correção: Y 697.33 → 700.67.
+- **cnes-notif-dig2**: dígito do Cód. da Unidade de Saúde/CNES do notificador. página=1, x=473.33, y=700.67, field_group=group_052 (cnes_notificador). Correção: Y 699.33 → 700.67.
+- **cnes-notif-dig3**: dígito do Cód. da Unidade de Saúde/CNES do notificador. página=1, x=487.33, y=700.67, field_group=group_052 (cnes_notificador). Correção: Y 702.0 → 700.67.
+- **cnes-notif-dig4**: dígito do Cód. da Unidade de Saúde/CNES do notificador. página=1, x=502.0, y=700.67, field_group=group_052 (cnes_notificador). Correção: sem alteração de coordenada.
+- **cnes-notif-dig5**: dígito do Cód. da Unidade de Saúde/CNES do notificador. página=1, x=516.0, y=700.67, field_group=group_052 (cnes_notificador). Correção: sem alteração de coordenada.
+- **cnes-notif-dig6**: dígito do Cód. da Unidade de Saúde/CNES do notificador. página=1, x=529.33, y=700.67, field_group=group_052 (cnes_notificador). Correção: Y 701.33 → 700.67.
+- **cnes-notif-dig7**: dígito do Cód. da Unidade de Saúde/CNES do notificador. página=1, x=544.0, y=700.67, field_group=group_052 (cnes_notificador). Correção: sem alteração de coordenada.
+- **cnes-notif-dig8**: dígito do Cód. da Unidade de Saúde/CNES do notificador. página=1, x=559.33, y=700.67, field_group=group_052 (cnes_notificador). Correção: sem alteração de coordenada.
+- **nome-notificador-letra-INI**: delimitador do campo Nome do notificador. página=1, x=65.33, y=728.66, field_group=group_053 (nome_notificador). Correção: Y 730.0 → 728.66.
+- **nome-notificador-letraFINAL**: delimitador do campo Nome do notificador. página=1, x=224.0, y=728.66, field_group=group_053 (nome_notificador). Correção: Y 727.33 → 728.66.
+- **cargo-notificador-letra-inicial**: delimitador do campo Função/Cargo do notificador. página=1, x=272.0, y=726.0, field_group=group_054 (cargo_notificador). Correção: Y 727.33 → 726.0.
+- **cargo-notificador-letra-final**: delimitador do campo Função/Cargo do notificador. página=1, x=428.0, y=726.0, field_group=group_054 (cargo_notificador). Correção: Y 724.67 → 726.0.

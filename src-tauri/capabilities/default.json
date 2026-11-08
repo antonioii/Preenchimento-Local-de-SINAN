@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Permite a janela principal usar IPC local necessario para salvar PDFs.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}

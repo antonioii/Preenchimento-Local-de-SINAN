@@ -1,0 +1,280 @@
+:root {
+  color-scheme: light;
+  --bg: #f6f8fb;
+  --panel: #ffffff;
+  --border: #d0d5dd;
+  --text: #1f2937;
+  --muted: #667085;
+  --blue: #0b57d0;
+  --blue-dark: #0845a8;
+  --danger: #b42318;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 15px;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+
+.app-header,
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  color: #101828;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.form-selector,
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+label {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+select,
+input,
+textarea {
+  min-height: 36px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--text);
+  padding: 6px 9px;
+}
+
+textarea {
+  min-height: 92px;
+  resize: vertical;
+}
+
+button {
+  min-height: 38px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--text);
+  padding: 7px 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #98a2b3;
+}
+
+button.primary {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: #fff;
+  font-weight: 700;
+}
+
+button.primary:hover {
+  background: var(--blue-dark);
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tab {
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  color: #344054;
+  font-weight: 500;
+}
+
+.tab[aria-selected="true"] {
+  border-bottom-color: var(--blue);
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.panels {
+  min-height: 0;
+  flex: 1;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-top: 0;
+}
+
+.panel {
+  display: none;
+  height: calc(100vh - 178px);
+  overflow: auto;
+  padding: 16px;
+}
+
+.panel.active {
+  display: block;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: minmax(190px, 28%) minmax(240px, 1fr);
+  gap: 12px;
+  align-items: start;
+  padding: 5px 0;
+}
+
+.field-row.hidden {
+  display: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.field-row > label {
+  padding-top: 8px;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.field-row input,
+.field-row select,
+.field-row textarea {
+  width: 100%;
+}
+
+.field-row-pair {
+  grid-template-columns: minmax(190px, 28%) minmax(90px, 120px) minmax(120px, 160px) minmax(180px, 260px);
+  align-items: start;
+}
+
+.field-counter {
+  grid-column: 2;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.radio-group {
+  display: flex;
+  min-height: 36px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.radio-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text);
+  font-size: 13px;
+}
+
+.radio-option input {
+  width: auto;
+  min-height: 0;
+  margin: 0;
+}
+
+::placeholder {
+  color: #98a2b3;
+  font-style: italic;
+  opacity: 1;
+}
+
+.status {
+  min-height: 20px;
+  margin: 8px 0 0;
+  padding: 8px 10px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.status:empty {
+  padding: 0;
+  border: 0;
+}
+
+.status.busy {
+  border-color: #f59e0b;
+  background: #fffbeb;
+  color: #78350f;
+  font-weight: 700;
+}
+
+.status.success {
+  border-color: #16a34a;
+  background: #f0fdf4;
+  color: #166534;
+  font-weight: 700;
+}
+
+.status.error {
+  border-color: #dc2626;
+  background: #fef2f2;
+  color: #991b1b;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .app-header,
+  .toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .form-selector,
+  .actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .field-row,
+  .field-row-pair {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .field-counter {
+    grid-column: 1;
+  }
+
+  .panel {
+    height: calc(100vh - 300px);
+  }
+}

@@ -1,0 +1,2693 @@
+{
+  "project_name": "Intoxicacao_Exogena_Y_aligned_shifted_down_plus5",
+  "pdf_path": "templates/Intoxicacao_Exogena.pdf",
+  "created_at": "2026-05-27T16:27:05",
+  "updated_at": "2026-05-27T21:42:29",
+  "coordinate_system": "PyMuPDF PDF points",
+  "page_index_base": 0,
+  "points": {
+    "data_da_notificacao1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 449.33,
+      "y": 154.67
+    },
+    "data_da_notificacao2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 464.67,
+      "y": 154.67
+    },
+    "data_da_notificacao3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 478.0,
+      "y": 154.67
+    },
+    "data_da_notificacao4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 492.0,
+      "y": 154.67
+    },
+    "data_da_notificacao5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 507.33,
+      "y": 154.67
+    },
+    "data_da_notificacao6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 522.67,
+      "y": 154.67
+    },
+    "data_da_notificacao7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 536.67,
+      "y": 154.67
+    },
+    "data_da_notificacao8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 552.0,
+      "y": 154.67
+    },
+    "UF1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 59.33,
+      "y": 185.67
+    },
+    "UF2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 72.67,
+      "y": 185.67
+    },
+    "primeira_letra_municipio": {
+      "page": 0,
+      "page_label": 1,
+      "x": 118.67,
+      "y": 185.67
+    },
+    "ultima_letra_municipio": {
+      "page": 0,
+      "page_label": 1,
+      "x": 410.67,
+      "y": 185.67
+    },
+    "codigoIBGE_numero1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 484.0,
+      "y": 187.0
+    },
+    "codigoIBGE_numero2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 498.67,
+      "y": 187.0
+    },
+    "codigoIBGE_numero3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 512.67,
+      "y": 187.0
+    },
+    "codigoIBGE_numero4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 527.33,
+      "y": 187.0
+    },
+    "codigoIBGE_numero5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 540.67,
+      "y": 187.0
+    },
+    "codigoIBGE_numero6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 556.0,
+      "y": 187.0
+    },
+    "unidade_de_saude_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 81.33,
+      "y": 214.0
+    },
+    "unidade_de_saude_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 320.0,
+      "y": 214.0
+    },
+    "CNES_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 343.33,
+      "y": 214.67
+    },
+    "CNES_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 358.0,
+      "y": 214.67
+    },
+    "CNES_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 371.33,
+      "y": 214.67
+    },
+    "CNES_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 388.0,
+      "y": 214.67
+    },
+    "CNES_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 398.67,
+      "y": 214.67
+    },
+    "CNES_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 414.67,
+      "y": 214.67
+    },
+    "CNES_digito7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 430.67,
+      "y": 214.67
+    },
+    "data_sintomas_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 448.0,
+      "y": 214.67
+    },
+    "data_sintomas_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 465.33,
+      "y": 214.67
+    },
+    "data_sintomas_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 478.67,
+      "y": 214.67
+    },
+    "data_sintomas_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 493.33,
+      "y": 214.67
+    },
+    "data_sintomas_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 506.67,
+      "y": 214.67
+    },
+    "data_sintomas_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 520.0,
+      "y": 214.67
+    },
+    "data_sintomas_digito7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 534.0,
+      "y": 214.67
+    },
+    "data_sintomas_digito8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 553.33,
+      "y": 214.67
+    },
+    "nome_paciente_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 74.0,
+      "y": 243.33
+    },
+    "nome_do_paciente_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 422.67,
+      "y": 243.33
+    },
+    "data_nascimento_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 452.67,
+      "y": 243.33
+    },
+    "data_nascimento_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 467.33,
+      "y": 243.33
+    },
+    "data_nascimento_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 482.0,
+      "y": 243.33
+    },
+    "data_nascimento_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 497.33,
+      "y": 243.33
+    },
+    "data_nascimento_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 511.33,
+      "y": 243.33
+    },
+    "data_nascimento_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 524.67,
+      "y": 243.33
+    },
+    "data_nascimento_digito7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 539.17,
+      "y": 243.33
+    },
+    "data_nascimento_digito8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 557.33,
+      "y": 243.33
+    },
+    "sexo_(M,F,I)": {
+      "page": 0,
+      "page_label": 1,
+      "x": 236.0,
+      "y": 260.0
+    },
+    "codigo_gestante": {
+      "page": 0,
+      "page_label": 1,
+      "x": 430.67,
+      "y": 258.67
+    },
+    "codigo_cor": {
+      "page": 0,
+      "page_label": 1,
+      "x": 554.67,
+      "y": 260.0
+    },
+    "codigo escolaridade": {
+      "page": 0,
+      "page_label": 1,
+      "x": 554.67,
+      "y": 289.67
+    },
+    "cartao_sus_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 57.33,
+      "y": 335.33
+    },
+    "cartao_sus_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 70.67,
+      "y": 335.33
+    },
+    "cartao_sus_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 81.33,
+      "y": 335.33
+    },
+    "cartao_sus_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 92.0,
+      "y": 335.33
+    },
+    "cartao_sus_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 103.33,
+      "y": 335.33
+    },
+    "cartao_sus_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 114.67,
+      "y": 335.33
+    },
+    "cartao_sus_digito7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 126.67,
+      "y": 335.33
+    },
+    "cartao_sus_digito8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 136.67,
+      "y": 335.33
+    },
+    "cartao_sus_digito9": {
+      "page": 0,
+      "page_label": 1,
+      "x": 148.67,
+      "y": 335.33
+    },
+    "cartao_sus_digito10": {
+      "page": 0,
+      "page_label": 1,
+      "x": 160.67,
+      "y": 335.33
+    },
+    "cartao_sus_digito11": {
+      "page": 0,
+      "page_label": 1,
+      "x": 172.67,
+      "y": 335.33
+    },
+    "cartao_sus_digito12": {
+      "page": 0,
+      "page_label": 1,
+      "x": 182.67,
+      "y": 335.33
+    },
+    "cartao_sus_digito13": {
+      "page": 0,
+      "page_label": 1,
+      "x": 195.33,
+      "y": 335.33
+    },
+    "cartao_sus_digito14": {
+      "page": 0,
+      "page_label": 1,
+      "x": 206.67,
+      "y": 335.33
+    },
+    "cartao_sus_digito15": {
+      "page": 0,
+      "page_label": 1,
+      "x": 219.33,
+      "y": 335.33
+    },
+    "nome_da_mae_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 279.33,
+      "y": 330.33
+    },
+    "nome_da_mae_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 516.67,
+      "y": 330.33
+    },
+    "UF_residencia1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 58.67,
+      "y": 362.66
+    },
+    "UF_residencia2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 71.33,
+      "y": 362.66
+    },
+    "municipio_residencia_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 154.0,
+      "y": 363.0
+    },
+    "municipio_residencia_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 303.33,
+      "y": 363.0
+    },
+    "IBGE_residencia_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 331.33,
+      "y": 361.0
+    },
+    "IBGE_residencia_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 345.33,
+      "y": 361.0
+    },
+    "IBGE_residencia_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 359.33,
+      "y": 361.0
+    },
+    "IBGE_residencia_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 372.67,
+      "y": 361.0
+    },
+    "IBGE_residencia_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 389.33,
+      "y": 361.0
+    },
+    "IBGE_residencia_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 404.0,
+      "y": 361.0
+    },
+    "distrito_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 444.0,
+      "y": 362.0
+    },
+    "distrito_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 546.0,
+      "y": 362.0
+    },
+    "bairro_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 68.0,
+      "y": 385.67
+    },
+    "bairro_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 173.33,
+      "y": 385.67
+    },
+    "logradouro_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 212.0,
+      "y": 387.34
+    },
+    "logradouro_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 455.33,
+      "y": 387.34
+    },
+    "numero_da_rua": {
+      "page": 0,
+      "page_label": 1,
+      "x": 76.0,
+      "y": 411.33
+    },
+    "primeira_letra_complemento": {
+      "page": 0,
+      "page_label": 1,
+      "x": 182.67,
+      "y": 411.0
+    },
+    "ultima_letra_complemento": {
+      "page": 0,
+      "page_label": 1,
+      "x": 383.33,
+      "y": 411.0
+    },
+    "numero_geo_codigo_o_default_3304557": {
+      "page": 0,
+      "page_label": 1,
+      "x": 452.0,
+      "y": 413.33
+    },
+    "primeira_letra_campo_de_referencia_endereço": {
+      "page": 0,
+      "page_label": 1,
+      "x": 278.0,
+      "y": 437.0
+    },
+    "ultima_letra_campo_de_referencia_endereço": {
+      "page": 0,
+      "page_label": 1,
+      "x": 429.33,
+      "y": 437.0
+    },
+    "cep_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 460.0,
+      "y": 441.33
+    },
+    "cep_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 475.33,
+      "y": 441.33
+    },
+    "cep_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 489.33,
+      "y": 441.33
+    },
+    "cep_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 502.67,
+      "y": 441.33
+    },
+    "cep_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 517.33,
+      "y": 441.33
+    },
+    "cep_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 529.5,
+      "y": 441.33
+    },
+    "cep_digito7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 543.33,
+      "y": 441.33
+    },
+    "cep_digito8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 558.67,
+      "y": 441.33
+    },
+    "telefone_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 60.0,
+      "y": 465.33
+    },
+    "telefone_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 74.67,
+      "y": 465.33
+    },
+    "telefone_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 89.33,
+      "y": 465.33
+    },
+    "telefone_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 105.33,
+      "y": 465.33
+    },
+    "telefone_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 118.67,
+      "y": 465.33
+    },
+    "telefone_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 132.0,
+      "y": 465.33
+    },
+    "telefone_digito7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 147.33,
+      "y": 465.33
+    },
+    "telefone_digito8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 160.0,
+      "y": 465.33
+    },
+    "telefone_digito9": {
+      "page": 0,
+      "page_label": 1,
+      "x": 174.67,
+      "y": 465.33
+    },
+    "telefone_digito10": {
+      "page": 0,
+      "page_label": 1,
+      "x": 192.67,
+      "y": 465.33
+    },
+    "codigo_da_zona_de_moradia": {
+      "page": 0,
+      "page_label": 1,
+      "x": 336.0,
+      "y": 452.67
+    },
+    "primeira_letra_pais_de_origem": {
+      "page": 0,
+      "page_label": 1,
+      "x": 390.0,
+      "y": 464.66
+    },
+    "ultima_letra_pais_de_origem": {
+      "page": 0,
+      "page_label": 1,
+      "x": 522.67,
+      "y": 464.66
+    },
+    "data_investigacao_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 60.0,
+      "y": 522.0
+    },
+    "data_investigacao_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 78.67,
+      "y": 522.0
+    },
+    "data_investigacao_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 93.33,
+      "y": 522.0
+    },
+    "data_investigacao_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 105.33,
+      "y": 522.0
+    },
+    "data_investigacao_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 122.0,
+      "y": 522.0
+    },
+    "data_investigacao_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 136.67,
+      "y": 522.0
+    },
+    "data_investigacao_digito7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 151.33,
+      "y": 522.0
+    },
+    "data_investigacao_digito8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 164.0,
+      "y": 522.0
+    },
+    "ocupação_primeira_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 267.33,
+      "y": 517.66
+    },
+    "ocupação_ultima_letra": {
+      "page": 0,
+      "page_label": 1,
+      "x": 504.0,
+      "y": 517.66
+    },
+    "codigo_situacao_no_mercado_de_trabalho_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 534.67,
+      "y": 541.0
+    },
+    "codigo_situacao_no_mercado_de_trabalho_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 547.33,
+      "y": 541.0
+    },
+    "codigo_local_de_ocorrencia": {
+      "page": 0,
+      "page_label": 1,
+      "x": 544.67,
+      "y": 600.67
+    },
+    "espaço_para_escrever_se_situacao_do_mercado_for_12(outro)": {
+      "page": 0,
+      "page_label": 1,
+      "x": 496.0,
+      "y": 570.67
+    },
+    "local_para_escrever_se_local_de_ocorrencia_for_7(outro)": {
+      "page": 0,
+      "page_label": 1,
+      "x": 352.67,
+      "y": 618.67
+    },
+    "CNAE_do_local": {
+      "page": 0,
+      "page_label": 1,
+      "x": 430.67,
+      "y": 646.0
+    },
+    "UF_local_ocorrencia1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 57.33,
+      "y": 672.0
+    },
+    "UF_local_ocorrencia2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 74.67,
+      "y": 672.0
+    },
+    "IBGE_ocorrencia_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 316.67,
+      "y": 673.34
+    },
+    "IBGE_ocorrencia_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 331.33,
+      "y": 673.34
+    },
+    "IBGE_ocorrencia_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 346.0,
+      "y": 673.34
+    },
+    "IBGE_ocorrencia_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 359.33,
+      "y": 673.34
+    },
+    "IBGE_ocorrencia_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 374.0,
+      "y": 673.34
+    },
+    "IBGE_ocorrencia_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 389.33,
+      "y": 673.34
+    },
+    "municipio_da_ocorrencia_letra_inicial": {
+      "page": 0,
+      "page_label": 1,
+      "x": 110.67,
+      "y": 671.67
+    },
+    "municipio_da_ocorrencia_letra_final": {
+      "page": 0,
+      "page_label": 1,
+      "x": 268.0,
+      "y": 671.67
+    },
+    "nome_do_lugar_da_ocorrencia_letra_inicial": {
+      "page": 0,
+      "page_label": 1,
+      "x": 94.0,
+      "y": 644.34
+    },
+    "nome_do_local_da_ocorrencia_letra_final": {
+      "page": 0,
+      "page_label": 1,
+      "x": 366.67,
+      "y": 644.34
+    },
+    "distrito_da_ocorrencia_default_rioDEjaneiro": {
+      "page": 0,
+      "page_label": 1,
+      "x": 449.33,
+      "y": 673.33
+    },
+    "bairro_da_ocorrencia_letra_inicial": {
+      "page": 0,
+      "page_label": 1,
+      "x": 82.67,
+      "y": 699.66
+    },
+    "bairro_da_ocorrencia_letra_final": {
+      "page": 0,
+      "page_label": 1,
+      "x": 186.67,
+      "y": 699.66
+    },
+    "rua_da_ocorrencia_letra_inicial": {
+      "page": 0,
+      "page_label": 1,
+      "x": 245.33,
+      "y": 700.66
+    },
+    "rua_da_ocorrencia_letra_final": {
+      "page": 0,
+      "page_label": 1,
+      "x": 549.33,
+      "y": 700.66
+    },
+    "numero_da_rua_da_ocorrencia": {
+      "page": 0,
+      "page_label": 1,
+      "x": 71.33,
+      "y": 726.0
+    },
+    "complemento_letra_inicial": {
+      "page": 0,
+      "page_label": 1,
+      "x": 124.67,
+      "y": 728.0
+    },
+    "complemento_letra_final": {
+      "page": 0,
+      "page_label": 1,
+      "x": 248.67,
+      "y": 728.0
+    },
+    "referencia_letra_inicial": {
+      "page": 0,
+      "page_label": 1,
+      "x": 297.33,
+      "y": 725.0
+    },
+    "referencia_letra_final": {
+      "page": 0,
+      "page_label": 1,
+      "x": 428.0,
+      "y": 725.0
+    },
+    "cep_ocorrencia_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 458.67,
+      "y": 726.0
+    },
+    "cep_ocorrencia_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 473.33,
+      "y": 726.0
+    },
+    "cep_ocorrencia_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 488.67,
+      "y": 726.0
+    },
+    "cep_ocorrencia_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 504.0,
+      "y": 726.0
+    },
+    "cep_ocorrencia_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 516.0,
+      "y": 726.0
+    },
+    "cep_ocorrencia_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 534.0,
+      "y": 726.0
+    },
+    "cep_ocorrencia_digito7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 546.0,
+      "y": 726.0
+    },
+    "cep_ocorrencia_digito8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 559.33,
+      "y": 726.0
+    },
+    "telefone_ocorrencia_digito1": {
+      "page": 0,
+      "page_label": 1,
+      "x": 59.33,
+      "y": 754.67
+    },
+    "telefone_ocorrencia_digito2": {
+      "page": 0,
+      "page_label": 1,
+      "x": 73.33,
+      "y": 754.67
+    },
+    "telefone_ocorrencia_digito3": {
+      "page": 0,
+      "page_label": 1,
+      "x": 90.0,
+      "y": 754.67
+    },
+    "telefone_ocorrencia_digito4": {
+      "page": 0,
+      "page_label": 1,
+      "x": 102.0,
+      "y": 754.67
+    },
+    "telefone_ocorrencia_digito5": {
+      "page": 0,
+      "page_label": 1,
+      "x": 114.67,
+      "y": 754.67
+    },
+    "telefone_ocorrencia_digito6": {
+      "page": 0,
+      "page_label": 1,
+      "x": 129.33,
+      "y": 754.67
+    },
+    "telefone_ocorrencia_digito7": {
+      "page": 0,
+      "page_label": 1,
+      "x": 144.0,
+      "y": 754.67
+    },
+    "telefone_ocorrencia_digito8": {
+      "page": 0,
+      "page_label": 1,
+      "x": 160.0,
+      "y": 754.67
+    },
+    "telefone_ocorrencia_digito9": {
+      "page": 0,
+      "page_label": 1,
+      "x": 173.33,
+      "y": 754.67
+    },
+    "telefone_ocorrencia_digito10": {
+      "page": 0,
+      "page_label": 1,
+      "x": 190.67,
+      "y": 754.67
+    },
+    "codigo_zona_exposicao": {
+      "page": 0,
+      "page_label": 1,
+      "x": 332.0,
+      "y": 743.33
+    },
+    "pais_default_brasil": {
+      "page": 0,
+      "page_label": 1,
+      "x": 413.33,
+      "y": 756.0
+    },
+    "codigo_agente_toxico_digito1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 536.0,
+      "y": 39.34
+    },
+    "codigo_agente_toxico_digito2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 548.0,
+      "y": 39.34
+    },
+    "nome_agente_toxico1_letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 95.33,
+      "y": 118.66
+    },
+    "nome_agente_toxico1_letraIFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 276.67,
+      "y": 118.66
+    },
+    "nome_agente_toxico2_letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 90.0,
+      "y": 137.67
+    },
+    "nome_agente_toxico2_letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 275.33,
+      "y": 137.67
+    },
+    "nome_agente_toxico3_letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 92.67,
+      "y": 156.0
+    },
+    "nome_agente_toxico3_letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 275.33,
+      "y": 156.0
+    },
+    "principio_ativo1_letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 365.33,
+      "y": 119.66
+    },
+    "principio_ativo1_letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 507.33,
+      "y": 119.66
+    },
+    "principio_ativo2_letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 365.33,
+      "y": 140.0
+    },
+    "principio_ativo2_letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 508.67,
+      "y": 140.0
+    },
+    "principio_ativo3_letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 366.0,
+      "y": 157.33
+    },
+    "principio_ativo3_letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 509.33,
+      "y": 157.33
+    },
+    "agente_toxico_caso_marcadoOUTRO(14)_para_preencher": {
+      "page": 1,
+      "page_label": 2,
+      "x": 252.67,
+      "y": 84.67
+    },
+    "tipo_de_agrotoxico": {
+      "page": 1,
+      "page_label": 2,
+      "x": 535.33,
+      "y": 179.67
+    },
+    "caso_tipo_de_agrotoxico_outro(7)": {
+      "page": 1,
+      "page_label": 2,
+      "x": 246.0,
+      "y": 196.67
+    },
+    "codigo_opcao1_agrotoxico_digito1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 488.33,
+      "y": 217.33
+    },
+    "codigo_opcao1_agrotoxico_digito2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 500.0,
+      "y": 217.33
+    },
+    "codigo_opcao2_agrotoxico_digito1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 488.0,
+      "y": 231.33
+    },
+    "codigo_opcao2_agrotoxico_digito2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 500.0,
+      "y": 231.33
+    },
+    "codigo_opcao3_agrotoxico_digito1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 488.0,
+      "y": 246.33
+    },
+    "codigo_opcao3_agrotoxico_digito2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 500.67,
+      "y": 246.33
+    },
+    "tipo_de_plantação": {
+      "page": 1,
+      "page_label": 2,
+      "x": 236.0,
+      "y": 282.67
+    },
+    "via_de_exposicao_1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 489.33,
+      "y": 304.67
+    },
+    "via_de_exposicao_2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 489.67,
+      "y": 318.67
+    },
+    "via_de_exposicao_3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 489.0,
+      "y": 333.33
+    },
+    "codigo_digito1_circunstancia_expo": {
+      "page": 1,
+      "page_label": 2,
+      "x": 238.67,
+      "y": 357.33
+    },
+    "codigo_digito2_circunstancia_expo": {
+      "page": 1,
+      "page_label": 2,
+      "x": 249.33,
+      "y": 357.33
+    },
+    "caso_circunstancia_13(outro)": {
+      "page": 1,
+      "page_label": 2,
+      "x": 316.67,
+      "y": 391.33
+    },
+    "codigo_se_expo_devido_trabalho": {
+      "page": 1,
+      "page_label": 2,
+      "x": 286.67,
+      "y": 420.0
+    },
+    "codigo_tipo_de_expo": {
+      "page": 1,
+      "page_label": 2,
+      "x": 540.67,
+      "y": 422.0
+    },
+    "digito1_tempo_expo": {
+      "page": 1,
+      "page_label": 2,
+      "x": 172.0,
+      "y": 463.33
+    },
+    "codigo_digito2_tempo_expo": {
+      "page": 1,
+      "page_label": 2,
+      "x": 186.67,
+      "y": 463.33
+    },
+    "digito3_tempo_expo": {
+      "page": 1,
+      "page_label": 2,
+      "x": 230.67,
+      "y": 458.33
+    },
+    "tipo_de_atendimento_codigo": {
+      "page": 1,
+      "page_label": 2,
+      "x": 248.67,
+      "y": 486.0
+    },
+    "codigo_houve_hospitalizacao": {
+      "page": 1,
+      "page_label": 2,
+      "x": 392.0,
+      "y": 488.0
+    },
+    "data_internacao_digito1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 421.33,
+      "y": 509.33
+    },
+    "data_internacao_digito2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 439.33,
+      "y": 509.33
+    },
+    "data_internacao_digito3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 451.33,
+      "y": 509.33
+    },
+    "data_internacao_digito4": {
+      "page": 1,
+      "page_label": 2,
+      "x": 468.0,
+      "y": 509.33
+    },
+    "data_internacao_digito5": {
+      "page": 1,
+      "page_label": 2,
+      "x": 480.83,
+      "y": 509.33
+    },
+    "data_internacao_digito6": {
+      "page": 1,
+      "page_label": 2,
+      "x": 495.33,
+      "y": 509.33
+    },
+    "data_internacao_digito7": {
+      "page": 1,
+      "page_label": 2,
+      "x": 508.67,
+      "y": 509.33
+    },
+    "data_internacao_digito8": {
+      "page": 1,
+      "page_label": 2,
+      "x": 522.0,
+      "y": 509.33
+    },
+    "uf_internação_digito1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 540.33,
+      "y": 509.0
+    },
+    "uf_internação_digito2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 555.0,
+      "y": 509.0
+    },
+    "municipio_interna_letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 72.67,
+      "y": 539.0
+    },
+    "municipio_interna_letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 212.67,
+      "y": 539.0
+    },
+    "IBGE_inter_1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 230.0,
+      "y": 540.34
+    },
+    "IBGE_inter_2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 246.0,
+      "y": 540.34
+    },
+    "IBGE_inter_3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 259.33,
+      "y": 540.34
+    },
+    "IBGE_inter_4": {
+      "page": 1,
+      "page_label": 2,
+      "x": 273.33,
+      "y": 540.34
+    },
+    "IBGE_inter_5": {
+      "page": 1,
+      "page_label": 2,
+      "x": 286.67,
+      "y": 540.34
+    },
+    "IBGE_inter_6": {
+      "page": 1,
+      "page_label": 2,
+      "x": 301.33,
+      "y": 540.34
+    },
+    "nome_unidade_de_saude_letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 336.67,
+      "y": 540.33
+    },
+    "nome_unidade_de_saude_letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 449.33,
+      "y": 540.33
+    },
+    "cnes_unidade_digito1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 469.33,
+      "y": 540.0
+    },
+    "cnes_unidade_digito2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 485.33,
+      "y": 540.0
+    },
+    "cnes_unidade_digito3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 500.67,
+      "y": 540.0
+    },
+    "cnes_unidade_digito4": {
+      "page": 1,
+      "page_label": 2,
+      "x": 514.67,
+      "y": 540.0
+    },
+    "cnes_unidade_digito5": {
+      "page": 1,
+      "page_label": 2,
+      "x": 528.67,
+      "y": 540.0
+    },
+    "cnes_unidade_digito6": {
+      "page": 1,
+      "page_label": 2,
+      "x": 539.33,
+      "y": 540.0
+    },
+    "cnes_unidade_digito7": {
+      "page": 1,
+      "page_label": 2,
+      "x": 557.33,
+      "y": 540.0
+    },
+    "digito_classificação_final": {
+      "page": 1,
+      "page_label": 2,
+      "x": 546.0,
+      "y": 567.33
+    },
+    "primeira_letra_intoxicação_confirmada": {
+      "page": 1,
+      "page_label": 2,
+      "x": 118.67,
+      "y": 596.34
+    },
+    "ultima_letra_intoxicação_confirmada": {
+      "page": 1,
+      "page_label": 2,
+      "x": 401.33,
+      "y": 596.34
+    },
+    "digito1_cid": {
+      "page": 1,
+      "page_label": 2,
+      "x": 494.0,
+      "y": 601.67
+    },
+    "digito2_cid": {
+      "page": 1,
+      "page_label": 2,
+      "x": 510.67,
+      "y": 601.67
+    },
+    "digito3_cid": {
+      "page": 1,
+      "page_label": 2,
+      "x": 529.33,
+      "y": 601.67
+    },
+    "digito4_cid": {
+      "page": 1,
+      "page_label": 2,
+      "x": 546.67,
+      "y": 601.67
+    },
+    "digito_confirmação": {
+      "page": 1,
+      "page_label": 2,
+      "x": 209.33,
+      "y": 614.67
+    },
+    "digito_evolução": {
+      "page": 1,
+      "page_label": 2,
+      "x": 545.33,
+      "y": 614.67
+    },
+    "data_se_obito_digito1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 64.67,
+      "y": 662.34
+    },
+    "data_se_obito_digito2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 81.33,
+      "y": 662.34
+    },
+    "data_se_obito_digito3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 97.33,
+      "y": 662.34
+    },
+    "data_se_obito_digito4": {
+      "page": 1,
+      "page_label": 2,
+      "x": 110.67,
+      "y": 662.34
+    },
+    "data_se_obito_digito5": {
+      "page": 1,
+      "page_label": 2,
+      "x": 123.33,
+      "y": 662.34
+    },
+    "data_se_obito_digito6": {
+      "page": 1,
+      "page_label": 2,
+      "x": 136.0,
+      "y": 662.34
+    },
+    "data_se_obito_digito7": {
+      "page": 1,
+      "page_label": 2,
+      "x": 153.33,
+      "y": 662.34
+    },
+    "data_se_obito_digito8": {
+      "page": 1,
+      "page_label": 2,
+      "x": 167.33,
+      "y": 662.34
+    },
+    "digito_cat": {
+      "page": 1,
+      "page_label": 2,
+      "x": 433.33,
+      "y": 651.33
+    },
+    "data_encerramento_digito1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 464.0,
+      "y": 663.66
+    },
+    "data_encerramento_digito2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 477.83,
+      "y": 663.66
+    },
+    "data_encerramento_digito3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 492.67,
+      "y": 663.66
+    },
+    "data_encerramento_digito4": {
+      "page": 1,
+      "page_label": 2,
+      "x": 506.67,
+      "y": 663.66
+    },
+    "data_encerramento_digito5": {
+      "page": 1,
+      "page_label": 2,
+      "x": 521.33,
+      "y": 663.66
+    },
+    "data_encerramento_digito6": {
+      "page": 1,
+      "page_label": 2,
+      "x": 534.67,
+      "y": 663.66
+    },
+    "data_encerramento_digito7": {
+      "page": 1,
+      "page_label": 2,
+      "x": 548.0,
+      "y": 663.66
+    },
+    "data_encerramento_digito8": {
+      "page": 1,
+      "page_label": 2,
+      "x": 560.67,
+      "y": 663.66
+    },
+    "obs_linha1_1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 62.0,
+      "y": 716.67
+    },
+    "obs_linha1_2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 522.0,
+      "y": 716.67
+    },
+    "obs_linha2_1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 60.67,
+      "y": 733.66
+    },
+    "obs_linha2_2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 520.67,
+      "y": 733.66
+    },
+    "obs_linha3_1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 58.67,
+      "y": 747.33
+    },
+    "obs_linha3_2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 520.0,
+      "y": 747.33
+    },
+    "unidade_da_ficha_letra_inicial": {
+      "page": 1,
+      "page_label": 2,
+      "x": 95.33,
+      "y": 774.34
+    },
+    "unidade_da_ficha_letra_final": {
+      "page": 1,
+      "page_label": 2,
+      "x": 412.67,
+      "y": 774.34
+    },
+    "cnes_digito1": {
+      "page": 1,
+      "page_label": 2,
+      "x": 471.33,
+      "y": 779.33
+    },
+    "cnes_digito2": {
+      "page": 1,
+      "page_label": 2,
+      "x": 487.33,
+      "y": 779.33
+    },
+    "cnes_digito3": {
+      "page": 1,
+      "page_label": 2,
+      "x": 499.33,
+      "y": 779.33
+    },
+    "cnes_digito4": {
+      "page": 1,
+      "page_label": 2,
+      "x": 513.33,
+      "y": 779.33
+    },
+    "cnes_digito5": {
+      "page": 1,
+      "page_label": 2,
+      "x": 528.67,
+      "y": 779.33
+    },
+    "cnes_digito6": {
+      "page": 1,
+      "page_label": 2,
+      "x": 541.33,
+      "y": 779.33
+    },
+    "cnes_digito7": {
+      "page": 1,
+      "page_label": 2,
+      "x": 558.0,
+      "y": 779.33
+    },
+    "nome_investigador_letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 69.33,
+      "y": 803.0
+    },
+    "nome_investigador_letraFINAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 234.67,
+      "y": 803.0
+    },
+    "profissao_investigador_letraINICIAL": {
+      "page": 1,
+      "page_label": 2,
+      "x": 281.33,
+      "y": 804.67
+    },
+    "profissao_investigador_letrafinal": {
+      "page": 1,
+      "page_label": 2,
+      "x": 436.67,
+      "y": 804.67
+    }
+  },
+  "pdf_metadata": {
+    "page_count": 2,
+    "page_sizes": [
+      {
+        "page": 0,
+        "width": 595.0,
+        "height": 841.0
+      },
+      {
+        "page": 1,
+        "width": 595.0,
+        "height": 841.0
+      }
+    ]
+  },
+  "coordinate_adjustment": {
+    "y_alignment": "Coordinates that belong to the same INPUT were forced to the same Y value.",
+    "y_offset_applied_to_all_points": -3,
+    "alignment_statistic": "median original Y within each same-input group; singleton points received y -= 3",
+    "x_coordinates": "preserved from original map",
+    "final_y_shift_applied_to_all_points": "+5 from the input map intoxica(2).json",
+    "important_note": "In PyMuPDF/PDF point coordinates, increasing Y moves text downward on the page. This file adds +5 to every point's Y coordinate."
+  },
+  "field_groups": {
+    "group_001": {
+      "points": [
+        "data_da_notificacao1",
+        "data_da_notificacao2",
+        "data_da_notificacao3",
+        "data_da_notificacao4",
+        "data_da_notificacao5",
+        "data_da_notificacao6",
+        "data_da_notificacao7",
+        "data_da_notificacao8"
+      ],
+      "original_y_values": {
+        "data_da_notificacao1": 154.67,
+        "data_da_notificacao2": 154.0,
+        "data_da_notificacao3": 152.67,
+        "data_da_notificacao4": 152.0,
+        "data_da_notificacao5": 151.33,
+        "data_da_notificacao6": 154.0,
+        "data_da_notificacao7": 152.67,
+        "data_da_notificacao8": 151.33
+      },
+      "aligned_y_after_offset": 154.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_002": {
+      "points": [
+        "UF1",
+        "UF2"
+      ],
+      "original_y_values": {
+        "UF1": 184.0,
+        "UF2": 183.33
+      },
+      "aligned_y_after_offset": 185.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_003": {
+      "points": [
+        "primeira_letra_municipio",
+        "ultima_letra_municipio"
+      ],
+      "original_y_values": {
+        "primeira_letra_municipio": 184.67,
+        "ultima_letra_municipio": 182.67
+      },
+      "aligned_y_after_offset": 185.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_004": {
+      "points": [
+        "codigoIBGE_numero1",
+        "codigoIBGE_numero2",
+        "codigoIBGE_numero3",
+        "codigoIBGE_numero4",
+        "codigoIBGE_numero5",
+        "codigoIBGE_numero6"
+      ],
+      "original_y_values": {
+        "codigoIBGE_numero1": 183.33,
+        "codigoIBGE_numero2": 184.67,
+        "codigoIBGE_numero3": 184.67,
+        "codigoIBGE_numero4": 185.33,
+        "codigoIBGE_numero5": 185.33,
+        "codigoIBGE_numero6": 186.0
+      },
+      "aligned_y_after_offset": 187.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_005": {
+      "points": [
+        "unidade_de_saude_primeira_letra",
+        "unidade_de_saude_ultima_letra"
+      ],
+      "original_y_values": {
+        "unidade_de_saude_primeira_letra": 212.67,
+        "unidade_de_saude_ultima_letra": 211.33
+      },
+      "aligned_y_after_offset": 214.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_006": {
+      "points": [
+        "CNES_digito1",
+        "CNES_digito2",
+        "CNES_digito3",
+        "CNES_digito4",
+        "CNES_digito5",
+        "CNES_digito6",
+        "CNES_digito7"
+      ],
+      "original_y_values": {
+        "CNES_digito1": 211.33,
+        "CNES_digito2": 212.67,
+        "CNES_digito3": 214.0,
+        "CNES_digito4": 212.67,
+        "CNES_digito5": 212.67,
+        "CNES_digito6": 214.67,
+        "CNES_digito7": 215.33
+      },
+      "aligned_y_after_offset": 214.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_007": {
+      "points": [
+        "data_sintomas_digito1",
+        "data_sintomas_digito2",
+        "data_sintomas_digito3",
+        "data_sintomas_digito4",
+        "data_sintomas_digito5",
+        "data_sintomas_digito6",
+        "data_sintomas_digito7",
+        "data_sintomas_digito8"
+      ],
+      "original_y_values": {
+        "data_sintomas_digito1": 214.0,
+        "data_sintomas_digito2": 214.0,
+        "data_sintomas_digito3": 214.67,
+        "data_sintomas_digito4": 213.33,
+        "data_sintomas_digito5": 212.0,
+        "data_sintomas_digito6": 210.0,
+        "data_sintomas_digito7": 210.67,
+        "data_sintomas_digito8": 211.33
+      },
+      "aligned_y_after_offset": 214.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_008": {
+      "points": [
+        "nome_paciente_primeira_letra",
+        "nome_do_paciente_ultima_letra"
+      ],
+      "original_y_values": {
+        "nome_paciente_primeira_letra": 241.33,
+        "nome_do_paciente_ultima_letra": 241.33
+      },
+      "aligned_y_after_offset": 243.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_009": {
+      "points": [
+        "data_nascimento_digito1",
+        "data_nascimento_digito2",
+        "data_nascimento_digito3",
+        "data_nascimento_digito4",
+        "data_nascimento_digito5",
+        "data_nascimento_digito6",
+        "data_nascimento_digito7",
+        "data_nascimento_digito8"
+      ],
+      "original_y_values": {
+        "data_nascimento_digito1": 241.33,
+        "data_nascimento_digito2": 241.33,
+        "data_nascimento_digito3": 240.67,
+        "data_nascimento_digito4": 240.67,
+        "data_nascimento_digito5": 242.0,
+        "data_nascimento_digito6": 244.0,
+        "data_nascimento_digito7": 240.67,
+        "data_nascimento_digito8": 242.0
+      },
+      "aligned_y_after_offset": 243.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_010": {
+      "points": [
+        "cartao_sus_digito1",
+        "cartao_sus_digito2",
+        "cartao_sus_digito3",
+        "cartao_sus_digito4",
+        "cartao_sus_digito5",
+        "cartao_sus_digito6",
+        "cartao_sus_digito7",
+        "cartao_sus_digito8",
+        "cartao_sus_digito9",
+        "cartao_sus_digito10",
+        "cartao_sus_digito11",
+        "cartao_sus_digito12",
+        "cartao_sus_digito13",
+        "cartao_sus_digito14",
+        "cartao_sus_digito15"
+      ],
+      "original_y_values": {
+        "cartao_sus_digito1": 331.33,
+        "cartao_sus_digito2": 330.67,
+        "cartao_sus_digito3": 332.67,
+        "cartao_sus_digito4": 334.0,
+        "cartao_sus_digito5": 333.33,
+        "cartao_sus_digito6": 332.67,
+        "cartao_sus_digito7": 333.33,
+        "cartao_sus_digito8": 334.67,
+        "cartao_sus_digito9": 334.0,
+        "cartao_sus_digito10": 334.67,
+        "cartao_sus_digito11": 334.67,
+        "cartao_sus_digito12": 333.33,
+        "cartao_sus_digito13": 332.67,
+        "cartao_sus_digito14": 333.33,
+        "cartao_sus_digito15": 332.67
+      },
+      "aligned_y_after_offset": 335.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_011": {
+      "points": [
+        "nome_da_mae_primeira_letra",
+        "nome_da_mae_ultima_letra"
+      ],
+      "original_y_values": {
+        "nome_da_mae_primeira_letra": 329.33,
+        "nome_da_mae_ultima_letra": 327.33
+      },
+      "aligned_y_after_offset": 330.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_012": {
+      "points": [
+        "UF_residencia1",
+        "UF_residencia2"
+      ],
+      "original_y_values": {
+        "UF_residencia1": 360.0,
+        "UF_residencia2": 361.33
+      },
+      "aligned_y_after_offset": 362.66,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_013": {
+      "points": [
+        "municipio_residencia_primeira_letra",
+        "municipio_residencia_ultima_letra"
+      ],
+      "original_y_values": {
+        "municipio_residencia_primeira_letra": 362.0,
+        "municipio_residencia_ultima_letra": 360.0
+      },
+      "aligned_y_after_offset": 363.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_014": {
+      "points": [
+        "IBGE_residencia_digito1",
+        "IBGE_residencia_digito2",
+        "IBGE_residencia_digito3",
+        "IBGE_residencia_digito4",
+        "IBGE_residencia_digito5",
+        "IBGE_residencia_digito6"
+      ],
+      "original_y_values": {
+        "IBGE_residencia_digito1": 359.33,
+        "IBGE_residencia_digito2": 361.33,
+        "IBGE_residencia_digito3": 360.0,
+        "IBGE_residencia_digito4": 358.0,
+        "IBGE_residencia_digito5": 358.67,
+        "IBGE_residencia_digito6": 358.67
+      },
+      "aligned_y_after_offset": 361.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_015": {
+      "points": [
+        "distrito_primeira_letra",
+        "distrito_ultima_letra"
+      ],
+      "original_y_values": {
+        "distrito_primeira_letra": 361.33,
+        "distrito_ultima_letra": 358.67
+      },
+      "aligned_y_after_offset": 362.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_016": {
+      "points": [
+        "bairro_primeira_letra",
+        "bairro_ultima_letra"
+      ],
+      "original_y_values": {
+        "bairro_primeira_letra": 384.67,
+        "bairro_ultima_letra": 382.67
+      },
+      "aligned_y_after_offset": 385.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_017": {
+      "points": [
+        "logradouro_primeira_letra",
+        "logradouro_ultima_letra"
+      ],
+      "original_y_values": {
+        "logradouro_primeira_letra": 388.0,
+        "logradouro_ultima_letra": 382.67
+      },
+      "aligned_y_after_offset": 387.34,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_018": {
+      "points": [
+        "primeira_letra_complemento",
+        "ultima_letra_complemento"
+      ],
+      "original_y_values": {
+        "primeira_letra_complemento": 410.67,
+        "ultima_letra_complemento": 407.33
+      },
+      "aligned_y_after_offset": 411.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_019": {
+      "points": [
+        "primeira_letra_campo_de_referencia_endereço",
+        "ultima_letra_campo_de_referencia_endereço"
+      ],
+      "original_y_values": {
+        "primeira_letra_campo_de_referencia_endereço": 434.67,
+        "ultima_letra_campo_de_referencia_endereço": 435.33
+      },
+      "aligned_y_after_offset": 437.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_020": {
+      "points": [
+        "cep_digito1",
+        "cep_digito2",
+        "cep_digito3",
+        "cep_digito4",
+        "cep_digito5",
+        "cep_digito6",
+        "cep_digito7",
+        "cep_digito8"
+      ],
+      "original_y_values": {
+        "cep_digito1": 438.0,
+        "cep_digito2": 438.67,
+        "cep_digito3": 439.33,
+        "cep_digito4": 438.0,
+        "cep_digito5": 440.0,
+        "cep_digito6": 440.67,
+        "cep_digito7": 439.33,
+        "cep_digito8": 440.0
+      },
+      "aligned_y_after_offset": 441.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_021": {
+      "points": [
+        "telefone_digito1",
+        "telefone_digito2",
+        "telefone_digito3",
+        "telefone_digito4",
+        "telefone_digito5",
+        "telefone_digito6",
+        "telefone_digito7",
+        "telefone_digito8",
+        "telefone_digito9",
+        "telefone_digito10"
+      ],
+      "original_y_values": {
+        "telefone_digito1": 462.0,
+        "telefone_digito2": 463.33,
+        "telefone_digito3": 461.33,
+        "telefone_digito4": 462.67,
+        "telefone_digito5": 463.33,
+        "telefone_digito6": 461.33,
+        "telefone_digito7": 464.0,
+        "telefone_digito8": 463.33,
+        "telefone_digito9": 464.0,
+        "telefone_digito10": 464.0
+      },
+      "aligned_y_after_offset": 465.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_022": {
+      "points": [
+        "primeira_letra_pais_de_origem",
+        "ultima_letra_pais_de_origem"
+      ],
+      "original_y_values": {
+        "primeira_letra_pais_de_origem": 463.33,
+        "ultima_letra_pais_de_origem": 462.0
+      },
+      "aligned_y_after_offset": 464.66,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_023": {
+      "points": [
+        "data_investigacao_digito1",
+        "data_investigacao_digito2",
+        "data_investigacao_digito3",
+        "data_investigacao_digito4",
+        "data_investigacao_digito5",
+        "data_investigacao_digito6",
+        "data_investigacao_digito7",
+        "data_investigacao_digito8"
+      ],
+      "original_y_values": {
+        "data_investigacao_digito1": 517.33,
+        "data_investigacao_digito2": 520.0,
+        "data_investigacao_digito3": 520.0,
+        "data_investigacao_digito4": 520.67,
+        "data_investigacao_digito5": 520.67,
+        "data_investigacao_digito6": 519.33,
+        "data_investigacao_digito7": 522.0,
+        "data_investigacao_digito8": 520.0
+      },
+      "aligned_y_after_offset": 522.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_024": {
+      "points": [
+        "ocupação_primeira_letra",
+        "ocupação_ultima_letra"
+      ],
+      "original_y_values": {
+        "ocupação_primeira_letra": 515.33,
+        "ocupação_ultima_letra": 516.0
+      },
+      "aligned_y_after_offset": 517.66,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_025": {
+      "points": [
+        "codigo_situacao_no_mercado_de_trabalho_digito1",
+        "codigo_situacao_no_mercado_de_trabalho_digito2"
+      ],
+      "original_y_values": {
+        "codigo_situacao_no_mercado_de_trabalho_digito1": 538.0,
+        "codigo_situacao_no_mercado_de_trabalho_digito2": 540.0
+      },
+      "aligned_y_after_offset": 541.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_026": {
+      "points": [
+        "nome_do_lugar_da_ocorrencia_letra_inicial",
+        "nome_do_local_da_ocorrencia_letra_final"
+      ],
+      "original_y_values": {
+        "nome_do_lugar_da_ocorrencia_letra_inicial": 640.67,
+        "nome_do_local_da_ocorrencia_letra_final": 644.0
+      },
+      "aligned_y_after_offset": 644.34,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_027": {
+      "points": [
+        "UF_local_ocorrencia1",
+        "UF_local_ocorrencia2"
+      ],
+      "original_y_values": {
+        "UF_local_ocorrencia1": 670.67,
+        "UF_local_ocorrencia2": 669.33
+      },
+      "aligned_y_after_offset": 672.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_028": {
+      "points": [
+        "municipio_da_ocorrencia_letra_inicial",
+        "municipio_da_ocorrencia_letra_final"
+      ],
+      "original_y_values": {
+        "municipio_da_ocorrencia_letra_inicial": 670.67,
+        "municipio_da_ocorrencia_letra_final": 668.67
+      },
+      "aligned_y_after_offset": 671.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_029": {
+      "points": [
+        "IBGE_ocorrencia_digito1",
+        "IBGE_ocorrencia_digito2",
+        "IBGE_ocorrencia_digito3",
+        "IBGE_ocorrencia_digito4",
+        "IBGE_ocorrencia_digito5",
+        "IBGE_ocorrencia_digito6"
+      ],
+      "original_y_values": {
+        "IBGE_ocorrencia_digito1": 670.0,
+        "IBGE_ocorrencia_digito2": 672.67,
+        "IBGE_ocorrencia_digito3": 670.67,
+        "IBGE_ocorrencia_digito4": 670.0,
+        "IBGE_ocorrencia_digito5": 672.0,
+        "IBGE_ocorrencia_digito6": 672.0
+      },
+      "aligned_y_after_offset": 673.34,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_030": {
+      "points": [
+        "bairro_da_ocorrencia_letra_inicial",
+        "bairro_da_ocorrencia_letra_final"
+      ],
+      "original_y_values": {
+        "bairro_da_ocorrencia_letra_inicial": 697.33,
+        "bairro_da_ocorrencia_letra_final": 698.0
+      },
+      "aligned_y_after_offset": 699.66,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_031": {
+      "points": [
+        "rua_da_ocorrencia_letra_inicial",
+        "rua_da_ocorrencia_letra_final"
+      ],
+      "original_y_values": {
+        "rua_da_ocorrencia_letra_inicial": 699.33,
+        "rua_da_ocorrencia_letra_final": 698.0
+      },
+      "aligned_y_after_offset": 700.66,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_032": {
+      "points": [
+        "complemento_letra_inicial",
+        "complemento_letra_final"
+      ],
+      "original_y_values": {
+        "complemento_letra_inicial": 726.0,
+        "complemento_letra_final": 726.0
+      },
+      "aligned_y_after_offset": 728.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_033": {
+      "points": [
+        "referencia_letra_inicial",
+        "referencia_letra_final"
+      ],
+      "original_y_values": {
+        "referencia_letra_inicial": 723.33,
+        "referencia_letra_final": 722.67
+      },
+      "aligned_y_after_offset": 725.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_034": {
+      "points": [
+        "cep_ocorrencia_digito1",
+        "cep_ocorrencia_digito2",
+        "cep_ocorrencia_digito3",
+        "cep_ocorrencia_digito4",
+        "cep_ocorrencia_digito5",
+        "cep_ocorrencia_digito6",
+        "cep_ocorrencia_digito7",
+        "cep_ocorrencia_digito8"
+      ],
+      "original_y_values": {
+        "cep_ocorrencia_digito1": 724.0,
+        "cep_ocorrencia_digito2": 724.0,
+        "cep_ocorrencia_digito3": 724.67,
+        "cep_ocorrencia_digito4": 723.33,
+        "cep_ocorrencia_digito5": 725.33,
+        "cep_ocorrencia_digito6": 723.33,
+        "cep_ocorrencia_digito7": 724.67,
+        "cep_ocorrencia_digito8": 722.0
+      },
+      "aligned_y_after_offset": 726.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_035": {
+      "points": [
+        "telefone_ocorrencia_digito1",
+        "telefone_ocorrencia_digito2",
+        "telefone_ocorrencia_digito3",
+        "telefone_ocorrencia_digito4",
+        "telefone_ocorrencia_digito5",
+        "telefone_ocorrencia_digito6",
+        "telefone_ocorrencia_digito7",
+        "telefone_ocorrencia_digito8",
+        "telefone_ocorrencia_digito9",
+        "telefone_ocorrencia_digito10"
+      ],
+      "original_y_values": {
+        "telefone_ocorrencia_digito1": 752.0,
+        "telefone_ocorrencia_digito2": 752.67,
+        "telefone_ocorrencia_digito3": 752.0,
+        "telefone_ocorrencia_digito4": 754.0,
+        "telefone_ocorrencia_digito5": 752.67,
+        "telefone_ocorrencia_digito6": 754.67,
+        "telefone_ocorrencia_digito7": 754.0,
+        "telefone_ocorrencia_digito8": 753.33,
+        "telefone_ocorrencia_digito9": 752.67,
+        "telefone_ocorrencia_digito10": 752.0
+      },
+      "aligned_y_after_offset": 754.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_036": {
+      "points": [
+        "codigo_agente_toxico_digito1",
+        "codigo_agente_toxico_digito2"
+      ],
+      "original_y_values": {
+        "codigo_agente_toxico_digito1": 36.67,
+        "codigo_agente_toxico_digito2": 38.0
+      },
+      "aligned_y_after_offset": 39.34,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_037": {
+      "points": [
+        "nome_agente_toxico1_letraINICIAL",
+        "nome_agente_toxico1_letraIFINAL"
+      ],
+      "original_y_values": {
+        "nome_agente_toxico1_letraINICIAL": 117.33,
+        "nome_agente_toxico1_letraIFINAL": 116.0
+      },
+      "aligned_y_after_offset": 118.66,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_038": {
+      "points": [
+        "nome_agente_toxico2_letraINICIAL",
+        "nome_agente_toxico2_letraFINAL"
+      ],
+      "original_y_values": {
+        "nome_agente_toxico2_letraINICIAL": 136.0,
+        "nome_agente_toxico2_letraFINAL": 135.33
+      },
+      "aligned_y_after_offset": 137.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_039": {
+      "points": [
+        "nome_agente_toxico3_letraINICIAL",
+        "nome_agente_toxico3_letraFINAL"
+      ],
+      "original_y_values": {
+        "nome_agente_toxico3_letraINICIAL": 154.0,
+        "nome_agente_toxico3_letraFINAL": 154.0
+      },
+      "aligned_y_after_offset": 156.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_040": {
+      "points": [
+        "principio_ativo1_letraINICIAL",
+        "principio_ativo1_letraFINAL"
+      ],
+      "original_y_values": {
+        "principio_ativo1_letraINICIAL": 118.0,
+        "principio_ativo1_letraFINAL": 117.33
+      },
+      "aligned_y_after_offset": 119.66,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_041": {
+      "points": [
+        "principio_ativo2_letraINICIAL",
+        "principio_ativo2_letraFINAL"
+      ],
+      "original_y_values": {
+        "principio_ativo2_letraINICIAL": 138.67,
+        "principio_ativo2_letraFINAL": 137.33
+      },
+      "aligned_y_after_offset": 140.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_042": {
+      "points": [
+        "principio_ativo3_letraINICIAL",
+        "principio_ativo3_letraFINAL"
+      ],
+      "original_y_values": {
+        "principio_ativo3_letraINICIAL": 154.67,
+        "principio_ativo3_letraFINAL": 156.0
+      },
+      "aligned_y_after_offset": 157.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_043": {
+      "points": [
+        "codigo_opcao1_agrotoxico_digito1",
+        "codigo_opcao1_agrotoxico_digito2"
+      ],
+      "original_y_values": {
+        "codigo_opcao1_agrotoxico_digito1": 214.67,
+        "codigo_opcao1_agrotoxico_digito2": 216.0
+      },
+      "aligned_y_after_offset": 217.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_044": {
+      "points": [
+        "codigo_opcao2_agrotoxico_digito1",
+        "codigo_opcao2_agrotoxico_digito2"
+      ],
+      "original_y_values": {
+        "codigo_opcao2_agrotoxico_digito1": 229.33,
+        "codigo_opcao2_agrotoxico_digito2": 229.33
+      },
+      "aligned_y_after_offset": 231.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_045": {
+      "points": [
+        "codigo_opcao3_agrotoxico_digito1",
+        "codigo_opcao3_agrotoxico_digito2"
+      ],
+      "original_y_values": {
+        "codigo_opcao3_agrotoxico_digito1": 244.0,
+        "codigo_opcao3_agrotoxico_digito2": 244.67
+      },
+      "aligned_y_after_offset": 246.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_046": {
+      "points": [
+        "codigo_digito1_circunstancia_expo",
+        "codigo_digito2_circunstancia_expo"
+      ],
+      "original_y_values": {
+        "codigo_digito1_circunstancia_expo": 355.33,
+        "codigo_digito2_circunstancia_expo": 355.33
+      },
+      "aligned_y_after_offset": 357.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_047": {
+      "points": [
+        "digito1_tempo_expo",
+        "codigo_digito2_tempo_expo",
+        "digito3_tempo_expo"
+      ],
+      "original_y_values": {
+        "digito1_tempo_expo": 461.33,
+        "codigo_digito2_tempo_expo": 463.33,
+        "digito3_tempo_expo": 458.33
+      },
+      "aligned_y_after_offset": 463.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_048": {
+      "points": [
+        "data_internacao_digito1",
+        "data_internacao_digito2",
+        "data_internacao_digito3",
+        "data_internacao_digito4",
+        "data_internacao_digito5",
+        "data_internacao_digito6",
+        "data_internacao_digito7",
+        "data_internacao_digito8"
+      ],
+      "original_y_values": {
+        "data_internacao_digito1": 507.33,
+        "data_internacao_digito2": 506.67,
+        "data_internacao_digito3": 508.67,
+        "data_internacao_digito4": 507.33,
+        "data_internacao_digito5": 509.33,
+        "data_internacao_digito6": 507.33,
+        "data_internacao_digito7": 506.0,
+        "data_internacao_digito8": 508.0
+      },
+      "aligned_y_after_offset": 509.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_049": {
+      "points": [
+        "uf_internação_digito1",
+        "uf_internação_digito2"
+      ],
+      "original_y_values": {
+        "uf_internação_digito1": 506.0,
+        "uf_internação_digito2": 508.0
+      },
+      "aligned_y_after_offset": 509.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_050": {
+      "points": [
+        "municipio_interna_letraINICIAL",
+        "municipio_interna_letraFINAL"
+      ],
+      "original_y_values": {
+        "municipio_interna_letraINICIAL": 539.33,
+        "municipio_interna_letraFINAL": 534.67
+      },
+      "aligned_y_after_offset": 539.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_051": {
+      "points": [
+        "IBGE_inter_1",
+        "IBGE_inter_2",
+        "IBGE_inter_3",
+        "IBGE_inter_4",
+        "IBGE_inter_5",
+        "IBGE_inter_6"
+      ],
+      "original_y_values": {
+        "IBGE_inter_1": 538.0,
+        "IBGE_inter_2": 538.0,
+        "IBGE_inter_3": 538.67,
+        "IBGE_inter_4": 538.0,
+        "IBGE_inter_5": 539.33,
+        "IBGE_inter_6": 540.0
+      },
+      "aligned_y_after_offset": 540.34,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_052": {
+      "points": [
+        "nome_unidade_de_saude_letraINICIAL",
+        "nome_unidade_de_saude_letraFINAL"
+      ],
+      "original_y_values": {
+        "nome_unidade_de_saude_letraINICIAL": 539.33,
+        "nome_unidade_de_saude_letraFINAL": 537.33
+      },
+      "aligned_y_after_offset": 540.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_053": {
+      "points": [
+        "cnes_unidade_digito1",
+        "cnes_unidade_digito2",
+        "cnes_unidade_digito3",
+        "cnes_unidade_digito4",
+        "cnes_unidade_digito5",
+        "cnes_unidade_digito6",
+        "cnes_unidade_digito7"
+      ],
+      "original_y_values": {
+        "cnes_unidade_digito1": 538.0,
+        "cnes_unidade_digito2": 536.0,
+        "cnes_unidade_digito3": 539.33,
+        "cnes_unidade_digito4": 538.0,
+        "cnes_unidade_digito5": 540.0,
+        "cnes_unidade_digito6": 538.67,
+        "cnes_unidade_digito7": 537.33
+      },
+      "aligned_y_after_offset": 540.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_054": {
+      "points": [
+        "primeira_letra_intoxicação_confirmada",
+        "ultima_letra_intoxicação_confirmada"
+      ],
+      "original_y_values": {
+        "primeira_letra_intoxicação_confirmada": 596.0,
+        "ultima_letra_intoxicação_confirmada": 592.67
+      },
+      "aligned_y_after_offset": 596.34,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_055": {
+      "points": [
+        "digito1_cid",
+        "digito2_cid",
+        "digito3_cid",
+        "digito4_cid"
+      ],
+      "original_y_values": {
+        "digito1_cid": 598.67,
+        "digito2_cid": 598.67,
+        "digito3_cid": 601.33,
+        "digito4_cid": 600.67
+      },
+      "aligned_y_after_offset": 601.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_056": {
+      "points": [
+        "data_se_obito_digito1",
+        "data_se_obito_digito2",
+        "data_se_obito_digito3",
+        "data_se_obito_digito4",
+        "data_se_obito_digito5",
+        "data_se_obito_digito6",
+        "data_se_obito_digito7",
+        "data_se_obito_digito8"
+      ],
+      "original_y_values": {
+        "data_se_obito_digito1": 660.0,
+        "data_se_obito_digito2": 658.67,
+        "data_se_obito_digito3": 661.33,
+        "data_se_obito_digito4": 659.33,
+        "data_se_obito_digito5": 660.0,
+        "data_se_obito_digito6": 661.33,
+        "data_se_obito_digito7": 660.67,
+        "data_se_obito_digito8": 661.33
+      },
+      "aligned_y_after_offset": 662.34,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_057": {
+      "points": [
+        "data_encerramento_digito1",
+        "data_encerramento_digito2",
+        "data_encerramento_digito3",
+        "data_encerramento_digito4",
+        "data_encerramento_digito5",
+        "data_encerramento_digito6",
+        "data_encerramento_digito7",
+        "data_encerramento_digito8"
+      ],
+      "original_y_values": {
+        "data_encerramento_digito1": 662.0,
+        "data_encerramento_digito2": 660.67,
+        "data_encerramento_digito3": 661.33,
+        "data_encerramento_digito4": 664.0,
+        "data_encerramento_digito5": 664.67,
+        "data_encerramento_digito6": 662.67,
+        "data_encerramento_digito7": 661.33,
+        "data_encerramento_digito8": 661.33
+      },
+      "aligned_y_after_offset": 663.66,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_058": {
+      "points": [
+        "obs_linha1_1",
+        "obs_linha1_2"
+      ],
+      "original_y_values": {
+        "obs_linha1_1": 714.67,
+        "obs_linha1_2": 714.67
+      },
+      "aligned_y_after_offset": 716.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_059": {
+      "points": [
+        "obs_linha2_1",
+        "obs_linha2_2"
+      ],
+      "original_y_values": {
+        "obs_linha2_1": 732.0,
+        "obs_linha2_2": 731.33
+      },
+      "aligned_y_after_offset": 733.66,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_060": {
+      "points": [
+        "obs_linha3_1",
+        "obs_linha3_2"
+      ],
+      "original_y_values": {
+        "obs_linha3_1": 745.33,
+        "obs_linha3_2": 745.33
+      },
+      "aligned_y_after_offset": 747.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_061": {
+      "points": [
+        "unidade_da_ficha_letra_inicial",
+        "unidade_da_ficha_letra_final"
+      ],
+      "original_y_values": {
+        "unidade_da_ficha_letra_inicial": 774.0,
+        "unidade_da_ficha_letra_final": 770.67
+      },
+      "aligned_y_after_offset": 774.34,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_062": {
+      "points": [
+        "cnes_digito1",
+        "cnes_digito2",
+        "cnes_digito3",
+        "cnes_digito4",
+        "cnes_digito5",
+        "cnes_digito6",
+        "cnes_digito7"
+      ],
+      "original_y_values": {
+        "cnes_digito1": 775.33,
+        "cnes_digito2": 776.0,
+        "cnes_digito3": 776.0,
+        "cnes_digito4": 777.33,
+        "cnes_digito5": 777.33,
+        "cnes_digito6": 778.67,
+        "cnes_digito7": 778.0
+      },
+      "aligned_y_after_offset": 779.33,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_063": {
+      "points": [
+        "nome_investigador_letraINICIAL",
+        "nome_investigador_letraFINAL"
+      ],
+      "original_y_values": {
+        "nome_investigador_letraINICIAL": 802.67,
+        "nome_investigador_letraFINAL": 799.33
+      },
+      "aligned_y_after_offset": 803.0,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    },
+    "group_064": {
+      "points": [
+        "profissao_investigador_letraINICIAL",
+        "profissao_investigador_letrafinal"
+      ],
+      "original_y_values": {
+        "profissao_investigador_letraINICIAL": 802.67,
+        "profissao_investigador_letrafinal": 802.67
+      },
+      "aligned_y_after_offset": 804.67,
+      "rule": "Y aligned to original median of this input group, then y -= 3. Then all final Y values received an additional +5 downward shift."
+    }
+  }
+}
